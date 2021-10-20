@@ -43,7 +43,6 @@ PhrasIS.test.images.positives.txt
 
 Format
 ------
-
 The dataset comes in form of a tab separated plain text file.
 
 - similarity score: from 0 to 5
@@ -59,7 +58,6 @@ pair number: original sentence pair number in the iSTS16 corpus
 
 References
 ----------
-
 Eneko Agirre, Aitor Gonzalez-Agirre, Iñigo Lopez-Gazpio, Montse
    Maritxalar, German Rigau, and Larraitz Uria. 2016.  Semeval-2016
    task 2: Interpretable semantic textual similarity. In Proceedings
