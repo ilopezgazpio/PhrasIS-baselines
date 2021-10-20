@@ -1,0 +1,1082 @@
+4	BACK	A cat                         	A black and white cat         	1 2	1 2 3 4 5	1
+4	BACK	in the water                  	on the sea                    	4 5 6	4 5 6	2
+5	EQUI	in a station                  	in the station                	5 6 7	5 6 7	3
+5	EQUI	An Apple computer             	A Macintosh computer          	1 2 3	1 2 3	4
+4	BACK	A woman                       	A young girl                  	1 2	1 2 3	6
+4	FORW	with a baby in his lap        	holding a baby                	4 5 6 7 8 9	7 8 9	7
+2	SIMI	in front of yellow flowers    	in a field                    	5 6 7 8 9	5 6 7	8
+5	EQUI	in field                     	in a field                    	3 4	4 5 6	9
+5	EQUI	sheep                         	A sheep                       	1	1 2	9
+3	BACK	in a field                    	in a lush green field         	6 7 8	5 6 7 8 9	10
+4	BACK	with food                     	with food and beer            	9 10	9 10 11 12	11
+4	FORW	in a lush green field         	in a green field              	5 6 7 8 9	4 5 6 7	12
+5	EQUI	in a kitchen                  	in the kitchen                	5 6 7	6 7 8	13
+5	EQUI	An elderly woman              	The old lady                  	1 2 3	1 2 3	13
+4	SIMI	Red double decker bus         	Double decker passenger bus   	1 2 3 4	1 2 3 4	14
+2	REL	through the streets           	with traffic                  	6 7 8	6 7	14
+5	EQUI	in pasture                    	in a pasture                  	6 7	6 7 8	16
+4	FORW	Black cow                     	Cow                           	1 2	1	16
+4	FORW	under trees                   	under the tree                	4 5	3 4 5	16
+3	SIMI	A smiling woman               	Two women                     	1 2 3	1 2	17
+2	REL	with another smiling woman    	laughing                      	9 10 11 12	5	17
+4	BACK	a woman                       	A young woman                 	1 2	1 2 3	18
+3	BACK	with a big necklace           	with a black top and a necklace	3 4 5 6	4 5 6 7 8 9 10	18
+5	EQUI	in grass                      	in a grassy area              	6 7	7 8 9 10	19
+5	EQUI	Brown and white cow           	A brown and white cow         	1 2 3 4	1 2 3 4 5	19
+4	FORW	in grassy field               	in a field                    	5 6 7	6 7 8	22
+5	EQUI	Group                         	A group                       	1	1 2	22
+4	FORW	with a red bicycle            	with a bicycle                	9 10 11 12	8 9 10	23
+4	BACK	a helmet                      	a bike helmet                 	6 7	5 6 7	23
+2	REL	behind her                    	in the background             	13 14	11 12 13	23
+4	FORW	A young blonde girl           	A young girl                  	1 2 3 4	1 2 3	23
+5	EQUI	laying down                   	laying                        	4 5	3	24
+3	SIMI	A striped cat                 	Domestic cat                  	1 2 3	1 2	24
+5	EQUI	on the snow                   	in the snow                   	4 5 6	4 5 6	25
+4	BACK	Five birds                    	Several cardinals             	1 2	1 2	25
+4	SIMI	posing                        	is standing                   	3	3 4	26
+5	EQUI	with a U2 sign                	where `` u2 '' is written     	7 8 9 10	8 9 10 11 12 13	26
+4	BACK	A red moped                   	The red scooter               	1 2 3	1 2 3	27
+2	REL	in front of graffiti          	in front of the building      	8 9 10 11	9 10 11 12 13	27
+2	REL	parked                        	is sitting                    	4	4 5	27
+4	FORW	on a sidewalk                 	on the street                 	5 6 7	6 7 8	27
+5	EQUI	on couch                      	on a couch                    	7 8	7 8 9	28
+5	EQUI	Two dogs and one cat          	Two dogs and a cat            	1 2 3 4 5	1 2 3 4 5	28
+5	EQUI	with their thumbs up          	giving the thumbs up sign     	10 11 12 13	9 10 11 12 13	29
+2	FORW	One Asian and one occasion woman	Two women                     	1 2 3 4 5 6	1 2	29
+2	FORW	Two mountain goats            	Two animals                   	1 2 3	1 2	30
+3	SIMI	in front of an alpine lake    	next to a mountain , and a body of water	5 6 7 8 9 10	4 5 6 7 8 9 10 11 12 13	30
+4	BACK	in a station                  	at the city train station     	5 6 7	5 6 7 8 9	31
+4	BACK	by a shop                     	outside a bookstore           	5 6 7	5 6 7	32
+4	FORW	in a black leather chair      	on a leather chair            	10 11 12 13 14	10 11 12 13	33
+5	EQUI	A orange and white cat        	A ginger and white cat        	1 2 3 4 5	1 2 3 4 5	33
+3	SIMI	laying                        	curled up and asleep          	6	6 7 8 9	33
+4	FORW	Black train                   	A train                       	1 2	1 2	34
+4	FORW	on a black couch              	on couch                      	4 5 6 7	4 5	35
+5	EQUI	on a couch                    	on couch                      	7 8 9	4 5	36
+4	BACK	A couple                      	Young couple                  	1 2	1 2	36
+4	FORW	at a restaurant table         	around a table                	6 7 8 9	6 7 8	38
+4	FORW	under a small table           	under a table                 	4 5 6 7	4 5 6	39
+5	EQUI	on water                      	on the water                  	8 9	4 5 6	40
+3	FORW	A boat with four sails        	Sail boat                     	1 2 3 4 5	1 2	40
+5	EQUI	is sailing                    	sailing                       	6 7	3	40
+4	BACK	A smiling woman               	Two smiling women             	1 2 3	1 2 3	41
+4	FORW	a small baby                  	a baby                        	5 6 7	5 6	41
+4	FORW	on side of street             	on a city street              	5 6 7 8	6 7 8 9	42
+4	FORW	Gray cat                      	A cat                         	1 2	1 2	43
+4	SIMI	on the tracks                 	on the train track            	7 8 9	8 9 10 11	44
+3	BACK	A cat                         	A gray , black , and white cat	1 2	1 2 3 4 5 6 7 8	45
+4	SIMI	on a wooden table             	on a dining table             	5 6 7 8	5 6 7 8	46
+5	EQUI	with a baby                   	with infant                   	7 8 9	8 9	47
+5	EQUI	in a chair                    	on chair                      	4 5 6	6 7	47
+3	FORW	A father                      	Man                           	1 2	1	47
+3	BACK	Green and white bird          	Bird with a green head and white chest	1 2 3 4	1 2 3 4 5 6 7 8	48
+5	EQUI	on tree branch                	on a tree branch              	6 7 8	10 11 12 13	48
+5	EQUI	A red and white plane         	Red and white plane           	1 2 3 4 5	1 2 3 4	49
+4	FORW	with a viking hat             	a viking hat                  	3 4 5 6	5 6 7	50
+4	BACK	a woman                       	Smiling woman                 	1 2	1 2	50
+4	FORW	underneath a chair            	on the floor                  	9 10 11	5 6 7	51
+4	FORW	A small white cat             	A white cat                   	1 2 3 4	1 2 3	51
+4	BACK	of people                     	of elderly people             	3 4	2 3 4	52
+2	BACK	in the field                  	in a lush green field         	4 5 6	5 6 7 8 9	53
+2	SIMI	A bull                        	A brown horse                 	1 2	1 2 3	53
+2	BACK	at a table                    	around a dining table         	6 7 8	7 8 9 10	55
+4	SIMI	Two cats                      	A white cat                   	1 2	1 2 3	57
+4	BACK	a window                      	of a window                   	6 7	6 7 8	57
+4	SIMI	are looking at                	looking out                   	3 4 5	4 5	57
+2	SIMI	with a horse                  	with other lambs              	4 5 6	6 7 8	58
+3	FORW	amongst the bare branches of a tree	on branches                   	8 9 10 11 12 13 14	8 9	59
+3	SIMI	A small red and gray bird     	A red and brown bird          	1 2 3 4 5 6	1 2 3 4 5	59
+4	SIMI	on a rural road               	along a dirt road             	7 8 9 10	5 6 7 8	60
+5	EQUI	is driving                    	driving                       	4 5	4	60
+3	SIMI	Three young women             	Two Indian women with two Indian girls	1 2 3	1 2 3 4 5 6 7	61
+2	SIMI	of sheep                      	of horses                     	3 4	3 4	62
+4	FORW	in a green pasture            	in the pasture                	4 5 6 7	5 6 7	63
+2	SIMI	Two white cows                	The tan horse                 	1 2 3	1 2 3	63
+4	BACK	Two people                    	four people                   	1 2	1 2	64
+4	BACK	on a sofa                     	on a blue sofa                	8 9 10	12 13 14 15	65
+3	SIMI	A women across two men        	A man and two women           	1 2 4 5 6	1 2 3 4 5	65
+1	REL	under bush                    	in the dirt                   	6 7	10 11 12	66
+5	EQUI	Black and white cat           	The black and white cat       	1 2 3 4	1 2 3 4 5	66
+2	SIMI	The lamb                      	A cat                         	1 2	1 2	68
+2	SIMI	A black and white cat         	Black and white lamb          	1 2 3 4 5	1 2 3 4	70
+3	SIMI	A man and small child         	A man and woman               	1 2 3 4 5	1 2 3 4	72
+5	EQUI	posing                        	are posing                    	10	5 6	72
+4	BACK	A black vehicle               	A black car                   	1 2 3	1 2 3	73
+5	EQUI	is looking                    	looking                       	6 7	6	74
+2	SIMI	The black and white bull      	A black and white dog         	1 2 3 4 5	1 2 3 4 5	74
+2	SIMI	The flock of sheep            	A white cat                   	1 2 3 4	1 2 3	76
+2	SIMI	beside the road               	in the field                  	5 6 7	4 5 6	77
+5	EQUI	are grazing                   	grazing                       	3 4	3	77
+2	SIMI	Five cows                     	Several sheep                 	1 2	1 2	77
+4	FORW	A silver bicycle              	A bicycle                     	1 2 3	1 2	78
+4	SIMI	in a living room              	in a dining room              	6 7 8 9	3 4 5 6	78
+4	BACK	on the sofa                   	on a green couch              	6 7 8	6 7 8 9	79
+2	BACK	The men                       	a young boy                   	1 2	3 4 5	80
+2	SIMI	on a floral-patterned chair   	on a flower print pillow      	7 8 9 10	14 15 16 17 18	81
+3	BACK	A brown and white dog         	A small orange and white dog  	1 2 3 4 5	1 2 3 4 5 6	81
+2	SIMI	A cat                         	A tan dog                     	1 2	1 2 3	85
+4	BACK	looking                       	looking up                    	8	9 10	85
+2	SIMI	on a red cushion              	on a moggie bed               	4 5 6 7	5 6 7 8	85
+3	FORW	are rowing                    	are                           	3 4	3	86
+4	BACK	a boat                        	on a boat                     	5 6	4 5 6	86
+3	SIMI	near the shore                	on green water                	7 8 9	7 8 9	86
+4	FORW	Two airplanes                 	A plane                       	1 2	1 2	87
+3	SIMI	in front of the laundry room  	A room with tan walls and a washer and dryer	8 9 10 11 12 13	1 2 3 4 5 6 7 8 9 10	88
+2	REL	on the porch                  	on a couch                     	3 4 5	3 4	90
+4	SIMI	A lamb                        	A sheep                       	1 2	1 2	92
+2	REL	near two tiny animals         	near her children             	4 5 6 7	4 5 6	92
+3	SIMI	on a grassy field             	on a green hill               	6 7 8 9	4 5 6 7	93
+2	SIMI	Tan cow                       	Many sheep                    	1 2	1 2	93
+4	BACK	A bicycle                     	A pink bicycle                	1 2	1 2 3	94
+3	REL	in front of some ruins        	in front of a building        	3 4 5 6 7	5 6 7 8 9	94
+4	FORW	of black faced sheep          	A black faced sheep           	3 4 5 6	1 2 3 4	95
+2	SIMI	A black and white cow         	A blue jay                    	1 2 3 4 5	1 2 3	97
+2	SIMI	A young woman                 	Two young kids                	1 2 3	1 2 3	99
+4	SIMI	dressed                       	dressed up                    	4	4 5	99
+4	SIMI	on side of street             	on a crowded street           	5 6 7 8	6 7 8 9	101
+4	FORW	a busy road                   	a road                        	5 6 7	6 7	102
+4	BACK	A bus                         	A green bus                   	1 2	1 2 3	102
+4	FORW	A young woman                 	A women                       	1 2 3	1 2	103
+3	SIMI	A yellow and blue airplane    	The white airplane            	1 2 3 4 5	1 2 3	104
+4	BACK	in the sky                    	in the blue sky               	8 9 10	6 7 8 9	104
+3	SIMI	near the water                	on a beach                    	8 9 10	9 10 11	105
+5	EQUI	Two Indian women              	Two Indian woman              	1 2 3	1 2 3	105
+3	BACK	with a dining table           	with large sofas and a dining table	4 5 6 7	4 5 6 7 8 9 10	106
+4	SIMI	in a red canoe                	in a yellow canoe             	4 5 6 7	4 5 6 7	107
+4	FORW	in mid-flight                 	flying                        	2 3	3	108
+5	EQUI	Plane                         	A plane                       	1	1 2	108
+4	SIMI	at sunset                     	near the sunset               	4 5	4 5 6	108
+5	EQUI	clings                        	hold on                       	4	6 7	109
+5	EQUI	of its cage                   	of a cage                     	8 9 10	11 12 13	109
+4	SIMI	A yellow parrot               	A yellow and orange bird      	1 2 3	1 2 3 4 5	109
+4	BACK	Couple                        	Two men                       	1	1 2	110
+5	EQUI	Red double decker bus         	A red , double-decker bus     	1 2 3 4	1 2 3 4 5	111
+4	BACK	A close-up                    	Close up image                	1 2	1 2 3	112
+5	EQUI	with its tongue               	with it 's tongue             	6 7 8	7 8 9 10	112
+4	BACK	on a branch                   	on an icy branch              	5 6 7	5 6 7 8	113
+4	BACK	A brown duck and white duck   	Brown and white ducks         	1 2 3 4 5 6	1 2 3 4	114
+4	BACK	on the grass                  	on green grass                	8 9 10	6 7 8	114
+4	FORW	Cows                          	Five cows                     	1	1 2	115
+3	BACK	with blue shirt               	in a blue shirt and tan pants 	2 3 4	3 4 5 6 7 8 9	116
+3	SIMI	in front of a fountain        	in front of a statue          	6 7 8 9 10	12 13 14 15 16	116
+5	EQUI	on the floor                  	on on the floor               	4 5 6	4 5 6 7	117
+4	FORW	Several televisions           	Three televisions             	1 2	1 2	117
+4	BACK	in front of a bookcase        	in front of book shelves      	5 6 7 8 9	5 6 7 8 9	118
+4	BACK	A sheep                       	A large sheep                 	1 2	1 2 3	119
+4	SIMI	on a hillside                 	on a hill                     	4 5 6	5 6 7	119
+5	EQUI	Blue and red plane            	a blue and red airplane       	1 2 3 4	1 2 3 4 5	120
+4	FORW	in mid-air flight             	while in flight               	5 6 7	6 7 8	120
+5	EQUI	A flat screen TV              	A flat-screen TV              	1 2 3 4	1 2 3	121
+4	FORW	with several computer monitors	with four computer monitors   	2 3 4 5	3 4 5 6	122
+5	EQUI	Room                          	A room                        	1	1 2	122
+3	SIMI	on it                         	on                            	10 11	8	123
+4	FORW	with many stickers            	with stickers                 	7 8 9	6 7	123
+4	FORW	of a stop sign                	of a sign                     	3 4 5 6	3 4 5	123
+3	BACK	with large screen television  	with tan furniture and flat screen television	5 6 7 8	3 4 5 6 7 8 9	124
+4	FORW	Living room or den            	Living room                   	1 2 3 4	1 2	124
+2	REL	the road                      	a street                      	8 9	8 9	125
+5	EQUI	A doubly decker red bus       	A red double decker bus       	1 2 3 4 5	1 2 3 4 5	125
+4	SIMI	stand                         	are posing                    	5	5 6	126
+1	REL	smiling                       	are posing                    	7	5 6	126
+5	EQUI	for camera                    	for the camera                	8 9	7 8 9	126
+3	SIMI	by a lake                     	on the shoreline              	9 10 11	9 10 11	127
+4	BACK	A white bird                  	Large white bird              	1 2 3	1 2 3	127
+2	REL	with long orange legs         	with long orange beak         	4 5 6 7	4 5 6 7	127
+4	FORW	A red train                   	The train                     	1 2 3	1 2	128
+4	SIMI	driving                       	is riding                     	4	3 4	128
+3	SIMI	through a snow covered city   	on the tracks in the snow     	5 6 7 8 9	5 6 7 8 9 10	128
+4	SIMI	A Das Air Cargo plane         	A passenger plane             	1 2 3 4 5	1 2 3	129
+4	SIMI	on purple sheet               	on a purple blanket           	4 5 6	7 8 9 10	130
+4	BACK	A red and white bus           	A red and white England bus   	1 2 3 4 5	1 2 3 4 5 6	131
+4	FORW	an England street             	the street                    	8 9 10	9 10	131
+4	FORW	with wood cabinets and dining table	with wooden cabinets and furniture	3 4 5 6 7 8	3 4 5 6 7	133
+5	EQUI	A motorcycles                 	A motorcycle                  	1 2	1 2	134
+1	REL	with a graffiti scene         	by a mural                    	9 10 11 12	5 6 7	134
+2	REL	near a wall with a graffiti scene	by a mural                    	5 6 7 9 10 11 12	5 6 7	134
+3	SIMI	of a cityscape                	of a city                     	13 14 15	8 9 10	134
+3	BACK	A bird                        	A large black bird            	1 2	1 2 3 4	135
+4	SIMI	in a fenced area              	in a gated yard               	6 7 8 9	6 7 8 9	136
+4	BACK	A cat                         	A ginger cat                  	1 2	1 2 3	137
+4	BACK	The train                     	The blue train                	1 2	1 2 3	138
+4	FORW	at the train station          	at the station                	4 5 6 7	5 6 7	138
+4	BACK	in a field                    	in grassy field               	6 7 8	5 6 7	139
+4	FORW	on an icy branch              	on a branch                   	5 6 7 8	5 6 7	140
+4	SIMI	A small bird                  	A yellow bird                 	1 2 3	1 2 3	140
+5	EQUI	Boy                           	A boy                         	1	1 2	141
+3	SIMI	on a computer                 	at a computer screen          	5 6 7	4 5 6 7	141
+5	EQUI	A red truck                   	Red truck                     	1 2 3	1 2	142
+5	EQUI	their tires                   	tires                         	5 6	4	142
+5	EQUI	flying                        	in flight                     	6	6 7	143
+4	FORW	in yellow canoe               	a yellow canoe                	2 3 4	3 4 5	145
+2	REL	through water                 	towards a the shore           	6 7	6 7 8 9	145
+2	REL	lined up                      	A row                         	9 10	1 2	146
+4	BACK	Beer bottles -LRB- -LRB- Harp Lager -RRB- -RRB-	A row of beer bottles         	1 2 3 4 5 6 7 8	1 2 3 4 5	146
+3	BACK	Two women                     	Two smiling young women       	1 2	1 2 3 4	147
+2	REL	on a city street              	the road                      	7 8 9 10	8 9	148
+4	FORW	A double decker red United bus	A doubly decker red bus       	1 2 3 4 5 6	1 2 3 4 5	148
+4	FORW	Group of people               	Two people                    	1 2 3	1 2	149
+5	EQUI	of restaurant                 	at a restaurant               	7 8	7 8 9	149
+4	FORW	Two dairy cows                	Two cows                      	1 2 3	1 2	150
+5	EQUI	drinking                      	are drinking                  	4	3 4	150
+1	REL	in an urban setting           	in a fenced area              	4 5 6 7	4 5 6 7	152
+2	SIMI	in front of tour bus          	in front of a plane           	4 5 6 7 8	4 5 6 7 8	153
+3	SIMI	Two women                     	Two men                       	1 2	1 2	153
+4	FORW	Large silver locomotive engine	The silver train              	1 2 3 4	1 2 3	154
+2	REL	in a shed                     	in a station                  	5 6 7	6 7 8	154
+2	REL	is parked                     	stand                         	3 4	2	155
+3	SIMI	on a wire grate               	on a bird feeder              	7 8 9 10	6 7 8 9	157
+5	EQUI	is eating                     	eating                        	4 5	4	157
+4	SIMI	on the tracks                 	down the tracks               	4 5 6	4 5 6	158
+4	SIMI	a white horse                 	a brown horse                 	4 5 6	4 5 6	160
+2	REL	is standing                   	hold on                       	5 6	6 7	161
+3	SIMI	A girl                        	The jockey                    	1 2	1 2	162
+2	REL	on the grass                  	on the sidewalk               	4 5 6	5 6 7	163
+2	SIMI	sitting                       	is standing                   	3	3 4	163
+2	SIMI	A white cat                   	A sheep                       	1 2 3	1 2	165
+5	EQUI	on a street                   	on the street                 	7 8 9	6 7 8	167
+2	REL	on a runway                   	close to the ground           	5 6 7	6 7 8 9	168
+4	BACK	A passenger jet               	A large passenger jet         	1 2 3	1 2 3 4	168
+5	EQUI	on a table                    	at a table                    	5 6 7	6 7 8	169
+3	BACK	A white cat                   	A pretty white striped cat    	1 2 3	1 2 3 4 5	171
+1	REL	on a carpet                   	the table                     	5 6 7	11 12	171
+4	FORW	in front of an apartment building	in front of building          	4 5 6 7 8 9	6 7 8 9	172
+2	REL	on the ground                 	under a tree                  	6 7 8	6 7 8	173
+2	SIMI	of a cat                      	of a horse                    	3 4 5	3 4 5	174
+2	REL	are swimming                  	fly                           	3 4	2	175
+5	EQUI	The birds                     	Birds                         	1 2	1	175
+5	EQUI	in the water                  	over water                    	5 6 7	4 5	175
+4	SIMI	on a crowded street           	on a public street            	6 7 8 9	8 9 10 11	176
+3	SIMI	A red double decker bus       	A white bus                   	1 2 3 4 5	1 2 3	176
+4	BACK	in a field                    	in a field of green grass     	6 7 8	5 6 7 8 9 10	177
+3	SIMI	A group of horses             	A brown horse                 	1 2 3 4	1 2 3	177
+3	SIMI	near a field                  	in the grass                  	7 8 9	5 6 7	179
+5	EQUI	in the kitchen                	in kitchen                    	3 4 5	3 4	180
+5	EQUI	toward the camera             	towards the camera            	7 8 9	7 8 9	181
+2	SIMI	with table , chair and sofa   	with a blue sofa , camp bed , wooden bench and dresser	4 5 6 7 8 9	4 5 6 7 8 9 10 11 12 13 14 15	182
+2	REL	a train track                 	at a train station            	6 7 8	4 5 6 7	184
+4	SIMI	A steam engine                	A train                       	1 2 3	1 2	184
+3	BACK	outside                       	outside of a bus              	4	4 5 6 7	186
+4	SIMI	toward the camera             	at the camera                 	7 8 9	8 9 10	187
+2	REL	on the branch                 	under the trees               	5 6 7	5 6 7	188
+2	SIMI	The bird                      	The sheep                     	1 2	1 2	188
+4	SIMI	into the camera               	at the camera                 	10 11 12	9 10 11	189
+2	SIMI	A brown and white cow         	The black and white cat       	1 2 3 4 5	1 2 3 4 5	189
+4	BACK	looking                       	is looking up                 	9	6 7 8	189
+4	SIMI	along the beach               	along the ocean 's shore      	9 10 11	13 14 15 16 17	190
+3	SIMI	A man and a woman             	A man and a boy               	1 2 3 4 5	1 2 9 10 11	190
+2	SIMI	A black and white dog         	A small black and white goat  	1 2 3 4 5	1 2 3 4 5 6	191
+5	EQUI	Red double decker bus         	A red double decker bus       	1 2 3 4	1 2 3 4 5	192
+3	SIMI	A young boy                   	A young blonde girl           	1 2 3	1 2 3 4	193
+2	REL	is sitting                    	standing                      	3 4	3	195
+2	SIMI	The cat                       	Than horse                    	1 2	1 2	195
+2	REL	in front of a door            	in front of a fence           	8 9 10 11 12	7 8 9 10 11	195
+3	SIMI	A man                         	A runner                      	1 2	1 2	196
+2	REL	in a riding hat               	riding                        	3 4 5 6	3	198
+3	SIMI	on a horse                    	a brown horse                 	7 8 9	4 5 6	198
+4	BACK	of peoples                    	of cyclists                   	3 4	3 4	199
+4	BACK	A car                         	A silver car                  	1 2	1 2 3	200
+4	BACK	the side                      	on the side                   	6 7	5 6 7	200
+5	EQUI	The black dog                 	A black dog                   	1 2 3	1 2 3	201
+5	EQUI	is lying                      	lies                          	4 5	4	201
+5	EQUI	on water                      	on the water                  	6 7	5 6 7	202
+4	FORW	Large white cruise ship       	Large cruise ship             	1 2 3 4	1 2 3	202
+3	BACK	someone                       	a man                         	13	14 15	203
+4	BACK	with a motorcycle             	with a classic motorcycle     	14 15 16	16 17 18 19	203
+4	BACK	a car                         	in a classic car              	10 11	9 10 11 12	203
+4	FORW	A blue bird                   	A bird                        	1 2 3	1 2	204
+5	EQUI	perches                       	is perched                    	4	3 4	204
+4	FORW	on the gloved hand            	's gloved hand                	5 6 7 8	8 9 10	204
+4	SIMI	of a person                   	on a person                   	9 10 11	5 6 7	204
+4	FORW	a brown and white horse       	a brown horse                 	5 6 7 8 9	4 5 6	205
+5	EQUI	riding on                     	riding                        	3 4	3	205
+4	SIMI	on a horse                    	a tan horse                   	7 8 9	4 5 6	206
+4	BACK	on the branch                 	on branches                   	5 6 7	8 9	207
+3	BACK	The bird                      	A red and brown bird          	1 2	1 2 3 4 5	207
+5	EQUI	is sitting                    	is perched                    	3 4	6 7	207
+4	FORW	A black and tan dog           	A black dog                   	1 2 3 4 5	1 2 3	208
+4	SIMI	at a black sheep              	at a brown sheep              	7 8 9 10	5 6 7 8	208
+3	SIMI	on a dirt bike                	on a motorbike                	3 4 5 6	3 4 5	209
+5	EQUI	a laptop                      	a laptop computer             	11 12	6 7 8	210
+5	EQUI	at a messy table              	on a messy table              	5 6 7 8	9 10 11 12	210
+2	FORW	at barn animals               	a sheep                       	4 5 6	3 4	211
+4	BACK	Four children                 	Children                      	1 2	1	211
+3	SIMI	next to a car                 	next to a small red vehicle   	7 8 9 10	6 7 8 9 10 11	212
+3	SIMI	A red and blue plane          	A WWII fighter plane          	1 2 3 4 5	1 2 3 4	213
+4	FORW	at a long table               	at a table                    	7 8 9 10	6 7 8	214
+4	BACK	in a restaurant               	in an Italian restaurant      	11 12 13	9 10 11 12	214
+4	SIMI	Four women and two men        	A group of people             	1 2 3 4 5	1 2 3 4	214
+4	FORW	of a brown horse              	of a horse                    	3 4 5 6	4 5 6	215
+5	EQUI	with a blue halter            	wearing a blue halter         	7 8 9 10	7 8 9 10	215
+5	EQUI	Close up                      	A close up                    	1 2	1 2 3	215
+4	SIMI	in a rural area               	in a field                    	7 8 9 10	6 7 8	216
+4	BACK	A sheep                       	Woolly sheep                  	1 2	1 2	217
+2	REL	at auction                    	at auction house              	7 8	3 4 5	217
+2	REL	rides                         	comes down                    	3	3 4	218
+3	FORW	on his tracks                 	the track                     	4 5 6	5 6	218
+5	EQUI	a train                       	The train                     	1 2	1 2	218
+4	FORW	A double decker red United bus	A double decker bus           	1 2 3 4 5 6	1 2 3 4	219
+5	EQUI	A tan puppy                   	Tan puppy                     	1 2 3	1 2	220
+4	SIMI	on a carpeted floor           	on white carpeting            	4 5 6 7	5 6 7	220
+4	FORW	A young girl                  	A woman                       	1 2 3	1 2	221
+4	BACK	riding                        	in riding                     	4	3 4	221
+5	EQUI	Train                         	a train                       	1	1 2	222
+5	EQUI	on a lawn                     	on green grass                	5 6 7	4 5 6	223
+5	EQUI	A blue bird                   	Blue bird                     	1 2 3	1 2	223
+4	FORW	A woman equestrian            	The woman                     	1 2 3	1 2	224
+4	BACK	a horse                       	on the brown horse            	5 6	5 6 7 8	224
+4	BACK	the tracks                    	on the railroad tracks        	4 5	6 7 8 9	225
+4	BACK	Train                         	A black steam train           	1	1 2 3 4	225
+3	SIMI	going down                    	traveling                     	2 3	5	225
+4	FORW	A large cruise ship           	A cruise ship                 	1 2 3 4	1 2 3	226
+2	REL	in harbor                     	at a coast                    	5 6	5 6 7	226
+2	REL	a road intersection           	a paved street                	4 5 6	4 5 6	227
+5	EQUI	in a plain                    	in a field                    	9 10 11	17 18 19	228
+3	FORW	in front of an uprooted tree  	in front of a small copse of trees	12 13 14 15 16 17	9 10 11 12 13 14 15 16	228
+4	BACK	at a table                    	at a restaurant table         	6 7 8	6 7 8 9	229
+5	EQUI	at a restaurant table         	at table of restaurant        	6 7 8 9	5 6 7 8	230
+3	SIMI	into food                     	a cake                        	7 8	8 9	232
+4	FORW	in blue shift dress           	in a blue dress               	2 3 4 5	3 4 5 6	232
+4	SIMI	atop a red an yellow motorcycle	on a red and yellow motorcycle	5 6 7 8 9 10	4 5 6 7 8 9	233
+3	FORW	Two brunette girls            	A couple                      	1 2 3	1 2	233
+4	FORW	of a red tandem bicycle       	of a tandem bicycle           	7 8 9 10 11	8 9 10 11	234
+4	FORW	on the back seat              	on the back                   	3 4 5 6	5 6 7	234
+3	FORW	with bright green walls and artwork	with bright green walls       	4 5 6 7 8 9	4 5 6 7	236
+4	SIMI	Home office space             	Small office space            	1 2 3	1 2 3	236
+4	SIMI	on a beach                    	on shore                      	3 4 5	4 5	237
+5	EQUI	Yellow boat                   	A yellow boat                 	1 2	1 2 3	237
+4	FORW	on the blue clothed dining table	with a blue table cloth       	6 7 8 9 10 11	8 9 10 11 12	238
+3	SIMI	A kitchendiner with papers    	A small kitchen and a cluttered table	1 2 3 4	1 2 3 4 5 6 7	238
+4	FORW	A gray cat                    	The cat                       	1 2 3	1 2	239
+5	EQUI	on the window ledge           	on the window sill            	6 7 8 9	5 6 7 8	239
+4	SIMI	A green and white cargo plane 	White and green commercial airliner	1 2 3 4 5 6	1 2 3 4 5	240
+5	EQUI	taking of                     	taking off                    	7 8	6 7	240
+4	BACK	from an airport               	of runway                     	9 10 11	8 9	240
+4	BACK	are                           	are sitting                   	3	4 5	241
+4	BACK	inside and black and white furry enclosure	inside a cow-schemed , fur-covered dome	6 7 8 9 10 11 12	6 7 8 9 10 11	241
+4	BACK	Two cats                      	Two baby kittens              	1 2	1 2 3	241
+3	SIMI	A close-up view               	A side view                   	1 2 3	1 2 3	242
+3	SIMI	An old fashioned wooden sailing ship	A wooden yacht                	1 2 3 4 5 6	1 2 3	243
+5	EQUI	in the ocean                  	on the ocean                  	7 8 9	4 5 6	243
+5	EQUI	A white plane                 	A white airplane              	1 2 3	1 2 3	244
+5	EQUI	on the runway                 	on a runway                   	4 5 6	5 6 7	244
+5	EQUI	with wood furniture           	with wooden furniture         	4 5 6	6 7 8	245
+4	BACK	Elegant dining room           	An elegant pink dining room   	1 2 3	1 2 3 4 5	245
+4	SIMI	his dirt bike                 	on a bike                     	4 5 6	3 4 5	246
+5	EQUI	A black and white cat         	Black and white cat           	1 2 3 4 5	1 2 3 4	248
+4	SIMI	on a brown chair              	on wood chair                 	8 9 10 11	6 7 8	248
+5	EQUI	A man and a woman             	A man and woman               	1 2 9 10 11	1 2 3 4	249
+5	EQUI	with a wine bottle            	with a bottle of wine         	5 6 7 8	9 10 11 12 13	249
+2	REL	a sheep                       	a sheep hay                   	3 4	4 5 6	250
+3	SIMI	on the green hill             	on a hillside                 	6 7 8 9	4 5 6	251
+4	FORW	The white sheep               	A sheep                       	1 2 3	1 2	251
+5	EQUI	of a dilapidated wooden fence 	of an old wooden fence        	6 7 8 9 10	6 7 8 9 10	252
+4	SIMI	along a runway                	on the tarmac                 	5 6 7	7 8 9	253
+4	BACK	An AeroMexico jet             	A silver AreoMexico Jet Liner 	1 2 3	1 2 3 4 5	253
+5	EQUI	outside a bookstore           	outside a book store          	5 6 7	5 6 7 8	255
+4	BACK	A bicycle                     	A green bike                  	1 2	1 2 3	255
+4	SIMI	Domestic cat                  	A white cat                   	1 2	1 2 3	256
+4	BACK	window                        	of a window                   	5	6 7 8	256
+4	BACK	a red canoe                   	in a red canoe                	4 5 6	4 5 6 7	258
+4	SIMI	down the sidewalk             	along the sidewalk            	7 8 9	9 10 11	259
+4	BACK	A woman and child             	A women and a young girl      	1 2 3 4	1 2 3 4 5 6	259
+4	BACK	on a blanket                  	on a purple blanket           	7 8 9	10 11 12 13	261
+5	EQUI	is going                      	travels                       	6 7	6	262
+3	REL	with a dining room            	with large sofas and a dining table	6 7 8 9	4 5 6 7 8 9 10	263
+4	FORW	of a living room              	A living room                 	2 3 4 5	1 2 3	263
+4	FORW	a bike helmet                 	a helmet                      	4 5 6	4 5	264
+4	SIMI	by a shop                     	outside a book store          	5 6 7	5 6 7 8	265
+4	SIMI	through the streets           	down a street                 	6 7 8	6 7 8	266
+4	SIMI	on a brown table              	on a wooden table             	5 6 7 8	5 6 7 8	267
+5	EQUI	A black and white image       	Black and white picture       	1 2 3 4 5	1 2 3 4	269
+5	EQUI	of used wooden building materials	of wooden debris              	3 4 5 6 7	2 3 4	270
+5	EQUI	A pile                        	Pile                          	1 2	1	270
+5	EQUI	with a chair                  	with chair                    	8 9 10	5 6	270
+4	BACK	An office                     	Small office space            	1 2	1 2 3	271
+3	SIMI	with multiple desks and green walls	with bright green walls       	3 4 5 6 7 8	4 5 6 7	271
+5	EQUI	A bird                        	Bird                          	1 2	1	272
+4	FORW	on top of horse               	on a horse                    	6 7 8 9	6 7 8	273
+4	BACK	Young woman                   	Young girl                    	1 2	1 2	273
+3	SIMI	on a tiny branch              	on an icy branch              	4 5 6 7	5 6 7 8	274
+4	FORW	A man on a motorcycle         	Motorcyclist                  	1 2 3 4 5	1	275
+5	EQUI	on the brown horse            	on a brown horse              	7 8 9 10	5 6 7 8	276
+4	BACK	The young rider               	A young female rider          	1 2 3	1 2 3 4	276
+5	EQUI	with nose                     	with its nose                 	4 5	4 5 6	277
+4	FORW	Little white lamb             	A white lamb                  	1 2 3	1 2 3	277
+5	EQUI	riding                        	is riding                     	4	4 5	278
+4	SIMI	A young girl                  	a little girl                 	1 2 3	1 2 3	278
+3	BACK	A bird                        	A black swan                  	1 2	1 2 3	279
+5	EQUI	is flapping                   	flapping                      	3 4	4	279
+4	FORW	Young woman                   	The woman                     	1 2	1 2	280
+4	SIMI	on top of horse               	on the brown horse            	6 7 8 9	5 6 7 8	280
+4	FORW	down a river                  	in water                      	4 5 6	6 7	281
+5	EQUI	A kitchen                     	Kitchen                       	1 2	1	282
+4	SIMI	with wooden cabinets and furniture	with wooden table and cabinets	3 4 5 6 7	2 3 4 5 6	282
+4	SIMI	from a bird feeder            	on a bird feeder              	4 5 6 7	6 7 8 9	283
+4	BACK	A bird                        	A yellow bird                 	1 2	1 2 3	283
+4	BACK	in front of a plane           	in front of a small plane     	4 5 6 7 8	4 5 6 7 8 9	284
+3	FORW	a smile and a bicycle helmet  	a bike helmet                 	6 7 8 9 10 11	5 6 7	285
+4	FORW	A young blonde girl           	A young girl                  	1 2 3 4	1 2 3	285
+5	EQUI	The train                     	A train                       	1 2	1 2	286
+5	EQUI	at the train station          	at a train station            	4 5 6 7	4 5 6 7	286
+4	FORW	A small bird                  	Bird                          	1 2 3	1	287
+4	BACK	from the feeder               	from a bird feeder            	5 6 7	3 4 5 6	287
+4	FORW	Two brown horses              	Brown horse                   	1 2 3	1 2	288
+4	BACK	in grassy field               	in middle of grassy field     	5 6 7	4 5 6 7 8	288
+3	BACK	A red bird                    	A small red and gray bird     	1 2 3	1 2 3 4 5 6	289
+4	BACK	Boy                           	A small boy                   	1	1 2 3	290
+5	EQUI	on couch                      	on a sofa                     	3 4	5 6 7	290
+3	FORW	with small white dog          	with a dog                    	5 6 7 8	8 9 10	290
+4	SIMI	A green steam engine          	A black steam train           	1 2 3 4	1 2 3 4	291
+4	BACK	in front of the train         	in front of a silver train    	7 8 9 10 11	7 8 9 10 11 12	292
+5	EQUI	The man                       	A man                         	1 2	1 2	292
+3	BACK	on shelves                    	on the shelves and on the counter	8 9	7 8 9 10 11 12 13	293
+3	FORW	with bowls                    	with items                    	6 7	4 5	293
+2	REL	A kitchen sink and countertop 	A small kitchen               	1 2 3 4 5	1 2 3	293
+5	EQUI	A woman                       	A women                       	1 2	1 2	294
+4	BACK	a bicycle                     	a mountain bike               	4 5	4 5 6	294
+4	BACK	next to a yellow sports car   	next to a yellow Corvette     	5 6 7 8 9 10	4 5 6 7 8	295
+4	FORW	with a white horse            	a white horse                 	3 4 5 6	4 5 6	296
+4	FORW	Older gentleman               	A man                         	1 2	1 2	297
+5	EQUI	at red motorcycle             	at a red motorcycle           	4 5 6	4 5 6 7	297
+4	BACK	in front of a train           	in front of a silver train    	4 5 6 7 8	7 8 9 10 11 12	298
+5	EQUI	on the water                  	in the water                  	4 5 6	4 5 6	299
+4	FORW	near a small plane            	a small airplane              	7 8 9 10	8 9 10	299
+4	BACK	around a table                	around a dining table         	6 7 8	7 8 9 10	300
+4	SIMI	in the trough                 	from a trough                 	8 9 10	7 8 9	301
+5	EQUI	The brown and white cows      	Brown and white cows          	1 2 3 4 5	1 2 3 4	301
+2	REL	towards a wooden telephone pole	above the telephone wires     	5 6 7 8 9	5 6 7 8	302
+3	SIMI	in front of a `` Going Places '' bus	in front of the open door of the bus	8 9 10 11 12 13 14 15 16	5 6 7 8 9 10 11 12 13	303
+4	SIMI	A young woman                 	TThe girl                     	1 2 3	1 2	303
+4	FORW	on a gloved hand              	's gloved hand                	5 6 7 8	8 9 10	304
+5	EQUI	perched                       	is perched                    	4	3 4	304
+4	BACK	on the sofa                   	on the back of a couch        	5 6 7	4 5 6 7 8 9	306
+4	FORW	A dark brown horse            	Horse                         	1 2 3 4	1	307
+4	FORW	A blue scooter                	A blue moped                  	1 2 3	1 2 3	308
+5	EQUI	on a sidewalk                 	on the sidewalk               	5 6 7	5 6 7	308
+3	SIMI	Three people                  	Two elderly women             	1 2	1 2 3	311
+5	EQUI	at dinner table               	at a dinner table             	4 5 6	5 6 7 8	311
+4	FORW	A white and red bus           	The red bus                   	1 2 3 4 5	1 2 3	312
+2	REL	is sitting                    	are swimming                  	5 6	3 4	314
+3	SIMI	A large black bird            	The birds                     	1 2 3 4	1 2	314
+2	SIMI	is sitting                    	is standing                   	3 4	4 5	315
+4	BACK	on the water                  	on the ocean                  	6 7 8	4 5 6	316
+4	BACK	on boat                       	A wooden yacht                	3 4	1 2 3	316
+5	EQUI	of hotel room                 	on in a hotel room            	5 6 7	8 9 10 11 12	317
+3	SIMI	The television and desk       	A television and a laptop computer	1 2 3 4	1 2 3 4 5 6	317
+4	FORW	A woman                       	A person                      	1 2	1 2	318
+4	FORW	Two women                     	A woman                       	1 2	1 2	320
+4	FORW	Two trains                    	The train                     	1 2	1 2	321
+4	SIMI	inside a train station        	at the train station          	3 4 5 6	4 5 6 7	321
+2	REL	while sitting                 	while standing                	10 11	9 10	322
+4	FORW	A man and two women           	A man and women               	1 2 3 4 5	1 2 3 4	322
+3	SIMI	in a bright room              	in a living room              	10 11 12 13	7 8 9 10	323
+2	SIMI	A television , upholstered chair , and coffee table	A leather couch and wooden table	1 2 3 4 5 6 7 8 9	1 2 3 4 5 6	323
+2	SIMI	Tan cow                       	sheep                         	1 2	7	324
+5	EQUI	on a grassy field             	in grassy field               	6 7 8 9	2 3 4	324
+2	REL	next to its mother            	next to a larger horse        	6 7 8 9	6 7 8 9 10	326
+2	SIMI	A bay foal                    	of young horse                	1 2 3	2 3 4	326
+5	EQUI	is walking                    	walking                       	4 5	5	326
+3	REL	in front of a building        	in front of a dining room     	4 5 6 7 8	7 8 9 10 11 12	328
+4	BACK	A woman                       	Two women and a baby          	1 2	1 2 3 4 5	328
+5	EQUI	on table                      	on the table                  	5 6	8 9 10	329
+3	SIMI	Young baby girl               	with a smiling baby           	1 2 3	3 4 5 6	329
+4	BACK	A black and white cow         	Black and white cows          	1 2 3 4 5	1 2 3 4	330
+2	REL	in a pen                      	behind a fence                	6 7 8	5 6 7	330
+5	EQUI	for the camera                	at the camera                 	7 8 9	8 9 10	331
+2	SIMI	A black and white horned cow  	of a cat                      	1 2 3 4 5 6	6 7 8	332
+4	FORW	at a restaurant table         	around a table                	6 7 8 9	6 7 8	333
+4	BACK	in a field                    	in a green field              	6 7 8	4 5 6 7	334
+2	SIMI	The cat                       	Two eagles                    	1 2	1 2	335
+2	SIMI	The black and white cat       	A black and white dog         	1 2 3 4 5	1 2 3 4 5	336
+4	FORW	is looking up                 	looking                       	6 7 8	6	336
+2	REL	atop a rock carving           	on a stone                    	10 11 12 13	6 7 8	337
+4	SIMI	of a bottle                   	A bottle of water             	6 7 8	1 2 3 4	337
+4	SIMI	of the yard                   	in the field                  	8 9 10	7 8 9	338
+4	SIMI	A lone cow                    	a black and white cow         	1 2 3	1 2 3 4 5	338
+4	FORW	Two brown horses              	A brown horse                 	1 2 3	1 2 3	341
+4	SIMI	in a green meadow             	in tall grass                 	5 6 7 8	5 6 7	341
+5	EQUI	in the snow                   	on the snow                   	9 10 11	4 5 6	342
+4	FORW	A red bird and four other birds	Five birds                    	1 2 3 4 5 6 7	1 2	342
+4	SIMI	at the dinner table           	around a dining table         	10 11 12 13	7 8 9 10	343
+3	SIMI	An older Asian couple         	A group of elderly people     	1 2 3 4	1 2 3 4 5	343
+5	EQUI	A cat                         	The cat                       	1 2	1 2	345
+4	FORW	sleeping                      	is laying                     	3	3 4	345
+2	REL	with a pillow                 	on an animal print blanket    	7 8 9	5 6 7 8 9	345
+3	SIMI	near a model building         	infant of an ornate building  	3 4 5 6	3 4 5 6 7	346
+3	SIMI	A young woman                 	A man                         	1 2 3	1 2	347
+3	BACK	A woman                       	Four women and two men        	1 2	1 2 3 4 5	349
+4	SIMI	at the dining table           	at a long table               	3 4 5 6	7 8 9 10	349
+4	BACK	a white horse                 	on a white horse              	4 5 6	6 7 8 9	354
+3	SIMI	A woman                       	A man                         	1 2	1 2	354
+5	EQUI	a brown horse                 	brown horse                   	4 5 6	6 7	355
+4	FORW	A woman                       	Person                        	1 2	1	355
+4	SIMI	A black train                 	A long train                  	1 2 3	1 2 3	357
+4	BACK	the tracks                    	on train tracks               	6 7	5 6 7	357
+2	SIMI	Blue couch and twin bed       	A leather couch and wooden table	1 2 3 4 5	1 2 3 4 5 6	358
+1	REL	A white leather couch         	A television                  	1 2 3 4	1 2	359
+2	SIMI	Two buses                     	Yellow scooter                	1 2	1 2	360
+2	REL	on a street                   	in an alley way               	4 5 6	4 5 6 7	360
+3	SIMI	above her                     	above him                     	14 15	12 13	362
+5	EQUI	is laying down                	is laying                     	3 4 5	3 4	362
+3	SIMI	A woman                       	A man                         	1 2	1 2	362
+3	SIMI	A yellow and black bird       	A flock of birds              	1 2 3 4 5	1 2 3 4	365
+5	EQUI	in afield                     	in a field                    	3 4	9 10 11	368
+4	BACK	sheep                         	next to a sheep               	1	5 6 7 8	368
+4	SIMI	Black bird                    	Blue bird                     	1 2	1 2	370
+4	FORW	Several people                	People                        	1 2	1	371
+4	FORW	on motorcycles                	mopeds                        	3 4	3	371
+2	REL	in a market square            	in an urban setting           	5 6 7 8	4 5 6 7	371
+4	BACK	Domestic cat                  	Tan domestic cat              	1 2	1 2 3	372
+2	SIMI	A small cat                   	The small dog                 	1 2 3	1 2 3	374
+2	SIMI	Tan cows                      	A white and gray cat          	1 2	1 2 3 4 5	375
+5	EQUI	on the tracks                 	on tracks                     	7 8 9	6 7	376
+3	BACK	a bus                         	Red double decker bus         	1 2	1 2 3 4	377
+4	BACK	driving                       	driving down                  	3	5 6	377
+4	FORW	in a street                   	street                        	4 5 6	7	377
+4	FORW	at a dinner table             	at table                      	3 4 5 6	2 3	378
+5	EQUI	a woman                       	Woman                         	1 2	1	378
+4	FORW	on her notebook               	with something                	8 9 10	5 6	378
+3	SIMI	A close-up                    	A side view                   	1 2	1 2 3	379
+4	BACK	a motorcycle                  	a red motorcycle              	5 6	5 6 7	380
+4	SIMI	down the road                 	on the road                   	7 8 9	8 9 10	380
+5	EQUI	The man                       	A man                         	1 2	1 2	380
+4	FORW	in front of steps of ruins    	in front of ruins             	3 4 5 6 7 8	3 4 5 6	381
+2	REL	in a dinner                   	around a table                	6 7 8	5 6 7	382
+5	EQUI	A group of four people        	Four people                   	1 2 3 4 5	1 2	382
+4	BACK	Close up                      	A close up view               	1 2	1 2 3 4	383
+5	EQUI	with it 's eyes               	with its eyes                 	4 5 6 7	7 8 9	384
+3	SIMI	A longed-haired cat           	of a cat                      	1 2 3	4 5 6	384
+4	BACK	The cows                      	The brown and white cows      	1 2	1 2 3 4 5	385
+5	EQUI	feed                          	are eating                    	3	6 7	385
+1	REL	in a small apartment          	Black and brown table         	9 10 11 12	1 2 3 4	386
+2	SIMI	A black and wood colored dining room	in living room setting        	1 2 3 4 5 6 7	5 6 7 8	386
+4	BACK	in hay                        	in a pen with hay             	6 7	6 7 8 9 10	387
+5	EQUI	Camouflage airplane           	A camouflaged plane           	1 2	1 2 3	388
+5	EQUI	on grassy field               	on the green grass            	4 5 6	5 6 7 8	388
+5	EQUI	Very crowded office desk      	Messy computer desk           	1 2 3 4	1 2 3	389
+4	SIMI	with computer monitor         	with two monitors             	5 6 7	4 5 6	389
+4	FORW	with a bicycle                	bicycle                       	3 4 5	3	390
+4	SIMI	at a coffee house             	of a coffee shop              	6 7 8 9	6 7 8 9	390
+4	BACK	a street                      	along the street              	7 8	7 8 9	391
+4	FORW	driving down                  	driving                       	5 6	6	391
+5	EQUI	Red double decker bus         	A red two story bus           	1 2 3 4	1 2 3 4 5	391
+5	EQUI	holding on                    	clings                        	3 4	4	392
+4	BACK	A bird                        	A multi-colored bird          	1 2	1 2 3	392
+2	REL	to a metal gate               	to a wire fence               	5 6 7 8	5 6 7 8	392
+5	EQUI	at the shoreline              	at shore                      	5 6 7	5 6	393
+4	FORW	A red double decker bus       	A double decker bus           	1 2 3 4 5	1 2 3 4	394
+4	SIMI	on a crowded street           	on a city street              	6 7 8 9	5 6 7 8	394
+5	EQUI	a rear view                   	The rear view                 	3 4 5	1 2 3	395
+4	SIMI	of a Chevrolet sports car     	of a red Chevrolet concept car	6 7 8 9 10	4 5 6 7 8 9	395
+4	BACK	A woman                       	A smiling woman               	1 2	1 2 3	396
+4	FORW	are sitting down              	sitting                       	3 4 5	3	397
+2	BACK	that has drinks               	with beer and food            	9 10 11	7 8 9 10	397
+5	EQUI	at a table                    	at the table                  	6 7 8	4 5 6	397
+4	BACK	Two Eagles                    	Two bald eagles               	1 2	1 2 3	398
+4	FORW	A home office                 	Room                          	1 2 3	1	399
+3	SIMI	with three computer monitors and other equipment	with several computer monitors	4 5 6 7 8 9 10	2 3 4 5	399
+4	BACK	The black bird                	A blackbird                   	1 2 3	1 2	400
+4	BACK	A young girl                  	A young blonde girl           	1 2 3	1 2 3 4	401
+4	BACK	a white and gray horse        	of a gray and white horse     	5 6 7 8 9	11 12 13 14 15 16	401
+2	REL	riding                        	in riding gear                	4	5 6 7	401
+4	FORW	The seagull                   	A little bird                 	1 2	1 2 3	402
+5	EQUI	on the water                  	in the water                  	5 6 7	5 6 7	402
+4	FORW	in front of an apartment building	in front of a building        	4 5 6 7 8 9	4 5 6 7 8	403
+2	SIMI	The lamb                      	A small bird                  	1 2	1 2 3	404
+5	EQUI	in the shed                   	at a shed                     	5 6 7	9 10 11	405
+3	SIMI	The curious boys              	Two small boys                	1 2 3	1 2 3	405
+3	FORW	The black and white cows      	A black cow and a brown cow   	1 2 3 4 5	1 2 3 4 5 6 7	406
+1	REL	of a brown faced cat          	of an ostrich face            	4 5 6 7 8	4 5 6 7	407
+3	SIMI	while the woman               	a smiling woman               	11 12 13	12 13 14	408
+2	SIMI	a horse                       	of cows                       	10 11	6 7	410
+5	EQUI	in background                 	in the background             	7 8	9 10 11	411
+2	REL	with mountains                	with trees                    	5 6	7 8	411
+2	SIMI	a bike                        	next to a blue motorcycle     	7 8	10 11 12 13 14	412
+3	BACK	A person                      	A girl                        	1 2	1 2	412
+2	SIMI	A white sheep                 	The skinny cows               	1 2 3	1 2 3	414
+2	REL	on a hillside                 	on the grass                  	4 5 6	6 7 8	414
+3	FORW	A close-up , distorted photo  	A close-up picture            	1 2 3 4 5	1 2 3	415
+1	SIMI	Two horses                    	A black and white bird        	1 2	1 2 3 4 5	416
+3	SIMI	in a field                    	with grass                    	4 5 6	11 12	416
+3	FORW	on the grass                  	on the ground                 	6 7 8	6 7 8	417
+2	SIMI	The skinny cows               	The white ducks               	1 2 3	1 2 3	417
+2	SIMI	Brown cow                     	Brown horse                   	1 2	1 2	418
+4	BACK	in a field                    	of grassy field               	6 7 8	6 7 8	418
+1	REL	looking up                    	smiling                       	4 5	5	419
+5	EQUI	Black and white photo         	a black and white photo       	1 2 3 4	1 2 3 4 5	420
+3	BACK	on boat                       	Large green boat              	3 4	1 2 3	421
+4	SIMI	A gray and white tabby cat    	Black and white cat           	1 2 3 4 5 6	1 2 3 4	422
+2	REL	on purple fabric              	on a brown tarp               	9 10 11	6 7 8 9	422
+5	EQUI	is sleeping                   	sleeping                      	7 8	5	422
+4	FORW	Two people                    	A person                      	1 2	1 2	423
+3	FORW	Blue couch and twin bed       	Blue couch                    	1 2 3 4 5	1 2	424
+4	FORW	in a living room              	in room                       	6 7 8 9	3 4	424
+4	SIMI	of a dairy cow                	The black and brown cow       	3 4 5 6	1 2 3 4 5	425
+4	SIMI	in a pasture                  	on the green grass            	10 11 12	8 9 10 11	425
+2	SIMI	A black and white sheep       	Little black and white calf   	1 2 3 4 5	1 2 3 4 5	427
+4	BACK	The dining room table         	Dining room with wooden dining table	1 2 3 4	1 2 3 4 5 6	428
+4	SIMI	in front of a building        	outside a decrepit building   	6 7 8 9 10	6 7 8 9	431
+4	FORW	of black people               	of people                     	3 4 5	3 4	431
+5	EQUI	is perched                    	perched                       	4 5	4	432
+4	BACK	The bald eagle                	Two bald eagles               	1 2 3	1 2 3	432
+4	BACK	A man                         	an African man                	1 2	1 2 3	434
+5	EQUI	on the back                   	onto the back                 	4 5 6	5 6 7	434
+3	SIMI	of an orange SUV              	of a very full yellow van     	7 8 9 10	8 9 10 11 12 13	434
+1	REL	on a concrete slab            	next to white wall            	4 5 6 7	4 5 6 7	436
+2	SIMI	Black bird                    	Small dog                     	1 2	1 2	436
+5	EQUI	is floating                   	floating                      	3 4	4	437
+2	SIMI	a brown horse                 	A tan and white dog           	9 10 11	1 2 3 4 5	439
+4	SIMI	A coal train                  	An old train                  	1 2 3	1 2 3	440
+2	REL	at the airport                	flies                         	7 8 9	4	441
+4	SIMI	A large jet                   	A passenger jet               	1 2 3	1 2 3	441
+4	OPPO	on the ground                 	through the air               	4 5 6	5 6 7	441
+4	SIMI	a pony                        	a brown horse                 	8 9	8 9 10	442
+3	BACK	Two horses                    	A group of horses             	1 2	1 2 3 4	443
+3	SIMI	in a pen                      	in a field                    	4 5 6	6 7 8	443
+3	BACK	Two people                    	A group of people             	1 2	1 2 3 4	444
+4	SIMI	at a table                    	around a table                	4 5 6	6 7 8	444
+1	REL	at a restaurant               	on a porch                    	7 8 9	9 10 11	444
+3	SIMI	a dirt bike                   	a motorbike                   	4 5 6	4 5	445
+1	REL	Table                         	Wooden cabinets               	1	1 2	448
+5	EQUI	at the center                 	in the center                 	6 7 8	7 8 9	449
+4	BACK	is                            	is placed                     	5	5 6	449
+3	SIMI	Two men                       	A woman                       	1 2	1 2	450
+2	REL	in a den or living room       	in a living chair             	6 7 8 9 10 11	4 5 6 7	451
+2	SIMI	Four Asian young people       	A girl                        	1 2 3 4	1 2	451
+4	BACK	A table                       	A wooden table                	1 2	1 2 3	452
+3	SIMI	with wine and dishes          	with candles , wine , and a purple plastic bowl	5 6 7 8	6 7 8 9 10 11 12 13 14 15	452
+2	REL	with trees                    	in a field                    	6 7	5 6 7	453
+2	REL	in front of ruins             	in front of building          	3 4 5 6	6 7 8 9	454
+2	SIMI	A moped                       	White bus                     	1 2	1 2	454
+5	EQUI	A black train                 	Black train                   	1 2 3	1 2	455
+5	EQUI	down the tracks               	on the tracks                 	5 6 7	4 5 6	455
+4	BACK	A person                      	A man                         	1 2	1 2	456
+3	SIMI	by a bicycle                  	a three wheeled bicycle       	7 8 9	8 9 10 11	456
+3	SIMI	A man                         	A child                       	1 2	1 2	457
+4	FORW	A small white dog             	The white dog                 	1 2 3 4	1 2 3	459
+5	EQUI	while lying                   	is laying                     	9 10	4 5	459
+4	SIMI	on a wooden deck              	on the wooden floor           	11 12 13 14	6 7 8 9	459
+3	FORW	A black and white cat and dog 	A black and white cat         	1 2 3 4 5 6 7	1 2 3 4 5	460
+1	REL	smiling                       	looking up                    	11	9 10	461
+2	SIMI	Two red buses                 	Train                         	1 2 3	1	462
+2	REL	with a large city             	with a large tree             	7 8 9 10	10 11 12 13	463
+3	SIMI	of the countryside            	in a grassy plain             	4 5 6	6 7 8 9	463
+2	REL	in a black bikini top and jeans	in a black hat                	3 4 5 6 7 8 9	3 4 5 6	464
+4	FORW	in front of a large fountain  	in front of a fountain        	4 5 6 7 8 9	6 7 8 9 10	466
+2	SIMI	a sheep                       	a cow                         	3 4	3 4	467
+4	FORW	of a gray cat                 	of a cat                      	3 4 5 6	3 4 5	468
+3	SIMI	Two sheep                     	Two rams                      	1 2	1 2	469
+4	SIMI	the tracks                    	on a track                    	6 7	5 6 7	471
+4	BACK	A black train                 	A mostly black train          	1 2 3	1 2 3 4	471
+4	FORW	Black and white cows          	Two black and white cows      	1 2 3 4	1 2 3 4 5	472
+4	SIMI	behind a fence                	behind a metal gate           	5 6 7	6 7 8 9	472
+4	BACK	A white animal                	A white dog                   	1 2 3	1 2 3	473
+4	FORW	through snow covered woods    	through a snow covered wood   	5 6 7 8	5 6 7 8 9	473
+4	FORW	A black , flat screen television	A flat screen TV              	1 2 3 4 5 6	1 2 3 4	474
+5	EQUI	The brown dog                 	A tan dog                     	1 2 3	1 2 3	475
+5	EQUI	his head                      	its head                      	6 7	11 12	475
+5	EQUI	on train tracks               	on the train tracks           	3 4 5	3 4 5 6	476
+4	FORW	on red patterned couch        	on couch                      	4 5 6 7	4 5	477
+4	FORW	Elderly woman around younger woman	Two women                     	1 2 11 12 13	1 2	477
+4	BACK	the window                    	at a window                   	10 11	5 6 7	478
+4	FORW	looking out                   	are looking                   	8 9	3 4	478
+3	SIMI	The black and brown cow       	The black and white bull      	1 2 3 4 5	1 2 3 4 5	479
+4	FORW	A white Apple computer        	An Apple computer             	1 2 3 4	1 2 3	480
+4	FORW	on the beige carpeting        	on the floor                  	6 7 8 9	5 6 7	480
+4	BACK	road                          	a busy road                   	7	5 6 7	481
+4	FORW	Red and white bus             	A bus                         	1 2 3 4	1 2	481
+5	EQUI	driving down                  	drives down                   	5 6	3 4	481
+5	EQUI	racing                        	driving quickly               	4	5 6	482
+4	SIMI	down track                    	on a track                    	5 6	7 8 9	482
+5	EQUI	Red sports car                	A red sports car              	1 2 3	1 2 3 4	482
+3	SIMI	white with red and gold stripes	with red , orange and yellow stripes	6 7 8 9 10 11	5 6 7 8 9 10 11	483
+4	SIMI	A Victory Liner bus           	A white tour bus              	1 2 3 4	1 2 3 4	483
+3	SIMI	next to a car                 	between two cars              	4 5 6 7	5 6 7	484
+4	BACK	A motorcycle                  	A BMW motorcycle              	1 2	1 2 3	484
+5	EQUI	at a station                  	in a station                  	6 7 8	5 6 7	486
+4	FORW	An Amtrak passenger train     	A passenger train             	1 2 3 4	1 2 3	486
+4	BACK	Two women                     	Two smiling women             	1 2	1 2 3	487
+4	FORW	with a baby                   	a baby                        	4 5 6	5 6	487
+5	EQUI	on on the tracks              	on the track                  	8 9 10 11	5 6 7	488
+4	FORW	The red train and the yellow train	Two trains                    	1 2 3 4 5 6 7	1 2	488
+4	BACK	of an ostrich                 	of an ostrich face            	5 6 7	4 5 6 7	489
+4	BACK	on the water                  	on the blue water             	4 5 6	4 5 6 7	490
+4	SIMI	in a top hat                  	with a top hat                	3 4 5 6	3 4 5 6	491
+4	BACK	Parked white double decker bus	A red and white double decker bus is parked	1 2 3 4 5	1 2 3 4 5 6 7 8 9	492
+5	EQUI	on a metal band               	on a metal bar                	5 6 7 8	5 6 7 8	493
+4	BACK	Two birds                     	Two small birds               	1 2	1 2 3	493
+5	EQUI	are perched                   	perched                       	3 4	4	493
+5	EQUI	at a dinner table             	at the dinner table           	10 11 12 13	10 11 12 13	494
+5	EQUI	An elderly Asian couple       	An older Asian couple         	1 2 3 4	1 2 3 4	494
+3	SIMI	with a yawning baby           	with a newborn baby           	6 7 8 9	6 7 8 9	494
+5	EQUI	A brown horse                 	Brown horse                   	1 2 3	1 2	495
+5	EQUI	in a field of green grass     	of grassy field               	5 6 7 8 9 10	6 7 8	495
+3	SIMI	going down                    	gliding                       	2 3	2	496
+4	BACK	the tracks                    	on tracks                     	4 5	3 4	496
+5	EQUI	at table                      	at a table                    	5 6	4 5 6	497
+4	FORW	Group of people               	four people                   	1 2 3	1 2	497
+4	SIMI	Yellow striped cat            	An orange tabby cat           	1 2 3	1 2 3 4	498
+4	FORW	on blue sofa                  	on the sofa                   	5 6 7	6 7 8	498
+2	REL	in front of a store           	on a street                   	5 6 7 8 9	5 6 7	499
+4	BACK	Two red buses                 	Red buses                     	1 2 3	1 2	500
+5	EQUI	parked up                     	are parked                    	4 5	3 4	500
+3	SIMI	with gardens in front of them 	beside a formal garden        	6 7 8 9 10 11	10 11 12 13	500
+4	BACK	A dog                         	A black and white dog         	1 2	1 2 3 4 5	501
+2	REL	the bottom of a door          	at a closed door              	4 5 6 7 8	7 8 9 10	501
+4	FORW	A silver and blue motorcycle  	A motorcycle                  	1 2 3 4 5	1 2	502
+2	SIMI	in front of silver train      	in front of a silver rail car 	3 4 5 6 7	3 4 5 6 7 8 9	503
+4	FORW	A black and white horned cow  	a black and white cow         	1 2 3 4 5 6	1 2 3 4 5	504
+4	FORW	a white show horse            	a white horse                 	14 15 16 17	8 9 10	506
+3	FORW	wearing black formal wear & a black top hat	with a top hat                	3 4 5 6 7 8 9 10 11	3 4 5 6	506
+5	EQUI	from a tree                   	from the tree                 	12 13 14	10 11 12	507
+4	FORW	A small brown birds           	A small bird                  	1 2 3 4	1 2 3	507
+4	SIMI	from a bird feeder            	on the bird feeder            	7 8 9 10	5 6 7 8	507
+2	REL	in riding gear                	is riding                     	3 4 5	7 8	508
+4	FORW	atop a brown horse            	a brown horse                 	7 8 9 10	9 10 11	508
+4	FORW	in a grassy field             	in the field                  	4 5 6 7	4 5 6	509
+4	SIMI	near a stand                  	in front of a line            	8 9 10	7 8 9 10 11	509
+4	SIMI	a gray jacket                 	in a pet jacket               	5 6 7	4 5 6 7	510
+2	REL	is laughing                   	looking                       	4 5	7	511
+5	EQUI	A black-and-white photo       	A black and white photo       	1 2 3	1 2 3 4 5	512
+2	REL	in lawn chairs                	in a cafe                     	4 5 6	5 6 7	513
+5	EQUI	lying down                    	laying down                   	6 7	6 7	514
+5	EQUI	into a station                	in the station                	5 6 7	5 6 7	516
+5	EQUI	looking                       	is looking                    	4	6 7	518
+2	SIMI	A black dog                   	The black and white bull      	1 2 3	1 2 3 4 5	518
+2	SIMI	A yellow and blue airplane    	Nine red and white aircraft   	1 2 3 4 5	1 2 3 4 5	521
+2	REL	in the sky                    	in formation trailing smoke   	8 9 10	7 8 9 10	521
+5	EQUI	is flying                     	flying                        	6 7	6	521
+3	SIMI	Two guys                      	Two women                     	1 2	1 2	522
+4	FORW	A race horse                  	A horse                       	1 2 3	1 2	523
+4	BACK	from a passenger vehicle      	from a car                    	8 9 10 11	8 9 10	524
+2	SIMI	Three bottles                 	Old green bottle              	1 2	1 2 3	526
+2	SIMI	Two white dogs                	The birds                     	1 2 3	1 2	527
+4	FORW	in a large field              	in a field                    	4 5 6 7	3 4 5	528
+2	SIMI	Two cows                      	Horse                         	1 2	1	528
+5	EQUI	stands                        	is standing                   	3	3 4	529
+4	BACK	A black and white cow         	Two black and white cows      	1 2 3 4 5	1 2 3 4 5	531
+5	EQUI	in a pen                      	in an enclosure               	6 7 8	4 5 6	532
+3	SIMI	several sheared sheep         	Three white sheep             	3 4 5	1 2 3	532
+2	SIMI	Ten sheep                     	A cat                         	1 2	1 2	533
+2	SIMI	A mostly black train          	A car                         	1 2 3 4	1 2	535
+3	SIMI	on a track                    	in front of train tracks      	5 6 7	4 5 6 7 8	535
+3	BACK	A room                        	A home office                 	1 2	1 2 3	539
+3	SIMI	with several computers and pictures	with three computer monitors and other equipment	3 4 5 6 7	4 5 6 7 8 9 10	539
+2	SIMI	of a cow                      	A black and white dog         	6 7 8	1 2 3 4 5	540
+2	SIMI	on the cement                 	on the sidewalk               	6 7 8	6 7 8	541
+1	SIMI	A white airplane              	A blue motorcycle             	1 2 3	1 2 3	541
+2	SIMI	Three cows                    	Several sheep                 	1 2	1 2	542
+5	EQUI	in a field                    	in the field                  	4 5 6	4 5 6	542
+4	SIMI	Black domestic cat            	A gray cat                    	1 2 3	1 2 3	543
+4	SIMI	on brown table                	on a dining table             	5 6 7	5 6 7 8	543
+4	SIMI	Two black and white dogs      	A dog next to another standing dog	1 2 3 4 5	1 2 11 12 13 14 15	545
+5	EQUI	of stairs                     	of a staircase                	9 10	8 9 10	545
+3	SIMI	A multi-colored train         	A mostly black train          	1 2 3	1 2 3 4	546
+2	REL	in the ocean                  	at the pier                   	7 8 9	9 10 11	547
+2	REL	is jumping                    	riding                        	3 4	3	549
+4	BACK	a bicycle                     	a dirt bike                   	5 6	4 5 6	549
+5	EQUI	A close-up                    	Close up                      	1 2	1 2	550
+4	BACK	the window                    	of a window                   	9 10	5 6 7	551
+4	FORW	Two cats                      	A cat                         	1 2	1 2	551
+4	SIMI	a small bicycle               	on a bike                     	4 5 6	7 8 9	552
+3	SIMI	riding                        	is doing a wheelie            	3	3 4 5 6	552
+2	REL	in the kitchen                	at a table                    	3 4 5	6 7 8	554
+3	SIMI	Two women                     	Three men                     	1 2	1 2	554
+5	EQUI	sitting                       	are sitting                   	5	3 4	555
+4	FORW	A group of people             	Four people                   	1 2 3 4	1 2	555
+2	REL	around a table                	around a living room          	6 7 8	5 6 7 8	555
+4	BACK	containing food               	with snacks                 	9 10	9 10 11	555
+4	BACK	a white horse                 	with a white horse            	4 5 6	3 4 5 6	556
+4	BACK	at a table                    	at a long table               	6 7 8	7 8 9 10	557
+2	BACK	A man and woman               	Four women and two men        	1 2 3 4	1 2 3 4 5	557
+4	SIMI	are standing                  	is standing                   	4 5	7 8	558
+4	OPPO	of the front end              	of the rear                   	4 5 6 7	3 4 5	559
+2	SIMI	of a purple and white motor cycle	of a red sports car           	8 9 10 11 12 13 14	6 7 8 9 10	559
+5	EQUI	A close up                    	Close up                      	1 2 3	1 2	559
+4	FORW	in front of yellow corvette   	next to a yellow sports car   	3 4 5 6 7	5 6 7 8 9 10	562
+5	EQUI	standing                      	is standing                   	2	3 4	562
+5	EQUI	Man                           	A man                         	1	1 2	562
+5	EQUI	at a train station            	at the train station          	4 5 6 7	4 5 6 7	563
+5	EQUI	A train                       	The train                     	1 2	1 2	563
+4	BACK	Three young women             	Three dark haired young women 	1 2 3	1 2 3 4 5	564
+4	FORW	Two white horses              	Two horses                    	1 2 3	1 2	565
+2	REL	over a fence                  	in a pen                      	5 6 7	4 5 6	565
+4	FORW	in a grassy field             	in a field                    	7 8 9 10	8 9 10	566
+4	BACK	A black and white cow         	A black and white horned cow  	1 2 3 4 5	1 2 3 4 5 6	566
+4	FORW	a black and white photo       	A black and white image       	1 2 3 4 5	1 2 3 4 5	567
+5	EQUI	lying down                    	laying                        	9 10	9	567
+4	SIMI	on a leather chair            	on an office chair            	7 8 9 10	5 6 7 8	568
+4	SIMI	A orange and white cat        	A ginger cat                  	1 2 3 4 5	1 2 3	568
+5	EQUI	is wearing                    	wearing                       	7 8	3	569
+4	FORW	A young woman                 	A woman                       	1 2 3	1 2	569
+4	BACK	with a bracelet a bikini top and jeans	jeans , a dark bikini top , and a bracelet	4 5 6 9 10 11 12 13	4 5 6 7 8 9 10 11 12 13	569
+4	BACK	a small TV                    	very close to a small television	10 11 12	7 8 9 10 11 12	570
+5	EQUI	crossing                      	are crossing                  	3	3 4	572
+4	BACK	Three bicyclists              	The bicyclists                	1 2	1 2	572
+4	BACK	a brown horse                 	on a brown horse              	4 5 6	6 7 8 9	573
+4	BACK	with the stuff animals        	with many stuffed animals     	6 7 8 9	7 8 9 10	574
+5	EQUI	The two dogs                  	Two dogs                      	1 2 3	1 2	574
+4	SIMI	on the tracks                 	down the track                	5 6 7	5 6 7	575
+4	BACK	Someone                       	A man                         	1	1 2	576
+4	FORW	on a snowy mountain           	on a mountain                 	3 4 5 6	4 5 6	576
+4	FORW	at a port                     	at a coast                    	5 6 7	5 6 7	577
+5	EQUI	A cruise liner                	A cruise ship                 	1 2 3	1 2 3	577
+2	REL	an incline                    	over rocks                    	9 10	9 10	578
+4	FORW	on a mountain bike            	a mountain bike               	3 4 5 6	6 7 8	578
+3	SIMI	going down                    	riding                        	7 8	5	578
+3	SIMI	on a dirt road                	of gravel road                	3 4 5 6	5 6 7	579
+4	SIMI	taking on                     	is picking up                 	5 6	6 7 8	580
+4	BACK	passengers                    	more passengers               	7	9 10	580
+5	EQUI	A black and white photo       	This is a black and white picture	1 2 3 4 5	1 2 3 4 5 6 7	581
+4	SIMI	of a glass bottle of Coca Cola	of a short squat Coca-cola bottle	6 7 8 9 10 11 12	8 9 10 11 12 13	581
+2	REL	in a market square            	in a city street              	5 6 7 8	4 5 6 7	582
+5	EQUI	on motorcycles                	on motorbikes                 	3 4	2 3	582
+4	SIMI	with two men                  	with two other people         	5 6 7	6 7 8 9	583
+4	FORW	A smiling woman               	a woman                       	1 2 3	1 2	584
+4	FORW	Two boys                      	Two people                    	1 2	1 2	585
+4	SIMI	one                           	as one                        	11	10 11	585
+5	EQUI	one another                   	each other                    	5 6	5 6	585
+4	FORW	a small shopping cart         	a shopping cart               	3 4 5 6	6 7 8	586
+4	SIMI	pushing                       	is steering                   	2	4 5	586
+4	SIMI	Parrot                        	A white bird                  	1	1 2 3	586
+4	SIMI	towards water feeder          	near bird feeders             	4 5 6	4 5 6	587
+4	FORW	while sitting                 	sitting                       	7 8	3	589
+5	EQUI	A women                       	a woman                       	1 2	1 2	589
+4	SIMI	into the camera               	at the camera                 	8 9 10	10 11 12	590
+3	BACK	A gray cat                    	A gray , black , and white cat	1 2 3	1 2 3 4 5 6 7 8	590
+4	FORW	on a white horse              	a white horse                 	3 4 5 6	4 5 6	591
+5	EQUI	A guy                         	A man                         	1 2	1 2	591
+5	EQUI	Black and white cow           	a black and white cow         	1 2 3 4	1 2 3 4 5	592
+2	REL	of snow                       	in the field                  	8 9	7 8 9	592
+3	FORW	Home office space             	An office                     	1 2 3	1 2	593
+2	SIMI	with bright green walls and artwork	with multiple desks and green walls	4 5 6 7 8 9	3 4 5 6 7 8	593
+4	FORW	Two young people              	Two people                    	1 2 3	1 2	594
+3	SIMI	with one person               	as one                        	16 17 18	10 11	594
+5	EQUI	are sitting                   	sit                           	4 5	3	594
+5	EQUI	Sail boat                     	Sailboat                      	1 2	1	595
+2	REL	with yellow canoes            	to canoe                      	7 8 9	4 5	596
+5	EQUI	perched                       	are perched                   	4	3 4	597
+4	FORW	Two bald eagles               	Two eagles                    	1 2 3	1 2	597
+3	SIMI	A horse rider                 	A woman                       	1 2 3	1 2	598
+2	REL	is riding                     	leading                       	4 5	3	598
+4	FORW	A long train                  	A train                       	1 2 3	1 2	599
+5	EQUI	on the tarmac                 	on a runway                   	7 8 9	6 7 8	600
+5	EQUI	A silver AreoMexico Jet Liner 	An aeromexico silver plane    	1 2 3 4 5	1 2 3 4	600
+4	SIMI	a small white sail boat       	in a small sailboat           	4 5 6 7 8	3 4 5 6	601
+5	EQUI	Two people                    	Couple                        	1 2	1	601
+4	SIMI	A dining table                	A wooden table                	1 2 3	1 2 3	602
+4	SIMI	with candles , wine , and a teapot	with candles , wine , and a purple plastic bowl	4 5 6 7 8 9 10 11	6 7 8 9 10 11 12 13 14 15	602
+3	SIMI	in the still water            	on a clear lake               	9 10 11 12	7 8 9 10	603
+3	SIMI	a cloak                       	a brown cloth                 	8 9	7 8 9	604
+5	EQUI	The man                       	Man                           	1 2	1	604
+4	BACK	a stick                       	a wooden stick                	12 13	12 13 14	604
+4	BACK	wearing                       	while wearing                 	7	5 6	604
+5	EQUI	is sitting                    	sitting                       	3 4	2	604
+4	FORW	going down                    	moving                        	3 4	3	605
+4	SIMI	a creek                       	in a river                    	5 6	4 5 6	605
+4	FORW	Small boat                    	a boat                        	1 2	1 2	605
+4	SIMI	A black and white photo       	A black and white scene       	1 2 3 4 5	1 2 3 4 5	606
+3	SIMI	of a living room              	of a well furnished room      	6 7 8 9	6 7 8 9 10	606
+4	SIMI	on a cream sofa               	on a white sofa               	6 7 8 9	5 6 7 8	607
+4	SIMI	of a cat                      	A siamese cat                 	3 4 5	1 2 3	607
+4	SIMI	next to a green dumpster      	beside a large waste receptacle	9 10 11 12 13	8 9 10 11 12	608
+4	BACK	A pug dog                     	A bulldog                     	1 2 3	1 2	608
+4	BACK	on a leather chair            	in a black leather chair      	7 8 9 10	10 11 12 13 14	609
+4	BACK	Black and white cow           	A black and white horned cow  	1 2 3 4	1 2 3 4 5 6	610
+4	FORW	in grassy field               	in a field                    	6 7 8	8 9 10	610
+4	SIMI	are being rounded up          	are chased                    	3 4 5 6	3 4	611
+4	FORW	A black train                 	A train                       	1 2 3	1 2	612
+4	SIMI	A black dog                   	A long-haired dog             	1 2 3	1 2 3	613
+4	BACK	in a grassy area              	in a grassy wooded area       	5 6 7 8	5 6 7 8 9	613
+4	FORW	A blue motorcycle             	A blue moped                  	1 2 3	1 2 3	614
+5	EQUI	is parked                     	parked                        	4 5	4	614
+4	FORW	on a city street              	a street                      	6 7 8 9	8 9	615
+2	REL	An empty office cubicle       	An empty office chair in a cubicle	1 2 3 4	1 2 3 4 5 6 7	616
+5	EQUI	is holding                    	holding                       	8 9	4	617
+4	BACK	A young man                   	Young redheaded man           	1 2 3	1 2 3	617
+4	BACK	A white plane                 	A white Swiss airplane        	1 2 3	1 2 3 4	618
+4	FORW	on the runway                 	the runway                    	4 5 6	6 7	618
+4	SIMI	on the median                 	on a patch                    	4 5 6	4 5 6	619
+3	SIMI	by the road                   	between two roadways          	7 8 9	9 10 11	619
+4	FORW	Several cows                  	Five cows                     	1 2	1 2	619
+4	BACK	street                        	on a city street              	7	5 6 7 8	620
+5	EQUI	at a clothing store           	in a clothing store           	4 5 6 7	3 4 5 6	621
+4	FORW	next to a brown cow           	next to a cow                 	4 5 6 7 8	6 7 8 9	622
+4	BACK	the back                      	of the back                   	5 6	6 7 8	623
+4	SIMI	of a truck                    	of a van                      	7 8 9	9 10 11	623
+5	EQUI	peaks out                     	is peeking out                	3 4	3 4 5	623
+4	BACK	The black and white cat       	A gray , black , and white cat	1 2 3 4 5	1 2 3 4 5 6 7 8	624
+4	BACK	in a sink                     	in bathroom sink              	6 7 8	6 7 8	625
+4	SIMI	A small white cat             	Grey and white cat            	1 2 3 4	1 2 3 4	625
+4	SIMI	a sweater                     	a jacket                      	6 7	6 7	626
+4	BACK	The small dog                 	A small white dog             	1 2 3	1 2 3 4	626
+5	EQUI	looking up                    	looks up                      	9 10	8 9	626
+4	SIMI	near water and a big ship     	with water and a barge        	9 10 11 12 13 14	4 5 6 7 8	627
+4	OPPO	at a saloon                   	outside the saloon            	5 6 7	5 6 7	628
+4	FORW	around a restaurant dining table	at a restaurant table         	5 6 7 8 9	6 7 8 9	629
+4	BACK	in a station                  	inside an indoor station      	2 3 4	2 3 4 5	630
+4	BACK	a street                      	on a city street              	7 8	5 6 7 8	631
+4	FORW	Red double decker bus         	A double decker bus           	1 2 3 4	1 2 3 4	631
+4	BACK	A red , double-decker bus     	of a red double decker bus    	1 2 3 4 5	5 6 7 8 9 10	633
+5	EQUI	An elderly man                	Older gentleman               	1 2 3	1 2	634
+4	FORW	on his laptop                 	with laptop                   	5 6 7	6 7	634
+3	SIMI	in a mountainous area         	on a hill                     	4 5 6 7	5 6 7	635
+4	BACK	being petted                  	being held and petted         	4 5	4 5 6 7	636
+3	SIMI	on a dirt track               	over dirt hill                	3 4 5 6	5 6 7	637
+2	REL	two motorbikes                	Two dirt bikers               	1 2	1 2 3	637
+2	REL	of wooden items               	of scrap wood                 	4 5 6	4 5 6	638
+4	SIMI	A woman                       	A girl                        	1 2	1 2	639
+4	SIMI	A black and white horned cow  	A large black and white cow   	1 2 3 4 5 6	1 2 3 4 5 6	640
+3	SIMI	A little bird                 	A duck                        	1 2 3	1 2	642
+3	FORW	Old blue and white train      	A blue train                  	1 2 3 4 5	1 2 3	643
+5	EQUI	by the water                  	in the water                  	5 6 7	5 6 7	644
+2	REL	are standing                  	are swimming                  	3 4	3 4	644
+4	SIMI	Two ducks                     	The birds                     	1 2	1 2	644
+4	FORW	on the railroad tracks        	on the tracks                 	6 7 8 9	6 7 8	646
+4	SIMI	The brown train               	The white train               	1 2 3	1 2 3	646
+3	SIMI	A tiny blonde child           	A young blonde girl           	1 2 3 4	1 2 3 4	647
+2	SIMI	A black and white cow         	A black and white cat         	1 2 3 4 5	1 2 3 4 5	648
+4	FORW	across two men                	Two men                       	4 5 6	1 2	650
+3	SIMI	on a grassy hill              	over dirt hill                	4 5 6 7	5 6 7	651
+3	SIMI	Large black and white cat     	A small white cat             	1 2 3 4 5	1 2 3 4	653
+2	REL	bike helmets                  	with their bicycles           	4 5	4 5 6	656
+3	SIMI	A women                       	A man and boy                 	1 2	1 2 3 4	657
+3	FORW	A young girl                  	A women                       	1 2 3	1 2	658
+2	SIMI	Two cows                      	A brown horse                 	1 2	1 2 3	659
+2	REL	is standing                   	walks                         	3 4	3	660
+4	FORW	on a city street              	a street                      	6 7 8 9	8 9	661
+4	BACK	A double decker bus           	A red double decker bus       	1 2 3 4	1 2 3 4 5	661
+4	BACK	drives                        	driving down                  	5	6 7	661
+5	EQUI	at a construction site        	of a construction site        	8 9 10 11	8 9 10 11	662
+3	BACK	with a hat                    	with a cap and jacket         	4 5 6	3 4 5 6 7	663
+4	FORW	A long-haired man             	A man                         	1 2 3	1 2	663
+3	FORW	between two large , half-empty Coke bottles	between two large bottles     	8 9 10 11 12 13 14	9 10 11 12	663
+3	SIMI	in a shop                     	in a cafe                     	6 7 8	5 6 7	664
+5	EQUI	A man                         	Man                           	1 2	1	665
+4	FORW	a video game                  	game                          	4 5 6	3	665
+5	EQUI	of a stop sign                	of the stop sign              	3 4 5 6	3 4 5 6	666
+1	REL	on it                         	is adorned                    	10 11	7 8	666
+5	EQUI	with a ferris wheel behind it 	in front of a ferris wheel    	10 11 12 13 14 15	5 6 7 8 9 10	667
+4	FORW	a brown double decker tour bus	A double-decker bus           	1 2 3 4 5 6	1 2 3	667
+4	SIMI	in a black uniform            	in a tux                      	3 4 5 6	3 4 5	668
+5	EQUI	on a dirt course              	on a dirt track               	4 5 6 7	3 4 5 6	669
+4	SIMI	A close-up view               	Close up                      	1 2 3	1 2	670
+4	FORW	of a blue old-fashioned car   	on a blue car                 	7 8 9 10 11	6 7 8 9	670
+3	FORW	A man and women               	a woman                       	1 2 3 4	1 2	672
+2	REL	with a dining table           	with a dining room            	4 5 6 7	6 7 8 9	673
+4	BACK	A living room                 	of a living room              	1 2 3	2 3 4 5	673
+5	EQUI	with hood                     	with its hood                 	5 6	8 9 10	674
+4	BACK	Red double decker bus         	An old Red London double decker bus	1 2 3 4	1 2 3 4 5 6 7	674
+5	EQUI	are sheering                  	shearing                      	3 4	3	675
+4	SIMI	inside of a wooden building   	in a wooden stall             	8 9 10 11 12	7 8 9 10	675
+5	EQUI	into the station              	into a station                	5 6 7	5 6 7	676
+3	SIMI	A subway train                	A white train                 	1 2 3	1 2 3	676
+3	FORW	with glasses and two plastic bottles	with two water bottles        	3 4 5 6 7 8	4 5 6 7	677
+5	EQUI	in a body of water            	on the water                  	6 7 8 9 10	7 8 9	678
+3	SIMI	A goose                       	A black swan                  	1 2	1 2 3	678
+5	EQUI	Motorcycle                    	A motorcycle                  	1	1 2	679
+5	EQUI	Boy                           	The boy                       	1	1 2	680
+4	BACK	with dog                      	with a puppy                  	5 6	8 9 10	680
+5	EQUI	laying                        	is lying                      	2	3 4	680
+2	REL	on the ground                 	parked                        	4 5 6	4	681
+5	EQUI	A large jet                   	A large airplane              	1 2 3	1 2 3	681
+5	EQUI	of Harp lager                 	of Harp beer                  	3 4 5	3 4 5	682
+4	BACK	on the floor                  	on a wooden floor             	8 9 10	8 9 10 11	682
+4	BACK	of a television screen        	The wall-mounted flat-screen TV	2 3 4 5	1 2 3 4	683
+5	EQUI	showing                       	is showing                    	6	5 6	683
+4	BACK	White cat                     	Grey and white cat            	1 2	1 2 3 4	684
+4	SIMI	inside of a sink              	in bathroom sink              	4 5 6 7	6 7 8	684
+4	BACK	Two people                    	Two women                     	1 2	1 2	685
+4	SIMI	a small boat                  	in a sailboat                 	5 6 7	3 4 5	685
+5	EQUI	sit                           	are sitting                   	3	3 4	686
+4	FORW	Two young women               	Two women                     	1 2 3	1 2	687
+5	EQUI	are seated                    	sitting                       	3 4	5	688
+4	BACK	Six people                    	A group of people             	1 2	1 2 3 4	688
+5	EQUI	with its two remote controls  	with two remote controls      	7 8 9 10 11	6 7 8 9	689
+5	EQUI	A Philips flat-screen TV      	A Phillips flat screen TV     	1 2 3 4	1 2 3 4 5	689
+3	BACK	at a construction site        	in a room being constructed   	8 9 10 11	5 6 7 8 9	690
+2	REL	on a blanket                  	on a cat bed                  	7 8 9	7 8 9 10	691
+3	BACK	A plane                       	A small turboprop plane       	1 2	1 2 3 4	692
+3	SIMI	being readied                 	being loaded                  	3 4	5 6	692
+4	BACK	in a field                    	in a green field              	6 7 8	4 5 6 7	693
+4	FORW	A dark brown horse            	A brown horse                 	1 2 3 4	1 2 3	693
+5	EQUI	on a floor                    	on floor                      	5 6 7	5 6	694
+4	SIMI	A white bicycle               	Old style bicycle             	1 2 3	1 2 3	694
+4	FORW	on a concrete slab            	on concrete                   	4 5 6 7	4 5	695
+4	SIMI	Dark colored dog              	A gray dog                    	1 2 3	1 2 3	696
+4	SIMI	one white                     	the other white               	7 8	7 8 9	697
+4	SIMI	one brown                     	one ginger                    	4 5	4 5	697
+4	BACK	a baby                        	with newborn baby             	4 5	2 3 4	698
+5	EQUI	A couple                      	Couple                        	1 2	1	698
+5	EQUI	Close up                      	A close-up                    	1 2	1 2	699
+4	FORW	of a white sheep              	of a sheep                    	3 4 5 6	3 4 5	699
+4	SIMI	A young boy                   	A small boy                   	1 2 3	1 2 3	700
+5	EQUI	on the railroad tracks        	on the train tracks           	4 5 6 7	3 4 5 6	701
+4	SIMI	Large silver locomotive engine	of a silver train engine      	1 2 3 4	3 4 5 6 7	702
+4	BACK	of a semi truck               	of white semi truck           	7 8 9 10	6 7 8 9	703
+4	SIMI	A small red car               	Red sports car                	1 2 3 4	1 2 3	703
+5	EQUI	A bicyclist                   	A cyclist                     	1 2	1 2	704
+4	BACK	in black                      	in black and white lira       	3 4	3 4 5 6 7	704
+4	FORW	in a messy room               	A room                        	3 4 5 6	1 2	705
+3	SIMI	A television with several bookcases	with a television , stereo and bookshelf	1 2 7 8 9	3 4 5 6 7 8 9	705
+4	BACK	of a black horse              	of a black and white horse    	7 8 9 10	10 11 12 13 14 15	706
+2	REL	on the other side of a fence  	at the fence                  	11 12 13 14 15 16 17	16 17 18	706
+4	FORW	A gray house                  	House                         	1 2 3	1	707
+4	SIMI	of cows                       	of cattle                     	6 7	6 7	708
+2	REL	in their stalls               	at a trough                   	8 9 10	8 9 10	708
+4	BACK	Double decker bus             	a brown double decker tour bus	1 2 3	1 2 3 4 5 6	709
+5	EQUI	in background                 	behind it                     	10 11	14 15	709
+4	FORW	with the London Eye ferris wheel	with a ferris wheel           	4 5 6 7 8 9	10 11 12 13	709
+4	BACK	A small plane                 	A small white plane           	1 2 3	1 2 3 4	710
+4	SIMI	at an airfield                	in an airport                 	5 6 7	6 7 8	710
+5	EQUI	with a cloudy sky overhead    	on a cloudy day               	8 9 10 11 12	9 10 11 12	710
+4	FORW	A Macintosh computer          	a computer                    	1 2 3	1 2	711
+5	EQUI	A black and white photo       	Black and white photo         	1 2 3 4 5	1 2 3 4	712
+4	SIMI	of a love seat                	of couch                      	6 7 8 9	5 6	712
+5	EQUI	Crowd                         	A group                       	1	1 2	713
+4	FORW	of people                     	of four people                	2 3	3 4 5	713
+4	BACK	while a man                   	next to a helmeted man        	7 8 9	4 5 6 7 8	714
+3	BACK	beside a road and a lake      	on the edge of a road with a lake and a mountain in the background	3 4 5 6 7 8	4 5 6 7 8 9 10 11 12 13 14 15 16 17 18	715
+4	FORW	having a meal                 	eat                           	5 6 7	5	716
+5	EQUI	A close-up view               	A close-up                    	1 2 3	1 2	717
+4	BACK	of a horse                    	of a brown horse              	4 5 6	3 4 5 6	717
+5	EQUI	at a train station            	in a station                  	4 5 6 7	3 4 5	718
+2	REL	in an Italian restaurant      	with salad served             	9 10 11 12	10 11 12	719
+4	FORW	of people                     	of six people                 	3 4	3 4 5	719
+4	FORW	Older woman                   	a woman                       	1 2	1 2	720
+4	FORW	newborn baby                  	a baby                        	4 5	8 9	720
+4	SIMI	A blue and orange airplane    	A red and blue plane          	1 2 3 4 5	1 2 3 4 5	721
+4	BACK	with its landing gear         	with its landing gears        	7 8 9 10	7 8 9 10	721
+2	SIMI	A white bird                  	A white cat                   	1 2 3	1 2 3	722
+4	SIMI	A laptop computer and a computer monitor	A laptop and a PC             	1 2 3 4 5 6 7	1 2 3 4 5	724
+4	SIMI	on a leather couch            	on a black couch              	5 6 7 8	4 5 6 7	725
+2	SIMI	Long-haired black dog         	A blue jay                    	1 2 3	1 2 3	727
+5	EQUI	in grassy field               	in a grassy field             	5 6 7	5 6 7 8	727
+3	SIMI	Two women                     	Two men                       	1 2	1 2	728
+3	BACK	Two animals                   	Two eagles                    	1 2	1 2	730
+1	REL	on a rock                     	on a long branch              	4 5 6	4 5 6 7	730
+4	SIMI	of a silver train engine      	of a black train engine       	3 4 5 6 7	3 4 5 6 7	731
+3	SIMI	in hay                        	on the grass                  	7 8	9 10 11	733
+2	SIMI	A black and white cow         	a black and white sheep       	1 2 3 4 5	3 4 5 6 7	733
+4	BACK	The cat                       	Grey and white cat            	1 2	1 2 3 4	734
+2	SIMI	A black and white dog         	A gray , black , and white cat	1 2 3 4 5	1 2 3 4 5 6 7 8	735
+4	BACK	sitting                       	while sitting                 	3	8 9	736
+5	EQUI	A women                       	A woman                       	1 2	1 2	736
+2	SIMI	A black and white cow         	A black and white dog         	1 2 3 4 5	1 2 3 4 5	737
+4	FORW	Two cows                      	The cow                       	1 2	1 2	738
+2	REL	standing                      	is grazing                    	3	3 4	738
+3	SIMI	Depressed woman               	Older woman                   	1 2	1 2	739
+2	SIMI	a white horse                 	A domestic animal             	4 5 6	1 2 3	741
+2	SIMI	A black and white cat         	A dog                         	1 2 3 4 5	1 2	742
+4	SIMI	on a brown chair              	on a yellow chair             	8 9 10 11	4 5 6 7	742
+5	EQUI	are smiling                   	smiling                       	6 7	10	743
+4	SIMI	of a sheep                    	of a lamb                     	3 4 5	3 4 5	746
+5	EQUI	in the grass                  	on grass                      	6 7 8	12 13	746
+4	FORW	Three cows                    	Two cows                      	1 2	1 2	747
+3	SIMI	on a bench                    	on a sofa                     	4 5 6	9 10 11	748
+4	BACK	sitting                       	while sitting                 	3	7 8	748
+3	SIMI	A man                         	A women                       	1 2	1 2	748
+2	SIMI	on the ground                 	on the branch                 	6 7 8	5 6 7	749
+4	FORW	The black bird                	The bird                      	1 2 3	1 2	749
+4	SIMI	from a tree                   	in a tree                     	12 13 14	8 9 10	750
+3	SIMI	A small brown birds           	A small red and gray bird     	1 2 3 4	1 2 3 4 5 6	750

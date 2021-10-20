@@ -1,0 +1,519 @@
+5	EQUI	for the Philippines           	to Philippines                	6 7 8	5 6	1
+4	BACK	Conservatives                 	Conservative opposition       	1	1 2	2
+4	FORW	to Australia election victory 	wins Australian election      	3 4 5 6	3 4 5	2
+2	SIMI	draws wide condemnation , criticism	angers                        	5 6 7 8 9	9	3
+4	BACK	's shrine visit               	's war shrine visit           	2 3 4	5 6 7 8	3
+4	BACK	Abe                           	Japanese PM Shinzo Abe        	1	1 2 3 4	3
+5	EQUI	revokes                       	to repeal                     	2	2 3	4
+4	BACK	anti-protest law              	anti-protest laws             	3 4	4 5	4
+4	FORW	from Mediterranean Sea        	in Mediterranean              	6 7 8	6 7	5
+4	BACK	missiles                      	ballistic missiles            	4	3 4	5
+4	FORW	new police station            	Police Station                	4 5 6	4 5	6
+4	FORW	in east Ukraine               	in Ukraine                    	7 8 9	6 7	6
+3	REL	in India                      	Indian villagers              	6 7	5 6	7
+3	REL	Cyclone                       	Cyclone Phailin evacuation    	1	1 2 3	7
+1	REL	of destruction                	alive                         	4 5	7	7
+4	BACK	among 9 killed                	among dead                    	3 4 5	2 3	8
+4	BACK	4 foreigners                  	Foreigners                    	1 2	1	8
+3	REL	Palestinian captives          	Palestinian prisoner release  	5 6	3 4 5	10
+3	REL	Israeli calls                 	Israel                        	1 2	1	10
+2	REL	instead of releasing them     	Palestinian prisoner release  	7 8 9 10	3 4 5	10
+3	REL	DPRK leader                   	North Korea                   	1 2	1 2	11
+4	FORW	with S.Korea                  	South Korea                   	7 8	7 8	11
+4	FORW	's oldest person , and oldest man	's Oldest Man                 	2 3 4 5 6 7 8	4 5 6	12
+4	FORW	expert nuclear talks          	talks                         	7 8 9	9	13
+3	SIMI	on Dec. 30                    	next week                     	10 11 12	10 11	13
+4	BACK	World powers and Iran         	Iran nuclear experts , world powers	1 2 3 4	1 2 3 4 5 6	13
+3	SIMI	February 25                   	April 21                      	9 10	9 10	15
+1	SIMI	on Taiwan fisher attack       	in Kenya mall attack          	4 5 6 7	7 8 9 10	16
+5	EQUI	Israel 's ex-PM Ariel Sharon  	Former Israeli Prime Minister Sharon	1 2 3 4 5	1 2 3 4 5	18
+1	REL	Peace talks                   	killed                        	1 2	4	19
+1	REL	Israel official               	in Israeli raid               	9 10	5 6 7	19
+3	SIMI	with Palestinians             	Palestinian girl              	3 4	2 3	19
+5	EQUI	Ronaldo 's hat trick          	Ronaldo hat-trick             	1 2 3 4	1 2	20
+4	SIMI	After China Earthquake        	in China earthquakes          	5 6 7	5 6 7	21
+4	BACK	22 Dead                       	89 dead                       	3 4	3 4	21
+4	FORW	Canadian freight train blast death toll	train blast situation         	1 2 3 4 5 6	6 7 8	22
+3	BACK	Five children                 	Nine children                 	1 2	1 2	23
+4	SIMI	with Monaco win               	despite Monaco win            	4 5 6	7 8 9	24
+4	SIMI	Suicide truck bomber          	Suicide car bomb              	1 2 3	1 2 3	25
+4	OPPO	off Mexico                    	on Mexico                     	5 6	8 9	26
+4	FORW	heavy rain                    	rain                          	11 12	7	26
+4	SIMI	military airports             	in military airport           	4 5	8 9 10	27
+4	SIMI	Syrian rebels                 	by rebels                     	1 2	6 7	27
+4	SIMI	6.6-magnitude quake           	Magnitude-5.1 quake           	1 2	1 2	28
+4	SIMI	to joint industrial zone      	to Key Industrial Zone        	5 6 7 8	5 6 7 8	30
+5	EQUI	over Bhutto murder            	In Bhutto Death               	5 6 7	5 6 7	31
+2	REL	in streets                    	in Kiev                       	4 5	6 7	32
+5	EQUI	Ukrainian protesters          	Ukraine protesters            	1 2	1 2	32
+1	REL	for anti-government rally     	topple                        	6 7 8	3	32
+4	BACK	's win                        	Landslide Win                 	5 6	7 8	33
+4	SIMI	after India buildings collapse	from Bangladesh building collapse	4 5 6 7	3 4 5 6	34
+4	BACK	in hospital                   	in hospital bed               	5 6	5 6 7	36
+2	REL	elected                       	takes oath                    	5	3 4	37
+5	EQUI	's Shehla Raza                	Shehla Raza                   	2 3 4	1 2	37
+4	BACK	Deputy Speaker of SA          	as Sindh Assembly deputy speaker	6 7 8 9	5 6 7 8 9	37
+4	BACK	's last child                 	's youngest child Lady Soames 	3 4 5	2 3 4 5 6	38
+2	SIMI	30 short-range missiles       	new land-to-sea missile       	4 5 6	5 6 7	39
+3	SIMI	N. Korea                      	Iran                          	1 2	1	39
+3	BACK	into sea                      	in Gulf                       	7 8	8 9	39
+3	SIMI	Tuesday                       	on Wednesday                  	5	5 6	40
+4	FORW	In surprise visit             	Surprise Visit                	1 2 3	3 4	42
+2	REL	high court judgment           	Ark. high court               	3 4 5	1 2 3	43
+4	FORW	on gay marriage               	gay marriage                  	6 7 8	6 7	43
+5	EQUI	Sisi                          	's Sisi                       	1	2 3	44
+4	BACK	's president                  	as president                  	6 7	6 7	44
+4	FORW	as Egypt                      	Egypt                         	4 5	1	44
+4	SIMI	to 12.1%                      	12.2%                         	5 6	5	46
+5	EQUI	Eurozone 's unemployment      	Eurozone unemployment         	1 2 3	1 2	46
+4	FORW	a fresh record high           	record                        	8 9 10 11	4	46
+5	EQUI	South Korean President        	S. Korean president           	1 2 3	1 2 3	47
+4	SIMI	For Ferry Response            	for ferry disaster            	5 6 7	7 8 9	47
+3	SIMI	Pro-Russian rebels            	Ukraine Rebels                	1 2	1 2	48
+4	FORW	Ukrainian plane               	plane                         	5 6	5	48
+3	REL	on Syria abuse                	on Syrian chemical arms       	5 6 7	5 6 7 8	49
+5	EQUI	UN resolution                 	U.N. resolution               	3 4	3 4	49
+4	FORW	in Spain train crash          	in Spanish train disaster     	5 6 7 8	6 7 8 9	50
+4	FORW	19 hurt                       	17 Hurt                       	1 2	1 2	51
+4	BACK	in New Orleans shooting       	at New Orleans Parade Shooting	3 4 5 6	3 4 5 6 7	51
+4	FORW	by mortar fire                	by mortar                     	6 7 8	6 7	52
+3	SIMI	May 24 , 2013                 	October 29 , 2013             	7 8 9 10	7 8 9 10	53
+3	SIMI	for Friday                    	for Tuesday                   	5 6	5 6	53
+2	SIMI	Israel                        	on Dom Rep                    	1	5 6 7	55
+1	REL	in Afghanistan                	in Benghazi clashes           	5 6	5 6 7	57
+2	SIMI	Two NATO soldiers             	Five Libyan soldiers          	1 2 3	1 2 3	57
+5	EQUI	US top diplomat Kerry         	US Secretary of State John Kerry	1 2 3 4	1 2 3 4 5 6	58
+4	BACK	march of anger                	of Rage rallies               	7 8 9	6 7 8	59
+5	EQUI	to hold                       	holds                         	4 5	4	59
+3	SIMI	to observe                    	Accept                        	4 5	5	60
+2	SIMI	brief Gaza truce              	Temporary Truce               	6 7 8	6 7	60
+3	SIMI	in Singapore                  	in India                      	4 5	4 5	61
+5	EQUI	at 116                        	Aged 116                      	6 7	9 10	62
+5	EQUI	Iran nuclear agreement        	Iran 's nuclear deal          	3 4 5	3 4 5 6	63
+4	BACK	Video                         	Security video                	1	1 2	65
+4	FORW	in mall                       	mall                          	7 8	7	65
+3	SIMI	Kenya jihadis                 	Kenyan soldiers               	3 4	4 5	65
+2	REL	UN inspectors                 	U.S.                          	1 2	1	66
+4	FORW	over Syria chemical weapons   	Syria chemical weapons        	5 6 7 8	5 7 8	66
+1	REL	on chlorine bombs             	on nuclear site               	4 5 6	5 6 7	67
+4	BACK	claim                         	MKO claim                     	3	3 4	67
+2	BACK	One dead                      	Six killed                    	1 2	1 2	68
+4	SIMI	hunting for                   	trawls for                    	2 3	3 4	70
+3	REL	in missing Malaysian plane search	from missing Malaysia plane   	6 7 8 9 10	6 7 8 9	70
+4	BACK	Ship                          	Australian ship               	1	1 2	70
+4	FORW	more pings                    	signals                       	4 5	5	70
+5	EQUI	responding                    	is responding                 	3	4 5	72
+2	SIMI	to 6.1535                     	to new high                   	4 5	4 5 6	74
+1	REL	Australian flags              	Australian Ambassador         	3 4	3 4	75
+5	EQUI	over spying reports           	on Reports of Spying          	5 6 7	5 6 7 8	75
+3	FORW	More Deaths                   	Five dead                     	1 2	1 2	76
+4	SIMI	in Canada Oil Train Explosion 	in Canada train crash         	4 5 6 7 8	3 4 5 6	76
+3	SIMI	10 Brotherhood supporters     	supporters                    	4 5 6	4	77
+3	SIMI	in US stock market            	Asian stock markets           	2 3 4 5	4 5 6	78
+2	REL	Declines                      	Tech sell-off                 	1	1 2	78
+2	REL	This Week                     	for Today                     	6 7	5 6	79
+2	REL	Ukraine protest leaders       	Ukraine                       	1 2 3	1	80
+2	REL	Russian troops                	to Russian " provocations "   	7 8	7 8 9 10 11	80
+5	EQUI	US , Russia                   	US and Russia                 	1 2 3	1 2 3	81
+2	REL	of Syria talks                	Syria arms deal               	7 8 9	5 6 7	81
+3	SIMI	U.S factory                   	German factory                	1 2	1 2	82
+4	FORW	San Diego Mayor Bob Filner    	San Diego Mayor               	1 2 3 4 5	3 4 5	83
+4	SIMI	In Oklahoma City              	Oklahoma City Airport         	3 4 5	1 2 3	84
+3	SIMI	After Tornadoes               	During Tornado...             	6 7	5 6	84
+1	REL	Nine Dead                     	Evacuated                     	1 2	4	84
+3	SIMI	to implement                  	offers                        	2 3	2	86
+5	EQUI	in attack                     	over attack                   	3 4	3 4	88
+3	SIMI	from Israelis , Palestinians  	Israeli , Palestinian negotiators	4 5 6 7	3 4 5 6	89
+4	BACK	pope                          	Pope Francis                  	6	9 10	90
+4	SIMI	Brazilians                    	In Brazil thousands           	1	1 2 4	90
+4	SIMI	no tsunami risk               	no tsunami warning            	6 7 8	5 6 7	91
+4	FORW	northeastern Japan            	Japan                         	3 4	3	91
+2	REL	signals                       	search area                   	3	3 4	93
+5	EQUI	from missing plane            	for missing plane             	4 5 6	5 6 7	93
+5	EQUI	Six US soldiers               	Six U.S. soldiers             	1 2 3	1 2 3	94
+4	SIMI	in aircraft crash             	in helicopter crash           	5 6 7	5 6 7	94
+4	BACK	destroy                       	in destroying                 	5	4 5	95
+5	EQUI	to help                       	help                          	3 4	3	95
+3	REL	Muslim Brotherhood 's top leader	Muslim Brotherhood Supporters 	3 4 5 6 7	3 4 5	96
+3	SIMI	Stoke City                    	Manchester City               	3 4	3 4	97
+4	BACK	Boston victims                	for Boston victims            	5 6	5 6 7	98
+4	FORW	London Marathon runners       	London Marathon               	1 2 3	1 2	98
+3	SIMI	Dec. 2                        	April 23                      	5 6	5 6	99
+5	EQUI	Desmond Tutu                  	Tutu                          	1 2	1	100
+4	FORW	Nigerian gunmen               	Gunmen                        	1 2	4	101
+4	FORW	groom , 30 others             	30                            	4 5 6 7	6	101
+4	FORW	in Israeli air strikes        	in air strikes                	3 4 5 6	3 4 5	102
+4	FORW	US drone strike               	US drone                      	1 2 3	1 2	103
+3	SIMI	9 foreign tourists , 1 Pakistani	11 Foreign Tourists           	4 5 6 7 8 9	3 4 5	104
+4	FORW	Islamic militants             	Gunmen                        	1 2	1	104
+4	SIMI	fire shuts                    	catches fire                  	4 5	4 5	105
+4	BACK	Heathrow                      	at London Heathrow airport    	6	6 7 8 9	105
+3	REL	arrested                      	granted bail                  	6	7 8	106
+5	EQUI	Former Pakistan President Pervez Musharraf	Former Pakistan military ruler Pervez Musharraf	1 2 3 4 5	1 2 3 4 5 6	106
+5	EQUI	brings                        	to Bring                      	3	3 4	107
+4	FORW	to US East Coast              	to East Coast                 	6 7 8 9	7 8 9	107
+3	SIMI	off Solomons                  	off California coast          	5 6	5 6 7	108
+4	SIMI	Powerful 7.6 quake            	Powerful 6.9 quake            	1 2 3	1 2 3	108
+4	FORW	emergency relief              	relief                        	3 4	6	109
+4	FORW	over Juncker appointment      	to Juncker                    	5 6 7	6 7	110
+1	REL	argue                         	give thumbs up                	4	3 4 5	110
+4	SIMI	EU , Britain                  	EU leaders Britain            	1 2 3	1 2 9	110
+2	SIMI	in Connecticut train collision	in head-on collision          	3 4 5 6	4 5 6	111
+2	REL	Russian Prime Minister        	Russia                        	1 2 3	1	112
+4	BACK	over Edward Snowden           	over Ed Snowden affair        	8 9 10	8 9 10 11	113
+4	FORW	petrol pumps                  	petrol stations               	7 8	9 10	114
+4	SIMI	India govt                    	India oil minister            	1 2	1 2 3	114
+4	BACK	proposal                      	for plan                      	4	5 6	114
+3	SIMI	on northern Gaza              	on sourthern Gaza town        	5 6 7	4 5 6 7	115
+4	FORW	Israeli war jet strikes       	Israeli air strike            	1 2 3 4	1 2 3	115
+5	EQUI	US Gulf Coast                 	U.S. Gulf Coast               	5 6 7	8 9 10	116
+4	FORW	after airbag fault            	over airbag                   	13 14 15	11 12	117
+4	SIMI	3 million Japanese cars       	3.4m vehicles                 	9 10 11 12	9 10	117
+4	FORW	Toyota , Honda , Nissan and Mazda	Toyota , 3 other Japan carmakers	1 2 3 4 5 6 7	1 2 3 4 5 6	117
+5	EQUI	recall                        	to recall                     	8	7 8	117
+4	FORW	China largest fleet           	China ships                   	1 3 4	1 2	118
+5	EQUI	to disputed islands           	off disputed islands          	6 7 8	5 6 7	118
+3	SIMI	eastern stronghold            	from Main Stronghold          	5 6	5 6 7	120
+4	FORW	of extremists                 	extremists                    	3 4	3	121
+5	EQUI	benefiting                    	will benefit                  	5	4 5	121
+4	FORW	in violence                   	's violence                   	6 7	8 9	123
+4	BACK	after almost five years captivity	after 5 years in captivity    	4 5 6 7 8	4 5 6 7 8	124
+5	EQUI	U.S. soldier                  	US soldier                    	1 2	1 2	124
+4	BACK	Bradley Manning               	Wikileaks soldier Bradley Manning	1 2	1 2 3 4	126
+4	FORW	for Pope Francis              	Pope Francis                  	5 6 7	4 5	127
+4	BACK	Brazil                        	Brazil crowds                 	1	1 2	127
+4	BACK	Drone Strikes                 	US drone strike               	1 2	1 2 3	128
+3	BACK	10 foreign tourists           	9 foreign tourists , 1 Pakistani	3 4 5	4 5 6 7 8 9	129
+2	SIMI	to 59                         	to 638                        	7 8	7 8	130
+2	SIMI	in Nairobi attack             	from Egypt violence           	3 4 5	3 4 5	130
+4	BACK	Venezuelan opposition leader  	Venezuela Government , Opposition Head	1 2 3	1 2 3 4 5	132
+5	EQUI	's Cameron                    	Cameron                       	2 3	1	133
+4	SIMI	by Gibraltar/Spain row        	over Gibraltar events         	6 7 8	6 7 8	133
+3	SIMI	Nov. 19 , 2013                	Sept. 26 , 2013               	6 7 8 9	5 6 7 8	134
+4	BACK	Iranian nuclear talks         	New Iran nuclear talks        	1 2 3	1 2 3 4	136
+5	EQUI	to November                   	in November                   	7 8	6 7	136
+4	BACK	as Australian PM              	as Australia 's new Prime Minister	4 5 6	4 5 6 7 8 9	138
+5	EQUI	Korean War veterans           	Korean War vets               	3 4 5	3 4 5	139
+4	FORW	Telugu actors Mohan Babu , Brahmanandam	actors Mohan Babu , Brahmanandam	6 7 8 9 10 11	3 4 5 6 7	140
+4	FORW	Andhra Pradesh high court     	HC                            	1 2 3 4	1	140
+5	EQUI	Pro football player Aaron Hernandez	American football player Aaron Hernandez	1 2 3 4 5	1 2 3 4 5	141
+4	FORW	Palestinian prisoners         	26 Palestinian Prisoners      	4 5	3 4 5	143
+4	SIMI	to release                    	Releases                      	2 3	2	143
+4	FORW	British Nobel-Winning Author Doris Lessing	Nobel Prize winning author Doris Lessing	1 2 3 4 5	1 2 3 4 5 6	144
+2	SIMI	in Iraqi capital              	in Baghdad area               	7 8 9	7 8 9	146
+4	FORW	' Fast &amp ; Furious ' star Paul Walker	Hollywood star Paul Walker    	1 2 3 4 5 6 7 8 9	1 2 3 4	147
+4	BACK	one-child policy              	of one-child policy           	3 4	4 5 6	148
+4	SIMI	Global chemical watchdog      	Chemical weapons watchdog     	1 2 3	1 2 3	149
+4	BACK	A woman                       	A mother                      	7 8	7 8	150
+4	BACK	after an eight-year-old girl  	after her eight-year-old daughter	17 18 19 20	17 18 19 20	150
+4	SIMI	over child                    	over daughter                 	3 4	3 4	150
+4	FORW	at pro-Morsy protesters       	at protesters                 	5 6 7	5 6	151
+5	EQUI	tear gas                      	teargas                       	3 4	4	151
+4	BACK	Police                        	Turkish police                	1	1 2	151
+2	REL	23                            	11 children                   	2	1 2	152
+3	SIMI	in Iraq car bombings          	in Syria bombings             	4 5 6 7	4 5 6	152
+4	FORW	nine foreign tourists , guide 	nine tourists                 	3 4 5 6 7	3 4	153
+3	SIMI	in Ukraine                    	in Lebanon                    	6 7	8 9	154
+3	SIMI	Pro-Russia rebels             	Syria rebels                  	1 2	1 2	154
+5	EQUI	after lifting                 	for lifting                   	5 6	5 6	155
+2	REL	court ruling                  	top court                     	3 4	3 4	155
+3	SIMI	Jan. 24                       	April 4                       	5 6	5 6	156
+4	SIMI	to lead the Federal Reserve   	as US Federal Reserve chief   	7 8 9 10 11	6 7 8 9 10	157
+4	BACK	water cannon                  	teargas , water cannon        	3 4	3 4 5 6	158
+2	SIMI	as India gang-rape protest    	at Istanbul protesters        	5 6 7 8	7 8 9	158
+4	BACK	0.2 pct.                      	up 0.2 percent                	5 6	3 4 5	159
+4	FORW	US consumers                  	Consumer                      	1 2	1	159
+2	SIMI	last month                    	in May                        	7 8	6 7	159
+4	BACK	chemical weapons              	of chemical weapons           	5 6	4 5 6	160
+2	REL	' exploratory ' surgery       	hospitalized                  	7 8 9 10	5	161
+3	SIMI	in Canada                     	near Baltimore                	7 8	7 8	162
+4	FORW	after oil train               	as freight train              	3 4 5	3 4 5	162
+3	SIMI	NATO soldier                  	Four soldiers                 	1 2	1 2	163
+1	REL	in Taliban attack             	in Yemen                      	4 5 6	4 5	163
+3	SIMI	in Ukraine                    	in Syria                      	5 6	5 6	164
+5	EQUI	Red Cross workers             	Red Cross members             	1 2 3	1 2 3	164
+3	REL	's nuclear negotiating team   	's nuclear quest              	2 3 4 5	2 3 4	165
+4	FORW	over sectarian violence       	Sectarian Violence            	4 5 6	7 8	166
+4	SIMI	Prototype Self-Driving Car    	Concept Self-Driving Car      	3 4 5	3 4 5	167
+3	SIMI	over Kerry talks              	Peace Talks                   	6 7 8	15 16	168
+4	FORW	Palestinian prisoners         	104 Palestinian Prisoners     	4 5	5 6 7	168
+4	BACK	Chemical Arms Team            	UN Chemical Arms Experts      	1 2 3	1 2 3 4	169
+3	REL	to Begin Talks                	To Visit                      	4 5 6	5 6	169
+4	FORW	With Syria                    	Syria                         	7 8	7	169
+3	REL	president 's speech           	presidential elections        	5 6 7	6 7	170
+4	BACK	's opposition                 	's opposition party           	2 3	2 3 4	170
+4	FORW	Vodafone UK chief Guy Laurence	Vodafone UK chief             	3 4 5 6 7	3 4 5	171
+4	BACK	as CEO                        	as new CEO                    	8 9	6 7 8	171
+5	EQUI	at PNG immigration centre     	at Papua New Guinea immigration centre	8 9 10 11	8 9 10 11 12 13	172
+5	EQUI	pro-Mursi camps               	pro-Morsi camps               	7 8	9 10	173
+5	EQUI	15 dead                       	15 killed                     	1 2	2 3	173
+5	EQUI	as Egypt police               	as Egyptian forces            	3 4 5	5 6 7	173
+5	EQUI	' breakthrough ' guided missile	of ' breakthrough ' guided missile	4 5 6 7 8	5 6 7 8 9 10	175
+3	SIMI	February 25                   	January 27                    	9 10	9 10	176
+4	BACK	death toll                    	Bangladesh collapse deaths    	6 7	1 2 3	177
+3	REL	Bangladesh collapse search    	Bangladesh collapse deaths    	1 2 3	1 2 3	177
+2	REL	's opposition party chief     	's opposition MDC party       	2 3 4 5	2 3 4 5	178
+4	SIMI	in Afghanistan election race  	in Afghan presidential elections	3 4 5 6	3 4 5 6	179
+4	SIMI	southwest Pakistan            	southern Pakistan             	5 6	4 5	180
+3	SIMI	New major earthquake          	Moderate earthquake           	1 2 3	1 2	180
+4	FORW	into political crisis         	in crisis                     	10 11 12	8 9	181
+4	BACK	Italy                         	Italy gov 't                  	9	5 6 7	181
+4	FORW	of resignation                	resign                        	6 7	3	181
+4	FORW	Berlusconi party ministers    	Berlusconi ministers          	1 2 3	1 2	181
+4	BACK	asylum                        	humanitarian asylum           	5	4 5	182
+4	FORW	Nicaragua , Venezuela         	Venezuela                     	1 2 3	1	182
+1	REL	17 govt employees             	78                            	1 2 3	3	183
+3	SIMI	in Pakistan bus bombing       	in Pakistan church bombing    	5 6 7 8	5 6 7 8	183
+3	SIMI	in Bangkok shooting           	in US school shooting         	3 4 5	3 4 5 6	184
+2	REL	in Jordan Valley              	in West Bank attack           	4 5 6	3 4 5 6	185
+4	FORW	Israel colonel                	Israeli                       	1 2	1	185
+3	SIMI	prominent atheist blogger     	3 atheist bloggers            	4 5 6	4 5 6	186
+4	REL	Cannes hotel raid             	in Cannes                     	1 2 3	5 6	187
+4	FORW	€40 million gems              	Jewels worth €40m             	5 6 7	1 2 3	187
+2	REL	Delays                        	on standby                    	5	4 5	188
+4	SIMI	in Search for Jet             	for jet search                	6 7 8 9	6 7 8	188
+3	FORW	Syria envoy                   	Syria                         	1 2	1	189
+1	REL	dead                          	a force for life              	3	9 10 11 12	190
+4	FORW	Driver of crashed Spanish train	Spanish train driver          	1 2 3 4 5	1 2 3	191
+4	BACK	against military intervention 	against US military interference	3 4 5	5 6 7 8	192
+3	SIMI	to 51                         	63                            	4 5	4	193
+3	SIMI	in Latvian supermarket collapse	in Mumbai building collapse   	6 7 8 9	5 6 7 8	193
+4	FORW	in South Korea ferry trial    	in ferry trial                	2 3 4 5 6	2 3 4	194
+4	SIMI	during march                  	on way                        	4 5	4 5	195
+4	SIMI	nine foreign tourists , guide 	9 foreign tourists , 1 Pakistani	3 4 5 6 7	3 4 5 6 7 8	196
+4	BACK	general election              	of February general election  	6 7	8 9 10 11	197
+5	EQUI	to boycott                    	boycott                       	4 5	7	197
+4	BACK	Thai opposition party         	Thailand 's opposition Democrat Party	1 2 3	1 2 3 4 5	197
+2	REL	Syrian warplanes              	Syria and Iran                	1 2	1 2 3	198
+4	BACK	in Iraq                       	in Iraq Conflict              	5 6	7 8 9	198
+4	FORW	Respected British interviewer David Frost	Broadcaster David Frost       	1 2 3 4 5	1 2 3	200
+3	REL	in Syria                      	in Israeli raid               	6 7	3 4 5	201
+4	FORW	7 Palestinians                	Palestinian                   	3 4	1	201
+4	BACK	's Benghazi                   	in Benghazi                   	8 9	6 7	202
+5	EQUI	no casualties                 	None Hurt                     	11 12	9 10	202
+3	REL	six                           	4 militants                   	5	4 5	203
+4	FORW	US drone strike               	U.S. drone                    	1 2 3	1 2	203
+4	SIMI	of 6.3 magnitude              	of 6 magnitude                	2 3 4	2 3 4	204
+3	SIMI	off Indonesia island          	Thailand                      	6 7 8	6	204
+4	BACK	's new prince                 	's new baby prince            	4 5 6	4 5 6 7	206
+4	SIMI	's integration                	to join                       	8 9	7 8	208
+3	REL	federal constitutional law    	a treaty                      	3 4 5	3 4	208
+4	FORW	into Russia                   	Russia                        	10 11	9	208
+5	EQUI	on Crimea                     	for Crimea                    	6 7	5 6	208
+5	EQUI	three U.S. diplomats          	3 U.S. Diplomats              	3 4 5	3 4 5	209
+3	SIMI	after bloody week             	after deadly clashes          	6 7 8	4 5 6	210
+4	FORW	Egypt 's bruised Islamists    	Egypt Islamists               	1 2 3 4	1 2	210
+4	BACK	30 short-range missiles       	short-range missiles          	4 5 6	4 5	211
+1	SIMI	to nine                       	to 260                        	6 7	5 6	212
+2	SIMI	Glasgow helicopter death toll 	Earthquake death toll         	1 2 3 4	1 2 3	212
+3	SIMI	Nov. 11                       	July 23                       	7 8	7 8	213
+5	EQUI	Putin                         	Vladimir Putin                	5	5 6	214
+5	EQUI	to Hitler                     	to Adolf Hitler               	6 7	7 8 9	214
+4	BACK	Crusader castle               	historic Crusader castle      	4 5	4 5 6	215
+4	SIMI	over peace talks              	Ahead of Peace Talks          	5 6 7	4 5 6 7	216
+4	BACK	Four Morsi supporters         	of Morsi supporters           	1 2 3	2 3 4	217
+4	FORW	in Egypt clashes              	in Egypt                      	5 6 7	6 7	217
+4	BACK	over Costa Concordia disaster 	for costa concordia shipwreck disaster	4 5 6 7	4 5 6 7 8	218
+4	BACK	Five people                   	five men                      	1 2	1 2	218
+4	SIMI	Suicide bomber                	Suicide bomb                  	1 2	1 2	220
+3	SIMI	in Afghan capital             	in Syrian capital             	8 9 10	5 6 7	220
+2	REL	on Pakistani train            	in northern Pakistan          	6 7 8	8 9 10	221
+4	SIMI	in violent attacks            	in wave of attacks            	6 7 8	6 7 8 9	222
+4	SIMI	to 6.2035                     	to 6.1408                     	4 5	5 6	223
+5	EQUI	New Australian PM Tony Abbott 	Australian PM-elect Tony Abbott	1 2 3 4 5	1 2 3 4	224
+4	SIMI	new device for streaming video	new Fire TV streaming video box	3 4 5 6 7	3 4 5 6 7 8	225
+3	REL	Glasgow Helicopter Crash Search	Glasgow Helicopter Crash      	1 2 3 4	1 2 3	226
+5	EQUI	in Moscow metro fire          	after fire breaks out in Moscow Metro	3 4 5 6	3 4 5 6 7 8 9	227
+5	EQUI	for mass march                	for mass rally                	4 5 6	4 5 6	228
+4	BACK	40 missing                    	for 40 missing                	1 3	4 5 6	229
+4	BACK	in Canadian train wreck       	in Canada train blaze         	4 5 6 7	7 8 9 10	229
+4	SIMI	Pat Rice                      	Arsenal great Rice            	9 10	1 2 3	230
+4	SIMI	against cancer                	with cancer                   	13 14	6 7	230
+4	SIMI	Polar bear DNA                	Polar bear study              	1 2 3	1 2 3	232
+5	EQUI	may help                      	may boost                     	5 6	4 5	232
+4	OPPO	obesity                       	against obesity               	8	7 8	232
+5	EQUI	Fire in Russian psychiatric hospital	in Russian psychiatric hospital fire	1 2 3 4 5	4 5 6 7 8	233
+4	SIMI	kills                         	feared dead                   	6	2 3	233
+2	SIMI	in west China                 	Italy                         	6 7 8	1	234
+4	BACK	Israel                        	Israeli authorities           	1	1 2	235
+2	REL	Palestinian prisoners         	Palestinian home              	5 6	4 5	235
+5	EQUI	Volcano erupts                	Volcanic eruption             	1 2	1 2	236
+4	FORW	airports                      	3 airports                    	9	4 5	236
+4	BACK	for Malaysia jet              	for Missing Malaysian Jet     	3 4 5	3 4 5 6	237
+4	SIMI	to 6.1651                     	to 6.1696                     	4 5	4 5	238
+4	SIMI	in prayer and song            	of ' Prayer and Reflection '  	4 5 6 7	6 7 8 9 10 11	239
+4	BACK	South Africa                  	South Africans                	1 2	1 2	239
+1	REL	Australian parliament video   	Parliament in Canberra tour   	4 5 6	9 10 11 12	240
+4	BACK	Prince William                	Prince William and Catherine  	1 2	4 5 6 7	240
+4	FORW	in 2007 Bhutto assassination  	in Bhutto death               	7 8 9 10	6 7 8	241
+4	FORW	Fromer Pakistani army chief Musharraf	Former Pakistan army chief    	1 2 3 4 5	1 2 3 4	241
+2	BACK	5 Dead                        	Death toll 42                 	1 2	1 2 8	242
+4	SIMI	Against Sinai Militants       	against Sinai insurgents      	4 5 6	4 5 6	243
+4	FORW	from Jan 20                   	Jan 20                        	6 7 8	9 10	245
+4	FORW	on Iran nuclear drive         	Iran nuclear drive            	2 3 4 5	3 4 5	245
+5	EQUI	Nobel author Doris Lessing    	Nobel laureate Doris Lessing  	1 2 3 4	1 2 3 4	247
+4	FORW	after teen shot               	after shooting                	3 4 5	6 7	248
+1	REL	Under Arrest                  	at court                      	4 5	5 6	250
+4	FORW	Pit Bull Dog                  	Dog                           	1 2 3	1	251
+4	BACK	Kills                         	Mauls To Death                	4	2 5 6	251
+2	SIMI	Maldives presidential election	Mali Presidential Election    	3 4 5	3 4 5	252
+3	SIMI	Today                         	for Tuesday                   	6	5 6	253
+2	REL	one man                       	eleven                        	4 5	5	254
+4	BACK	Air strike                    	US drone strike               	1 2	1 2 3	254
+3	SIMI	in Syria                      	in Pakistan                   	6 7	6 7	254
+4	SIMI	regional security concerns    	regional peace                	6 7 8	6 7	256
+4	FORW	2 Palestinian Militants       	Palestinian militant          	4 5 6	4 5	257
+5	EQUI	Israel Forces                 	Israeli army                  	1 2	1 2	257
+1	REL	amid growing unrest           	more violence                 	4 5 6	3 4	258
+3	FORW	Ukraine talks                 	Ukraine                       	1 2	1	258
+4	FORW	Egyptian police               	Police                        	1 2	1	259
+4	BACK	for democracy march           	for huge democracy rally      	4 5 6	4 5 6 7	260
+3	FORW	6,000 Cuban doctors           	4,000 Cuban doctors           	6 7 8	3 4 5	261
+5	EQUI	to hire                       	hires                         	4 5	2	261
+4	BACK	Kills                         	Death toll                    	5	1 2	262
+4	SIMI	38                            	to 39                         	6	4 5	262
+4	SIMI	Southern Italy Coach Crash    	in Italy coach crash          	1 2 3 4	6 7 8 9	262
+3	SIMI	US drone                      	Yemen drone strike            	4 5	1 2 3	263
+4	BACK	2 militants                   	militants                     	7 8	5	263
+4	FORW	in multiple bus crash in Germany	in Germany bus crash          	7 8 9 10 11 12	6 7 8 9	264
+5	EQUI	election for 7 September      	Sept. 7 poll                  	6 7 8 9	5 6 7	265
+5	EQUI	Australian PM Kevin Rudd      	Australian PM Rudd            	1 2 3 4	1 2 3	265
+4	FORW	in Cairo                      	Egypt                         	5 6	1	266
+1	REL	with youth                    	with pro-Morsi protesters     	3 4	5 6 7	266
+5	EQUI	Over Al Qaeda Threat          	citing Qaeda threats          	5 6 7 8	6 7 8	267
+3	SIMI	Travel Alert                  	global alert                  	3 4	3 4	267
+2	REL	for Syrian Chemical Weapons Transport	Syrian Chemical Weapons Resolution	3 4 5 6 7	3 4 5 6	268
+3	REL	of Syria chemical weapons     	of chemical weapons deal      	7 8 9 10	4 5 6 7	271
+5	EQUI	' Fast &amp ; Furious ' star Paul Walker	Paul Walker Fast and Furious star	1 2 3 4 5 6 7 8 9	1 2 5 6 7 8	272
+1	REL	unchanged                     	at 0.5%                       	6	7 8	273
+4	BACK	rates                         	interest rate                 	5	5 6	273
+5	EQUI	as Kenya mall standoff        	as Kenya mall siege           	7 8 9 10	4 5 6 7	276
+1	REL	some 30 hostages              	Death toll                    	4 5 6	1 2	276
+3	SIMI	Algeria president             	Bulgarian president           	1 2	1 2	278
+2	REL	for fresh round               	renews support                	4 5 6	4 5	279
+5	EQUI	of nuclear talks              	for nuclear talks             	7 8 9	6 7 8	279
+3	FORW	23 Iraqi army recruits        	13 Iraqi army recruits        	4 5 6 7	4 5 6 7	280
+2	SIMI	new transportation secretary  	Embattled Veterans Secretary  	3 4 5	4 5 6	281
+5	EQUI	Philippines                   	the Philippines               	4	7 8	282
+4	SIMI	Super typhoon                 	Most powerful typhoon         	1 2	1 2 3	282
+4	BACK	Judge                         	U.S. judge                    	1	1 2	284
+5	EQUI	force-feeding California inmates	force-feeding Californian inmates	3 4 5	4 5 6	284
+4	BACK	Ride operator                 	N.C. State Fair ride operator 	1 2	1 2 3 4 5	285
+4	FORW	in N.C. fair accident         	after accident                	4 5 6 7	7 8	285
+4	SIMI	Russia Pulled Back            	of Russian Withdrawal         	6 7 8	3 4 5	286
+4	FORW	Early vote count in Iran      	Iran vote count               	1 2 3 4 5	1 2 3	287
+5	EQUI	asylum seekers                	asylum-seekers                	3 4	5	288
+5	EQUI	returns                       	hands back                    	2	4 6	288
+3	BACK	12 Soldiers                   	16 soldiers                   	6 7	7 8	289
+4	SIMI	with making 9/11 threats      	over 9/11 threats             	6 7 8 9	6 7 8	290
+3	BACK	in Miami shooting             	in Myrtle Beach shootings     	6 7 8	6 7 8 9	291
+4	BACK	in Afghanistan                	in Afghan city                	8 9	8 9 10	292
+4	FORW	6 Killed                      	Five dead                     	1 2	1 2	293
+5	EQUI	as Indonesia Volcano Erupts   	in Indonesian eruption        	6 7 8 9	3 4 5	293
+4	SIMI	to 6.1059                     	to 6.1070                     	4 5	4 5	294
+1	REL	unity talks                   	at ' war                      	4 5	4 5 6	295
+3	SIMI	Ukraine                       	in Syria                      	1	11 12	295
+3	BACK	for Oil Refinery              	for Iraq refinery             	6 7 8	6 7 8	296
+4	BACK	Cairo protesters              	In Cairo Camps Protesters     	1 2	1 2 3 5	300
+4	FORW	in N Waziristan               	in Pakistan                   	6 7 8	6 7	301
+3	FORW	US$300 mil. appeal            	to aid                        	3 4 5	4 5	302
+4	FORW	for Philippines               	Philippines                   	6 7	6	302
+5	EQUI	N. Korea                      	North Korea                   	1 2	1 2	304
+1	REL	execution                     	behind sacking                	6	6 7	304
+5	EQUI	for ' apostasy '              	for apostasy                  	12 13 14 15	8 9	305
+3	SIMI	Pregnant Sudan woman          	Christian woman               	1 2 3	3 4	305
+1	REL	for help                      	to Act                        	6 7	7 8	306
+3	SIMI	asks                          	Calls On                      	2	2 3	306
+2	SIMI	from Baghdad bombs            	from Egypt clashes            	3 4 5	3 4 5	307
+2	SIMI	to 19                         	to 57                         	7 8	7 8	307
+5	EQUI	in Syria                      	on Syria                      	8 9	7 8	308
+4	FORW	Boeing 777 plane              	Plane                         	1 2 3	1	309
+5	EQUI	crash-lands                   	crash lands                   	4	2 3	309
+2	REL	Tymoshenko                    	Ukraine crisis                	1	1 2	310
+2	REL	for new show                  	on stage                      	5 6 7	5 6	311
+3	SIMI	Record-setting Southwest heat wave	in Southwest heat wave        	1 2 3 4	8 9 10 11	312
+3	REL	fatal                         	1 dead , 40 hospitalized      	6	3 4 5 6 7	312
+4	BACK	3 dead                        	4 dead                        	1 2	1 2	313
+4	FORW	abducted schoolgirls          	kidnapped girls               	7 8	5 6	314
+5	EQUI	Boston bomb suspect           	Boston bombing suspect        	1 2 3	1 2 3	315
+4	FORW	In Egyptian Protests          	Protests                      	3 4 5	6	316
+4	SIMI	0.56 pct                      	0.5 pct                       	4 5	4 5	317
+3	SIMI	Taiwan stocks                 	Singapore stocks              	1 2	1 2	317
+4	FORW	Cypriot Finance Minister Michalis Sarris	Cyprus finance minister       	1 2 3 4 5	1 2 3	318
+3	REL	militants                     	as Sinai attack               	5	5 6 7	319
+5	EQUI	Egypt turmoil                 	Egypt 's turmoil              	1 2	1 2 3	319
+5	EQUI	to pay off                    	of bribing                    	3 4 5	3 4	320
+4	SIMI	' bunga bunga ' witnesses     	witnesses in prostitution trial	6 7 8 9 10	5 6 7 8	320
+1	REL	for Apple                     	In A Multi-Platform World     	5 6	4 5 6 7	321
+5	EQUI	Microsoft Office              	Microsoft And Office          	1 4	1 2 3	321
+5	EQUI	Glee star Cory Monteith       	' Glee ' star Cory Monteith   	1 2 3 4	1 2 3 4 5 6	322
+2	REL	second suspect                	Brothers                      	5 6	1	324
+2	REL	revolution                    	Muslim Brotherhood            	6	5 6	325
+3	SIMI	Hong Kong stocks              	Indian stocks                 	1 2 3	1 2	326
+4	FORW	Malaysian jet                 	jet                           	4 5	4	328
+3	SIMI	of bombings , shootings       	of car bombs , other attacks  	2 3 4 5	2 3 4 5 6 7	329
+3	SIMI	Tuesday                       	on Friday                     	7	7 8	331
+5	EQUI	Mubarak 's release            	Mubarak release               	4 5 6	4 5	332
+4	SIMI	for humanitarian ceasefire    	for Unconditional Cease-Fire  	5 6 7	5 6 7	333
+3	FORW	Pakistani Taliban chief Hakimullah Mehsud	Pakistani Taliban ' elect new chief '	1 2 3 4 5	1 2 3 4 5 6 7	334
+4	BACK	Blaze                         	Arizona wildfire              	1	1 2	335
+4	SIMI	19 Firefighters               	19 Hotshots                   	4 5	5 6	335
+4	BACK	Canada                        	Canadian government           	1	1 2	336
+4	BACK	oil pipeline                  	controversial oil pipeline    	3 4	4 5 6	336
+4	FORW	to the Pacific Coast          	to Pacific                    	5 6 7 8	7 8	336
+4	SIMI	as Manager                    	Ferguson                      	6 7	7	337
+4	OPPO	Syria opposition unity        	Syria divided opposition      	1 2 3	1 2 3	338
+4	FORW	Margaret Thatcher , former U.K. PM	Margaret Thatcher             	1 2 3 4 5 6	1 2	339
+3	BACK	sanctions                     	arms trafficking charges      	3	3 4 5	340
+4	BACK	against Russia                	against Russian sailors       	4 5	6 7 8	340
+3	REL	Apr 2                         	Thursday                      	6 7	5	341
+5	EQUI	names                         	to name                       	2	2 3	342
+4	SIMI	outspoken Rice                	Susan Rice                    	3 4	4 5	342
+4	BACK	as his security adviser       	as national security adviser  	5 6 7 8	6 7 8 9	342
+4	BACK	Syrian airstrike              	New Syrian Airstrikes         	3 4	1 2 3	343
+4	FORW	after double mastectomy       	double mastectomy             	9 10 11	4 5	344
+3	SIMI	April 21                      	May 2                         	9 10	9 10	345
+4	FORW	in bombings and shootings     	Bombings and a shooting       	2 3 4 5	1 2 3 4	346
+4	SIMI	across Iraq                   	in Iraq                       	6 7	7 8	346
+3	SIMI	nine police                   	eight Kurdish security forces personnel	4 5	4 5 6 7 8	347
+4	FORW	in north Iraq                 	in Iraq                       	6 7 8	9 10	347
+4	BACK	presidency bid                	for presidential bid          	7 8	6 7 8	348
+3	SIMI	poised                        	paves way                     	4	4 5	348
+4	OPPO	abortion bill                 	against abortion bill         	5 6	4 5 6	350
+4	FORW	against Greenpeace activists  	against Greenpeace            	4 5 6	6 7	351
+4	BACK	charges                       	piracy charges                	3	4 5	351
+3	SIMI	in Turkey                     	in Kiev                       	5 6	6 7	352
+4	BACK	with police                   	with riot police              	3 4	3 4 5	352
+3	FORW	Nigerian police               	Nigeria                       	1 2	1	353
+4	OPPO	Crimea annexation             	Crimea 's independence        	9 10	6 7 8	354
+1	REL	EU trade pact                 	as " unconstitutional "       	3 4 5	9 10 11 12	354
+5	EQUI	on Nelson Mandela             	over Nelson Mandela           	8 9 10	4 5 6	355
+2	REL	's memory                     	's death                      	11 12	7 8	355
+4	SIMI	to 6.1184                     	to 6.1510                     	4 5	4 5	358
+4	SIMI	loses contact                 	vanishes                      	3 4	4	359
+5	EQUI	Malaysia Airlines with plane  	Malaysia Airlines plane       	1 2 5 6	1 2 3	359
+2	REL	embroiled                     	steps down                    	3	3 4	360
+4	SIMI	in sex assault scam           	after allegations of sexual misconduct	4 5 6 7	5 6 7 8 9	360
+3	SIMI	's Musudan missile            	another missile               	5 6 7	4 5	361
+4	FORW	about North Korea             	North Korea                   	2 3 4	1 2	361
+4	FORW	suburban Atlanta firefighters hostage	Firefighters Hostage in Georgia	4 5 6 7	8 9 10 11	362
+5	EQUI	Crimea parliament             	Crimean parliament            	1 2	1 2	363
+5	EQUI	China stocks                  	China 's stocks               	1 2	1 2 3	364
+3	SIMI	on Wednesday                  	on Monday                     	5 6	6 7	364
+4	SIMI	rise                          	inch higher                   	2	2 3	366
+4	SIMI	at opening                    	as trading begins             	4 5	4 5 6	367
+1	REL	outside two mosques           	city                          	4 5 6	4	368
+3	SIMI	in Lebanon 's Tripoli         	in northern Lebanon           	7 8 9 10	5 6 7	368
+4	FORW	Explosions                    	2 explosions                  	1	1 2	368
+4	SIMI	Next Iran nuclear talks       	Iran Nuclear deal             	1 2 3 4	1 3 4	369
+1	REL	due                           	to be implemented             	5	5 6 7	369
+2	SIMI	on June 16-20                 	on January 20                 	6 7 8	8 9 10	369
+4	BACK	at school                     	at Her School                 	10 11	9 10 11	371
+5	EQUI	about 6-year-old Indian girl  	After Indian Girl 6           	5 6 7 8	2 3 4 6	371
+5	EQUI	Ovadia Yosef                  	Rabbi Ovadia Yosef            	1 2	1 2 3	372
+4	SIMI	rabbi and Israeli kingmaker   	kingmaker of Israeli politics 	4 5 6 7	5 6 7 8	372
+2	REL	for disputed election         	outside polling station       	6 7 8	6 7 8	373
+3	SIMI	Thai protesters               	Thai protest leader           	1 2	1 2 3	373
+3	SIMI	Most victims                  	38 bodies of victims          	1 2	1 2 3 4	374
+4	BACK	in blast                      	in apartment blast            	4 5	4 5 6	375
+4	BACK	Palestinian diplomat          	Palestinian ambassador        	1 2	1 2	375
