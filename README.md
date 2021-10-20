@@ -16,13 +16,18 @@ Usage
 Experiments can be run either in Python 3 using the given conda environment or launching the 00.launchColab ipython notebook.
 
 TODO: Add conda env file and instructions on how to create the environment
-
-Models
-------
-TODO
+TODO: Add instructions on ipython notebook usage
 
 Dataset
 -------
+TODO
+
+Features
+--------
+TODO
+
+Models
+------
 TODO
 
 References
