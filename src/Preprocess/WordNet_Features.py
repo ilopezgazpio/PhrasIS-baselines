@@ -2,7 +2,6 @@
 import nltk
 from nltk.corpus import wordnet as wn
 from nltk.corpus import stopwords
-nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 from nltk.corpus import wordnet_ic
 import pandas as pd
@@ -10,6 +9,10 @@ import numpy as np
 
 brown_ic = wordnet_ic.ic('ic-brown.dat')
 semcor_ic = wordnet_ic.ic('ic-semcor.dat')
+
+"""
+PYTHON MODULE TO COMPUTE WORDNET FEATURES 
+"""
 
 def substract(a, b):
     return a - b
