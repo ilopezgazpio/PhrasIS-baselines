@@ -61,25 +61,22 @@ def addColumnsLchSimilarityVerbsRoot(df : pd.DataFrame):
 def addColumnsWupSimilarityRoot(df : pd.DataFrame):
     df['wup_similarity_root'] = df.apply(lambda x: get_Wupsimilarity_root(x['left_strip_tokenized_noPunct_lemmat_noStopWords'], x['right_strip_tokenized_noPunct_lemmat_noStopWords']), axis=1)
 
-# CHUNK 1 MAXIMUM DEPTH
-def addColumnsChunk1Maximum(df : pd.DataFrame):
-    df['chunck1_maximum'] = df.apply(lambda x: get_Chunk1Maximum(x['left_strip_tokenized_noPunct_lemmat_noStopWords']), axis=1)
-
-# CHUNK 2 MAXIMUM DEPTH
-def addColumnsChunk2Maximum(df : pd.DataFrame):
-    df['chunck2_maximum'] = df.apply(lambda x: get_Chunk2Maximum(x['right_strip_tokenized_noPunct_lemmat_noStopWords']), axis=1)
+# CHUNK 1 & 2 MAXIMUM DEPTH
+def addColumnsChunkMaximum(df : pd.DataFrame):
+    for (chunk,current) in [("chunk1","left"),("chunk2","right")]:
+        df[chunk+'_maximum'] = df.apply(lambda x: get_ChunkMaximum(x[current+'_strip_tokenized_noPunct_lemmat_noStopWords']), axis=1)
 
 # CHUNK 1 MORE SPECIFIC THAN CHUNK 2
 def addColumnsChunk1Specific(df : pd.DataFrame):
-    df['chunck1>chunk2'] = df.apply(lambda x: get_Chunk1Specific(x['chunck1_maximum'], x['chunck2_maximum']), axis=1)
+    df['chunk1>chunk2'] = df.apply(lambda x: get_Chunk1Specific(x['chunk1_maximum'], x['chunk2_maximum']), axis=1)
 
 # CHUNK 2 MORE SPECIFIC THAN CHUNK 1
 def addColumnsChunk2Specific(df : pd.DataFrame):
-    df['chunck2>chunk1'] = df.apply(lambda x: get_Chunk2Specific(x['chunck1_maximum'], x['chunck2_maximum']), axis=1)
+    df['chunk2>chunk1'] = df.apply(lambda x: get_Chunk2Specific(x['chunk1_maximum'], x['chunk2_maximum']), axis=1)
 
 # DIFFERENCE DEPTH CHUNKS
 def addColumnsDifference(df : pd.DataFrame):
-    df['|chunck1-chunk2|'] = df.apply(lambda x: difference(x['chunck1_maximum'], x['chunck2_maximum']), axis=1)
+    df['|chunk1-chunk2|'] = df.apply(lambda x: difference(x['chunk1_maximum'], x['chunk2_maximum']), axis=1)
 
 # MINIMUM DIFFERENCE
 def addColumnsMinimumDifference(df : pd.DataFrame):
@@ -209,39 +206,28 @@ def get_Wupsimilarity_root(column1, column2):
 
     return max_value
 
-def get_Chunk1Maximum (column1):
-
-    synarray_left = [x.max_depth() for word in column1 for x in wn.synsets(word)]
+def get_ChunkMaximum(column):
+    synarray = [x.max_depth() for word in column for x in wn.synsets(word)]
     try:
-        maximo_left = max(synarray_left)
+        maximo = max(synarray)
     except ValueError:
-        maximo_left = 0
+        maximo = 0
 
-    return maximo_left
-
-
-def get_Chunk2Maximum(column2):
-    synarray_left = [x.max_depth() for word in column2 for x in wn.synsets(word)]
-    try:
-        maximo_left = max(synarray_left)
-    except ValueError:
-        maximo_left = 0
-
-    return maximo_left
+    return maximo
 
 def get_Chunk1Specific(maximo_left, maximo_right):
 
     if maximo_left>maximo_right:
-        return True
+        return 1.0
     else:
-        return False
+        return 0.0
 
 def get_Chunk2Specific(maximo_left, maximo_right):
 
     if maximo_right>maximo_left:
-        return True
+        return 1.0
     else:
-        return False
+        return 0.0
 
 def difference (maximo_left, maximo_right):
     return abs(maximo_left-maximo_right)
