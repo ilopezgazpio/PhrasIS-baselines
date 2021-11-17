@@ -51,10 +51,8 @@ preprocess_pipeline = [
 
 step=1
 for name,dataset in datasets.items():
-
     for func in preprocess_pipeline:
         func(dataset)
-
     print("Processing dataset {}/{}".format(step, len(datasets.keys())))
     step+=1
 
@@ -70,14 +68,13 @@ features_pipeline = [
 
 step=1
 for name,dataset in datasets.items():
-
     for func in features_pipeline:
         func(dataset)
-
     print("Processing features dataset {}/{}".format(step, len(datasets.keys())))
     step+=1
 
-#Compute wordnet
+
+# Compute wordnet
 wordnet_pipeline = [
     WordNet_Features.addColumnsPathSimilarity,
     WordNet_Features.addColumnsLchSimilarityNouns,
@@ -102,10 +99,8 @@ wordnet_pipeline = [
 
 step=1
 for name,dataset in datasets.items():
-
     for func in wordnet_pipeline:
         func(dataset)
-
     print("Processing wordnet dataset {}/{}".format(step, len(datasets.keys())))
     step+=1
 
