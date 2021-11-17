@@ -3,6 +3,8 @@ import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 from nltk.stem import WordNetLemmatizer
+from .WordNet_Features import getWnPos
+
 
 """
 PREPROCESSING UTILITIES 
@@ -49,7 +51,11 @@ def addColumnsNoPunctuations(df : pd.DataFrame):
 # LEMMATIZED
 def addColumnsLemmatized(df : pd.DataFrame):
     for current in ["left", "right"]:
-        df [current + '_strip_tokenized_noPunct_lemmat']= df[current + '_strip_tokenized_noPunct'].apply(lambda x: [lemmatizer.lemmatize(w) for w in x])
+        # We also need POS column to lemmatize correctly
+        # df [current + '_strip_tokenized_noPunct_lemmat']= df[current + '_strip_tokenized_noPunct'].apply(lambda x: [lemmatizer.lemmatize(w, getWnPos(w)) for w in x])
+        column1 = current + '_strip_tokenized_noPunct'
+        column2 = current + '_POS_tags'
+        df[current + '_strip_tokenized_noPunct_lemmat']= df.apply(lambda x: [ lemmatizer.lemmatize(token, getWnPos(pos_tag)) for (token, pos_tag) in zip(x[column1], x[column2])], axis=1)
 
 # NO STOP WORDS (CONTENT WORDS)
 def addColumnsContentWords(df : pd.DataFrame):
@@ -62,3 +68,12 @@ def addColumnsStopWords(df : pd.DataFrame):
         df[current + '_strip_tokenized_noPunct_StopWords'] = df [current + '_strip_tokenized_noPunct'].apply(lambda x: [word for word in x if word in stopwords.words('english')])
 
 
+# POS TAGS
+def addColumnsPOStags(df : pd.DataFrame):
+    for current in ["left", "right"]:
+        df[current + '_POS_tags'] = df [current + '_strip_tokenized_noPunct'].apply(lambda tokens: list(   zip(*nltk.pos_tag(tokens)))[1] if len(tokens) else [] )
+
+# nltk.pos_tag(["I", " dog"])
+# [('I', 'PRP'), (' dog', 'VBP')]
+# list(zip(*nltk.pos_tag(["I", " dog"])))
+# [('I', ' dog'), ('PRP', 'VBP')]

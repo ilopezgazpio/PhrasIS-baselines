@@ -6,6 +6,8 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('wordnet_ic')
 nltk.download('genesis')
+nltk.download('averaged_perceptron_tagger')
+
 
 from src.Preprocess import Utils
 from src.Preprocess import Lexical_Features
@@ -44,11 +46,11 @@ nrows=200
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
 
 # Preprocess dataset
-
 preprocess_pipeline = [
     Utils.addColumnsStrip,
     Utils.addColumnsTokenized,
     Utils.addColumnsNoPunctuations,
+    Utils.addColumnsPOStags,
     Utils.addColumnsLemmatized,
     Utils.addColumnsContentWords,
     Utils.addColumnsStopWords
@@ -61,7 +63,7 @@ for name,dataset in datasets.items():
     print("Processing dataset {}/{}".format(step, len(datasets.keys())))
     step+=1
 
-# Compute features
+# Compute lexical features
 lexical_pipeline = [
     Lexical_Features.addColumnsJaccardStripTokenized,
     Lexical_Features.addColumnsJaccardContentWords,
@@ -79,7 +81,7 @@ for name,dataset in datasets.items():
     step+=1
 
 
-# Compute wordnet
+# Compute wordnet features
 wordnet_pipeline = [
     WordNet_Features.addColumnsPathSimilarity,
     WordNet_Features.addColumnsLchSimilarityNouns,
@@ -110,3 +112,6 @@ for name,dataset in datasets.items():
     step+=1
 
 
+# For debug
+for name, df in datasets.items():
+    Utils.saveDatasetCSV(df, "dirty/" + name + ".csv")

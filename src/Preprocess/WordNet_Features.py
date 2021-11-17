@@ -1,4 +1,4 @@
-##Import
+import nltk
 from nltk.corpus import wordnet as wn
 from nltk.corpus import wordnet_ic
 from nltk.corpus import genesis
@@ -367,3 +367,20 @@ def getMaxWupRoot(synset1, synset2):
         max_sim = 0
 
     return max_sim
+
+
+def getWnPos(treebank_tag : str):
+    """
+    return WORDNET POS compliance to WORDNET lemmatization (a,n,r,v)
+    """
+    if treebank_tag.startswith('J'):
+        return wn.ADJ
+    elif treebank_tag.startswith('V'):
+        return wn.VERB
+    elif treebank_tag.startswith('N'):
+        return wn.NOUN
+    elif treebank_tag.startswith('R'):
+        return wn.ADV
+    else:
+        # As default pos in lemmatization is Noun
+        return wn.NOUN
