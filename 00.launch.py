@@ -62,7 +62,7 @@ for name,dataset in datasets.items():
     step+=1
 
 # Compute features
-features_pipeline = [
+lexical_pipeline = [
     Lexical_Features.addColumnsJaccardStripTokenized,
     Lexical_Features.addColumnsJaccardContentWords,
     Lexical_Features.addColumnsJaccardStopwords,
@@ -73,9 +73,9 @@ features_pipeline = [
 
 step=1
 for name,dataset in datasets.items():
-    for func in features_pipeline:
+    for func in lexical_pipeline:
         func(dataset)
-    print("Processing features dataset {}/{}".format(step, len(datasets.keys())))
+    print("Processing lexical features {}/{}".format(step, len(datasets.keys())))
     step+=1
 
 
