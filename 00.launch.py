@@ -1,10 +1,15 @@
 import pandas as pd
+
+import nltk
+
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet_ic')
+nltk.download('genesis')
+
 from src.Preprocess import Utils
 from src.Preprocess import Lexical_Features
 from src.Preprocess import WordNet_Features
-import nltk
-nltk.download('stopwords')
-nltk.download('punkt')
 
 # To print the whole df
 pd.options.display.width= None
@@ -35,7 +40,7 @@ paths = [
     'dataset/PhrasIS.train.images.positives.txt',
 ]
 # For development only
-nrows=2
+nrows=200
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
 
 # Preprocess dataset
