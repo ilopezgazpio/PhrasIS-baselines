@@ -106,7 +106,7 @@ step=1
 for name,dataset in datasets.items():
     for func in wordnet_pipeline:
         func(dataset)
-    print("Processing wordnet dataset {}/{}".format(step, len(datasets.keys())))
+    print("Processing wordnet features {}/{}".format(step, len(datasets.keys())))
     step+=1
 
 
