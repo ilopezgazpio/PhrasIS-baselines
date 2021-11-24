@@ -1,6 +1,7 @@
 import pandas as pd
-
 import nltk
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -12,6 +13,7 @@ nltk.download('averaged_perceptron_tagger')
 from src.Preprocess import Utils
 from src.Preprocess import Lexical_Features
 from src.Preprocess import WordNet_Features
+from src.Correlations import Correlations
 
 # To print the whole df
 pd.options.display.width= None
@@ -42,7 +44,7 @@ paths = [
     'dataset/PhrasIS.train.images.positives.txt',
 ]
 # For development only
-nrows=200
+nrows=20
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
 
 # Preprocess dataset
@@ -112,5 +114,17 @@ for name,dataset in datasets.items():
 
 
 # For debug
-for name, df in datasets.items():
-    Utils.saveDatasetCSV(df, "dirty/" + name + ".csv")
+#for name, df in datasets.items():
+    #Utils.saveDatasetCSV(df, "dirty/" + name + ".csv")
+
+step=1
+for name,dataset in datasets.items():
+    Correlations.CorrelationMatrix(dataset, name)
+    Correlations.CorrelationMatrix2(dataset, name)
+    #Correlations.scatterMatrix(dataset, name)
+    print("Processing correlation matrixes {}/{}".format(step, len(datasets.keys())))
+    step+=1
+
+
+
+

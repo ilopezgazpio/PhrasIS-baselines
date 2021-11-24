@@ -8,3 +8,5 @@ dependencies:
   - scipy
   - pandas
   - nltk
+  - matplotlib
+  - seaborn
