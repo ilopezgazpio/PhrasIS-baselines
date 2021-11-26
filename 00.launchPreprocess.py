@@ -2,6 +2,8 @@ import pandas as pd
 import nltk
 import seaborn as sns
 import matplotlib.pyplot as plt
+import numpy as np
+import os
 
 nltk.download('stopwords')
 nltk.download('punkt')
@@ -14,6 +16,9 @@ from src.Preprocess import Utils
 from src.Preprocess import Lexical_Features
 from src.Preprocess import WordNet_Features
 from src.Correlations import Correlations
+
+# Set seed for all libraries
+np.random.seed(123)
 
 # To print the whole df
 pd.options.display.width= None
@@ -43,6 +48,7 @@ paths = [
     'dataset/PhrasIS.train.images.negatives.txt',
     'dataset/PhrasIS.train.images.positives.txt',
 ]
+
 # For development only
 nrows=20
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
@@ -113,17 +119,18 @@ for name,dataset in datasets.items():
     step+=1
 
 
-# For debug
-#for name, df in datasets.items():
-    #Utils.saveDatasetCSV(df, "dirty/" + name + ".csv")
+# TODO -> NORMALIZATU
 
-step=1
-for name,dataset in datasets.items():
-    Correlations.CorrelationMatrix(dataset, name)
-    Correlations.CorrelationMatrix2(dataset, name)
-    #Correlations.scatterMatrix(dataset, name)
-    print("Processing correlation matrixes {}/{}".format(step, len(datasets.keys())))
-    step+=1
+
+# Save files
+saveFolder = "dirty"
+if not os.path.exists(saveFolder):
+    os.makedirs(saveFolder)
+
+for name, df in datasets.items():
+    Utils.saveDatasetCSV(df, os.path.join( saveFolder, name + ".csv"))
+    Utils.saveDatasetPickle(df, os.path.join( saveFolder, name + ".pickle"))
+
 
 
 
