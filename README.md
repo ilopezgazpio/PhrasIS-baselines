@@ -8,14 +8,19 @@ Requirements
 - Python 3
 - NumPy
 - SciPy
+- Pandas
+- NLTK
+- Seaborn
+- heatmapz 
 
-TODO
+All dependencies in exception of heatmapz are installed when setting the conda environment
+
+To install heatmapz please run  ```pip3 install heatmapz``` 
 
 Usage
 -----
 Experiments can be run either in Python 3 using the given conda environment or launching the 00.launchColab ipython notebook.
 
-TODO: Add conda env file and instructions on how to create the environment
 
 Running the following command will create an environment called **phrasis** with all required dependencies:
 ```
@@ -32,15 +37,19 @@ To deactivate the environment run the following command:
 conda deactivate
 ```
 
-TODO: Add instructions on ipython notebook usage
+To run the ipython notebook file, clone or import the github repo in google colab 
+or local installation of jupyter notebook and run the file
 
 Dataset
 -------
-TODO
+- PhrasIS dataset can be found in ./dataset
 
 Features
 --------
-TODO
+We compute a bunch of lexical and onthology based features, including :
+- jaccard overlap
+- length differences
+- wordnet similarity features: lch, jcn, wup, ...
 
 Models
 ------
