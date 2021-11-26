@@ -2,18 +2,14 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-def CorrelationMatrix (df: pd.DataFrame, name : str):
 
-    columns = ['jaccard_strip_tokenized', 'jaccard_strip_tokenized_noPunct_lemmat_noStopWords',
-               'jacckard_strip_tokenized_noPunct',
-               'left-right', 'right-left', 'path_similarity', 'lch_similarity_nouns', 'lch_similarity_verbs',
-               'jcn_similarity_brown_nouns', 'jcn_similarity_brown_verbs', 'jcn_similarity_genesis_nouns',
-               'jcn_similarity_genesis_verbs',
-               'wup_similarity', 'path_similarity_root', 'lch_similarity_nouns_root', 'lch_similarity_verbs_root',
-               'wup_similarity_root',
-               'chunk1>chunk2', 'chunk2>chunk1', '|chunk1-chunk2|', 'minimum_difference', 'maximum_difference']
+def CorrelationMatrix (df: pd.DataFrame, columns : list, name : str, fillNA=False, savePath=None):
+    ''' Color map correlation matrix '''
 
     corr = df[columns].corr()
+
+    if fillNA:
+        corr = corr.fillna(0)
 
     sns.heatmap(
         corr,
@@ -23,18 +19,18 @@ def CorrelationMatrix (df: pd.DataFrame, name : str):
     )
 
     plt.title(name)
-    plt.show()
+
+    if savePath:
+        plt.savefig(savePath,dpi=300, bbox_inches='tight')
+    else:
+        plt.show()
+    plt.close()
+
 
 def CorrelationMatrix2(df: pd.DataFrame, name : str):
+    ''' Square size correlation matrix '''
 
-    columns = ['jaccard_strip_tokenized', 'jaccard_strip_tokenized_noPunct_lemmat_noStopWords',
-               'jacckard_strip_tokenized_noPunct',
-               'left-right', 'right-left', 'path_similarity', 'lch_similarity_nouns', 'lch_similarity_verbs',
-               'jcn_similarity_brown_nouns', 'jcn_similarity_brown_verbs', 'jcn_similarity_genesis_nouns',
-               'jcn_similarity_genesis_verbs',
-               'wup_similarity', 'path_similarity_root', 'lch_similarity_nouns_root', 'lch_similarity_verbs_root',
-               'wup_similarity_root',
-               'chunk1>chunk2', 'chunk2>chunk1', '|chunk1-chunk2|', 'minimum_difference', 'maximum_difference']
+
     corr = df[columns].corr()
 
     corr = pd.melt(corr.reset_index(),
@@ -75,7 +71,7 @@ def heatmap(x, y, size):
     ax.set_yticklabels(y_labels)
 
 def scatterMatrix(df: pd.DataFrame, name : str):
-
+    ''' Scatter plot '''
     col_list = ['jaccard_strip_tokenized', 'jaccard_strip_tokenized_noPunct_lemmat_noStopWords',
                 'jacckard_strip_tokenized_noPunct', 'left-right', 'right-left', 'path_similarity',
                 'lch_similarity_nouns', 'lch_similarity_verbs', 'jcn_similarity_brown_nouns',
