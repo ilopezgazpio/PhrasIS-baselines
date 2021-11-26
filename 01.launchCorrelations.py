@@ -55,20 +55,16 @@ all_features = lexical + wordnet_path + wordnet_lch + wordnet_jcn + wordnet_wup 
 ''' Correlation Plot 1 : Color map correlation '''
 
 titleName = "Correlation Matrix for "
-figName = "ColorMapCorrelation_"
+titleName2= "Scatter Matrix"
+figName1 = "ColorMapCorrelation_"
+figName2= "SquareMapCorrelation_"
+figName3= "ScatterMatrix"
 
 for name, dataset in datasets.items():
-    #Correlations.CorrelationMatrix(dataset, all_features, titleName + name, fillNA=True)
-    Correlations.CorrelationMatrix(dataset, all_features, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder,figName+name+".png"))
+    Correlations.CorrelationMatrix(dataset, all_features, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName1+name + ".png"))
+    Correlations.CorrelationMatrix2(dataset, all_features, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName2+name + ".png"))
 
-
-
-
-
-# TODO
-
-    #Correlations.CorrelationMatrix2(dataset, name)
-    #Correlations.scatterMatrix(dataset, name)
+Correlations.scatterMatrix(dataset, all_features, titleName2, fillNA=True, savePath=os.path.join(figuresFolder, figName3 + ".png"))
 
 
 

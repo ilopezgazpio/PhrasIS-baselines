@@ -27,14 +27,15 @@ def CorrelationMatrix (df: pd.DataFrame, columns : list, name : str, fillNA=Fals
     plt.close()
 
 
-def CorrelationMatrix2(df: pd.DataFrame, name : str):
+def CorrelationMatrix2(df: pd.DataFrame, columns : list, name : str, fillNA=False, savePath=None):
     ''' Square size correlation matrix '''
-
 
     corr = df[columns].corr()
 
-    corr = pd.melt(corr.reset_index(),
-                   id_vars='index')  # Unpivot the dataframe, so we can get pair of arrays for x and y
+    if fillNA:
+        corr = corr.fillna(0)
+
+    corr = pd.melt(corr.reset_index(), id_vars='index')
     corr.columns = ['x', 'y', 'value']
 
     heatmap(
@@ -44,7 +45,12 @@ def CorrelationMatrix2(df: pd.DataFrame, name : str):
     )
 
     plt.title(name)
-    plt.show()
+
+    if savePath:
+        plt.savefig(savePath, dpi=300, bbox_inches='tight')
+    else:
+        plt.show()
+    plt.close()
 
 
 def heatmap(x, y, size):
@@ -58,10 +64,10 @@ def heatmap(x, y, size):
 
     size_scale = 50
     ax.scatter(
-        x=x.map(x_to_num),  # Use mapping for x
-        y=y.map(y_to_num),  # Use mapping for y
-        s=size * size_scale,  # Vector of square sizes, proportional to size parameter
-        marker='s'  # Use square as scatterplot marker
+        x=x.map(x_to_num),
+        y=y.map(y_to_num),
+        s=size * size_scale,
+        marker='s'
     )
 
     # Show column labels on the axes
@@ -70,17 +76,10 @@ def heatmap(x, y, size):
     ax.set_yticks([y_to_num[v] for v in y_labels])
     ax.set_yticklabels(y_labels)
 
-def scatterMatrix(df: pd.DataFrame, name : str):
+def scatterMatrix(df: pd.DataFrame, columns : list, name : str, fillNA=False, savePath=None):
     ''' Scatter plot '''
-    col_list = ['jaccard_strip_tokenized', 'jaccard_strip_tokenized_noPunct_lemmat_noStopWords',
-                'jacckard_strip_tokenized_noPunct', 'left-right', 'right-left', 'path_similarity',
-                'lch_similarity_nouns', 'lch_similarity_verbs', 'jcn_similarity_brown_nouns',
-                'jcn_similarity_brown_verbs', 'jcn_similarity_genesis_nouns', 'jcn_similarity_genesis_verbs',
-                'wup_similarity', 'path_similarity_root', 'lch_similarity_nouns_root', 'lch_similarity_verbs_root',
-                'wup_similarity_root', 'chunk1>chunk2', 'chunk2>chunk1', '|chunk1-chunk2|', 'minimum_difference',
-                'maximum_difference']
-    # col_list = ["path_similarity", "lch_similarity_nouns", "lch_similarity_verbs"]
-    Axes = pd.plotting.scatter_matrix(df [col_list], alpha=0.2, figsize=(10, 10), s=100)
+
+    Axes = pd.plotting.scatter_matrix(df [columns], alpha=0.2, figsize=(10, 10), s=100)
 
     # y ticklabels
     [plt.setp(item.yaxis.get_majorticklabels(), 'size', 3) for item in Axes.ravel()]
@@ -92,4 +91,9 @@ def scatterMatrix(df: pd.DataFrame, name : str):
     [plt.setp(item.xaxis.get_label(), 'size', 0.5) for item in Axes.ravel()]
 
     plt.title(name)
-    plt.show()
+
+    if savePath:
+        plt.savefig(savePath, dpi=300, bbox_inches='tight')
+    else:
+        plt.show()
+    plt.close()
