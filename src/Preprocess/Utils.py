@@ -13,7 +13,7 @@ PREPROCESSING UTILITIES
 lemmatizer = WordNetLemmatizer()
 
 
-def readDataset(path : str, nrows=None):
+def loadDataset(path : str, nrows=None):
     df = pd.read_csv(path, delimiter="\t", header=None, nrows=nrows)
     df.columns = ['STS', 'NLI', 'left', 'right', 'left_num', 'right_num', 'id']
     return df
@@ -23,7 +23,7 @@ def saveDatasetCSV(df : pd.DataFrame, savePath : str, sep = ","):
     df.to_csv( savePath, sep=sep )
 
 
-def readDatasetCSV(path : str, sep = ",") -> pd.DataFrame:
+def loadDatasetCSV(path : str, sep = ",") -> pd.DataFrame:
     return pd.read_csv( path, sep=sep )
 
 
