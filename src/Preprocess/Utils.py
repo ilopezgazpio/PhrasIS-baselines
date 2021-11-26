@@ -1,3 +1,4 @@
+#coding: utf-8
 import pandas as pd
 import nltk
 from nltk.corpus import stopwords
@@ -13,7 +14,7 @@ PREPROCESSING UTILITIES
 lemmatizer = WordNetLemmatizer()
 
 
-def loadDataset(path : str, nrows=None):
+def readDataset(path : str, nrows=None):
     df = pd.read_csv(path, delimiter="\t", header=None, nrows=nrows)
     df.columns = ['STS', 'NLI', 'left', 'right', 'left_num', 'right_num', 'id']
     return df
@@ -30,7 +31,7 @@ def loadDatasetCSV(path : str, sep = ",") -> pd.DataFrame:
 def saveDatasetPickle(df : pd.DataFrame, savePath : str):
     df.to_pickle( savePath )
 
-def readDatasetPickle( path : str) -> pd.DataFrame:
+def loadDatasetPickle( path : str) -> pd.DataFrame:
     return pd.read_pickle( path )
 
 # STRIP
