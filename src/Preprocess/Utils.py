@@ -34,10 +34,17 @@ def saveDatasetPickle(df : pd.DataFrame, savePath : str):
 def loadDatasetPickle( path : str) -> pd.DataFrame:
     return pd.read_pickle( path )
 
+#LOWER AND PUNCTUATION ISSUES
+def addColumnsLower (df: pd.DataFrame):
+    for current in ["left", "right"]:
+        df[current + '_lower'] = df[current].apply(lambda x: x.lower())
+        df[current+ '_lower'] = df[current+ '_lower'].apply(lambda x: x.replace("-", " "))
+        df[current+ '_lower'] = df[current+ '_lower'].apply(lambda x: x.replace(".", " "))
+
 # STRIP
 def addColumnsStrip(df : pd.DataFrame):
     for current in ["left", "right"]:
-        df [current + '_strip'] = df[current].apply(lambda x : x.strip())
+        df[current + '_strip']= df[current+ '_lower'].apply(lambda x : x.strip())
 
 # TOKENIZED
 def addColumnsTokenized(df : pd.DataFrame):

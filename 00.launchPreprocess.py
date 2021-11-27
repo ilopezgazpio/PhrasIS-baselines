@@ -15,7 +15,6 @@ nltk.download('averaged_perceptron_tagger')
 from src.Preprocess import Utils
 from src.Preprocess import Lexical_Features
 from src.Preprocess import WordNet_Features
-from src.Correlations import Correlations
 
 # Set seed for all libraries
 np.random.seed(123)
@@ -55,6 +54,7 @@ datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in
 
 # Preprocess dataset
 preprocess_pipeline = [
+    Utils.addColumnsLower,
     Utils.addColumnsStrip,
     Utils.addColumnsTokenized,
     Utils.addColumnsNoPunctuations,
