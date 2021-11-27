@@ -64,7 +64,7 @@ for name, dataset in datasets.items():
     Correlations.CorrelationMatrix(dataset, all_features, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName1+name + ".png"))
     Correlations.CorrelationMatrix2(dataset, all_features, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName2+name + ".png"))
 
-Correlations.scatterMatrix(dataset, all_features, titleName2, fillNA=True, savePath=os.path.join(figuresFolder, figName3 + ".png"))
+#Correlations.scatterMatrix(dataset, all_features, titleName2, fillNA=True, savePath=os.path.join(figuresFolder, figName3 + ".png"))
 
 
 

@@ -10,3 +10,4 @@ dependencies:
   - nltk
   - matplotlib
   - seaborn
+  - scikit-learn

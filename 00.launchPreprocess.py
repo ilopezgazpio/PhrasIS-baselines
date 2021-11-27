@@ -49,7 +49,7 @@ paths = [
 ]
 
 # For development only
-nrows=20
+nrows=10
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
 
 # Preprocess dataset
@@ -117,10 +117,20 @@ for name,dataset in datasets.items():
         func(dataset)
     print("Processing wordnet features {}/{}".format(step, len(datasets.keys())))
     step+=1
+    
+'''
+# Normalization
+normalization_pipeline= [
+    Utils.normalization
+]
 
-
-# TODO -> NORMALIZATU
-
+step=1
+for name,dataset in datasets.items():
+    for func in normalization_pipeline:
+        func(dataset)
+    print("Processing normalization {}/{}".format(step, len(datasets.keys())))
+    step += 1
+'''
 
 # Save files
 saveFolder = "dirty"
