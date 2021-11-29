@@ -1,7 +1,4 @@
 import pandas as pd
-import nltk
-import seaborn as sns
-import matplotlib.pyplot as plt
 import numpy as np
 import os
 import sys
@@ -40,32 +37,51 @@ figuresFolder = "figures"
 if not os.path.exists(figuresFolder):
     os.makedirs(figuresFolder)
 
+from src.Constants.Constants import ALL_FEATURES
 
-lexical = ['jaccard_strip_tokenized', 'jaccard_strip_tokenized_noPunct_lemmat_noStopWords', 'jacckard_strip_tokenized_noPunct']
-wordnet_path = ['path_similarity', 'path_similarity_root']
-wordnet_lch = ['lch_similarity_nouns', 'lch_similarity_verbs', 'lch_similarity_nouns_root', 'lch_similarity_verbs_root']
-wordnet_jcn = ['jcn_similarity_brown_nouns', 'jcn_similarity_brown_verbs', 'jcn_similarity_genesis_nouns', 'jcn_similarity_genesis_verbs']
-wordnet_wup = ['wup_similarity', 'wup_similarity_root']
-wordnet_depth = ['chunk1>chunk2', 'chunk2>chunk1', 'minimum_difference', 'maximum_difference']
-length = ['left-right', 'right-left', '|chunk1-chunk2|']
-
-all_features = lexical + wordnet_path + wordnet_lch + wordnet_jcn + wordnet_wup + wordnet_depth + length
-
-
-''' Correlation Plot 1 : Color map correlation '''
+''' Correlation Plot 1 & 2 : Color map correlation '''
 
 titleName = "Correlation Matrix for "
-titleName2= "Scatter Matrix"
 figName1 = "ColorMapCorrelation_"
 figName2= "SquareMapCorrelation_"
-figName3= "ScatterMatrix"
+figName3= "ScatterMatrix_"
 
 for name, dataset in datasets.items():
-    Correlations.CorrelationMatrix(dataset, all_features, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName1+name + ".png"))
-    Correlations.CorrelationMatrix2(dataset, all_features, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName2+name + ".png"))
-
-#Correlations.scatterMatrix(dataset, all_features, titleName2, fillNA=True, savePath=os.path.join(figuresFolder, figName3 + ".png"))
+    Correlations.CorrelationMatrix(dataset, ALL_FEATURES, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName1+name + ".png"))
+    Correlations.CorrelationMatrix2(dataset, ALL_FEATURES, titleName + name, fillNA=True, savePath=os.path.join(figuresFolder, figName2+name + ".png"))
 
 
+
+''' Correlation Plot 3: Scatter '''
+titleName2= "Scatter Matrix for "
+
+from src.Constants.Constants import LEXICAL_COLS
+from src.Constants.Constants import WORDNET_PATH_COLS
+from src.Constants.Constants import WORDNET_LCH_COLS
+from src.Constants.Constants import WORDNET_JCN_COLS
+from src.Constants.Constants import WORDNET_WUP_COLS
+from src.Constants.Constants import WORDNET_DEPTH_COLS
+from src.Constants.Constants import LENGTH_COLS
+
+
+intra_groups = {
+    "LEXICAL features" : LEXICAL_COLS ,
+    "WORDNET PATH features" : WORDNET_PATH_COLS,
+    "WORDNET LCH features" : WORDNET_LCH_COLS,
+    "WORDNET JCN features" : WORDNET_JCN_COLS,
+    "WORDNET WUP features" : WORDNET_WUP_COLS,
+    "WORDNET DEPTH features" : WORDNET_DEPTH_COLS,
+    "LENGTH features" : LENGTH_COLS
+}
+
+for name, col_group in intra_groups.items():
+    Correlations.scatterMatrix(dataset, col_group, titleName2 + name, fillNA=True, savePath=os.path.join(figuresFolder, figName3+name.lower().replace(" ","_")+".png"))
+
+
+'''
+Compute some inter-group correlations, to see correlation among distinct kind of features
+'''
+inter_group1 = [LEXICAL_COLS[0], WORDNET_PATH_COLS[0], WORDNET_LCH_COLS[0], WORDNET_JCN_COLS[0], WORDNET_WUP_COLS[0], WORDNET_DEPTH_COLS[0], LENGTH_COLS[0]]
+Correlations.scatterMatrix(dataset, inter_group1, titleName2 + "inter group features", fillNA=True, savePath=os.path.join(figuresFolder, figName3+"inter1"+".png"))
 
 
