@@ -87,24 +87,3 @@ def addColumnsPOStags(df : pd.DataFrame):
 # [('I', 'PRP'), (' dog', 'VBP')]
 # list(zip(*nltk.pos_tag(["I", " dog"])))
 # [('I', ' dog'), ('PRP', 'VBP')]
-
-def normalization (df: pd.DataFrame):
-
-    drop= ['STS', 'NLI', 'left', 'right', 'left_num', 'right_num', 'id', 'left_lower', 'right_lower',
-           'left_strip', 'right_strip', 'left_strip_tokenized', 'right_strip_tokenized', 'left_strip_tokenized_noPunct',
-           'right_strip_tokenized_noPunct', 'left_POS_tags', 'right_POS_tags', 'left_strip_tokenized_noPunct_lemmat',
-           'right_strip_tokenized_noPunct_lemmat', 'left_strip_tokenized_noPunct_lemmat_noStopWords', 'right_strip_tokenized_noPunct_lemmat_noStopWords',
-           'left_strip_tokenized_noPunct_StopWords', 'right_strip_tokenized_noPunct_StopWords',
-           'chunk1_maximum', 'chunk2_maximum', 'chunk1>chunk2', 'chunk2>chunk1']
-
-    X = df.drop(drop, axis=1, inplace=False).values
-    X = preprocessing.StandardScaler().fit_transform(X.astype(float))
-
-    normalize_data = pd.DataFrame(X, columns=['jaccard_strip_tokenized', 'jaccard_strip_tokenized_noPunct_lemmat_noStopWords', 'jacckard_strip_tokenized_noPunct',
-                                              'left_strip_tokenized_len', 'right_strip_tokenized_len','left-right', 'right-left', 'path_similarity', 'lch_similarity_nouns', 'lch_similarity_verbs',
-                                              'jcn_similarity_brown_nouns', 'jcn_similarity_brown_verbs', 'jcn_similarity_genesis_nouns', 'jcn_similarity_genesis_verbs', 'wup_similarity',
-                                              'path_similarity_root', 'lch_similarity_nouns_root', 'lch_similarity_verbs_root', 'wup_similarity_root',
-                                              '|chunk1-chunk2|', 'minimum_difference', 'maximum_difference'])
-
-    df.update(normalize_data)
-

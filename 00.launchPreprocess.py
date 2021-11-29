@@ -15,6 +15,7 @@ nltk.download('averaged_perceptron_tagger')
 from src.Preprocess import Utils
 from src.Preprocess import Lexical_Features
 from src.Preprocess import WordNet_Features
+from src.Normalization import Normalization
 
 # Set seed for all libraries
 np.random.seed(123)
@@ -118,19 +119,20 @@ for name,dataset in datasets.items():
     print("Processing wordnet features {}/{}".format(step, len(datasets.keys())))
     step+=1
     
-'''
+
 # Normalization
 normalization_pipeline= [
-    Utils.normalization
+    Normalization.miniMaxNormalization
+    #Normalization.standardNormalization
 ]
 
 step=1
 for name,dataset in datasets.items():
     for func in normalization_pipeline:
         func(dataset)
-    print("Processing normalization {}/{}".format(step, len(datasets.keys())))
+    print("Normalizing {}/{}".format(step, len(datasets.keys())))
     step += 1
-'''
+
 
 # Save files
 saveFolder = "dirty"
