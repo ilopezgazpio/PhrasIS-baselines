@@ -10,6 +10,7 @@ nltk.download('punkt')
 nltk.download('wordnet_ic')
 nltk.download('genesis')
 nltk.download('averaged_perceptron_tagger')
+nltk.download('wordnet')
 
 
 from src.Preprocess import Utils
@@ -50,7 +51,7 @@ paths = [
 ]
 
 # For development only
-nrows=10
+nrows=None
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
 
 # Preprocess dataset
