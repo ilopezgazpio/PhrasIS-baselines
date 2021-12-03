@@ -82,16 +82,15 @@ def scatterMatrix(df: pd.DataFrame, columns : list, name : str, fillNA=False, sa
     Axes = pd.plotting.scatter_matrix(df [columns], alpha=0.2, figsize=(10, 10), s=100)
 
     # y ticklabels
-    [plt.setp(item.yaxis.get_majorticklabels(), 'size', 3) for item in Axes.ravel()]
+    [plt.setp(item.yaxis.get_majorticklabels(), 'size', 4) for item in Axes.ravel()]
     # x ticklabels
-    [plt.setp(item.xaxis.get_majorticklabels(), 'size', 3) for item in Axes.ravel()]
+    [plt.setp(item.xaxis.get_majorticklabels(), 'size', 4) for item in Axes.ravel()]
     # y labels
-    [plt.setp(item.yaxis.get_label(), 'size', 0.5) for item in Axes.ravel()]
+    [plt.setp(item.yaxis.get_label(), 'size', 6) for item in Axes.ravel()]
     # x labels
-    [plt.setp(item.xaxis.get_label(), 'size', 0.5) for item in Axes.ravel()]
+    [plt.setp(item.xaxis.get_label(), 'size', 6) for item in Axes.ravel()]
 
-    # plt.title(name)
-    # TODO: fix title not to show inside graph
+    plt.suptitle(name)
 
     if savePath:
         plt.savefig(savePath, dpi=300)
