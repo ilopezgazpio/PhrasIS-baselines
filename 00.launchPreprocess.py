@@ -51,7 +51,7 @@ paths = [
 ]
 
 # For development only
-nrows=None
+nrows=10
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
 
 # Preprocess dataset
