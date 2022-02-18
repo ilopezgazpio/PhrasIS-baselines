@@ -139,4 +139,3 @@ print(table_results_crossValidation)
 
 # Hemen cross validation en erabili ditugun datu base berberak hartu behar dira, baina train bakarrik egiteko, ebaluatu gabe.
 # ebaluatzeko bere test bersioa sortu beharko dugu
-
