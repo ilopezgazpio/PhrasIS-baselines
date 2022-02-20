@@ -7,7 +7,6 @@ import sys
 from sklearn.feature_extraction.text import CountVectorizer
 
 from src.Preprocess import Utils
-from src.MachineLearning import MachineLearning
 from src.Constants.Constants import ALL_FEATURES
 from src.Constants.Constants import LEXICAL_COLS
 
@@ -19,6 +18,7 @@ from sklearn import tree
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
+from sklearn.ensemble import RandomForestClassifier
 
 # Set seed for all libraries
 np.random.seed(123)
@@ -31,7 +31,7 @@ pd.set_option('display.max_columns', 100)
 
 # Step 1 -> load all datasets
 
-datasetsFolder = "dataset/bin"
+datasetsFolder = "dirty/bin"
 if not os.path.exists(datasetsFolder):
     sys.exit("First preprocess the datasets... Exiting")
 
@@ -49,6 +49,7 @@ all_names = [
 all_datasets = dict( {name : Utils.loadDatasetPickle( os.path.join(datasetsFolder, name+".pickle")) for name in all_names })
 
 # Step 2 -> create Bag of Word features with CountVectorizer (we need same number of features for all datasets, so we share CountVectorizer instance for all datasets)
+
 cv = CountVectorizer()
 common_strings = pd.DataFrame([], columns=['full_text'])
 
@@ -57,7 +58,7 @@ for name, dataset in all_datasets.items():
 
 # fit cv to get to know all words of all datasets
 cv.fit(common_strings['full_text'])
-# Check correctness with vc.vocabulary_
+# Check correctness with cv.vocabulary_
 
 # Step 3 -> Process datasets, add BoW features with global countvectorizer and remove labels
 
@@ -78,6 +79,7 @@ for name, dataset in all_datasets.items():
 
 
 # Step 4 - create scenarios for crossvalidation
+
 crossValidation_datasets = list()
 
 crossValidation_datasets.append("PhrasIS_train_h_p")
@@ -102,36 +104,52 @@ target_nli["PhrasIS_train_i_p+PhrasIS_train_i_n"] = np.concatenate( (target_nli[
 target_nli["PhrasIS_train_h_p+PhrasIS_train_i_p"] = np.concatenate( (target_nli["PhrasIS_train_h_p"], target_nli["PhrasIS_train_i_p"]) , axis=0)
 target_nli["PhrasIS_train_h_p+PhrasIS_train_i_p+PhrasIS_train_h_n+PhrasIS_train_i_n"] = np.concatenate( (target_nli["PhrasIS_train_h_p+PhrasIS_train_h_n"], target_nli["PhrasIS_train_i_p+PhrasIS_train_i_n"]), axis=0)
 
-crossValidation_models = [
-    tree.DecisionTreeClassifier()
+crossValidation_models_nli = [
+    tree.DecisionTreeClassifier(),
+    KNeighborsClassifier(n_neighbors=4),
+    LogisticRegression(solver='saga'),
+    svm.SVC(kernel='linear'),
+    GaussianNB(), #bad results
+    RandomForestClassifier()
 ]
 
-# todo : fitxategi auxiliarreko sailkatzaileak sartu ere
+crossValidation_models_sts = [
+    tree.DecisionTreeClassifier(),
+    KNeighborsClassifier(n_neighbors=4),
+    LogisticRegression(solver='saga'),
+    svm.SVC(kernel='linear'),
+    RandomForestClassifier()
+]
 
 # Step 5 -> Cross Validate models on NLI
-classification_measures = ['accuracy', 'precision_micro', 'precision_macro','recall_micro','recall_macro','f1_micro','f1_macro']
-result_names = ['test_' + name for name in classification_measures]
+classification_measures_nli = ['accuracy', 'precision_micro', 'precision_macro','recall_micro','recall_macro','f1_micro','f1_macro']
+result_names_nli = ['test_' + name for name in classification_measures_nli]
 
-
-data = []
+data_nli = []
 for dataset_name in crossValidation_datasets:
-    for model in crossValidation_models:
-        result = cross_validate(model, all_datasets[dataset_name], target_nli[dataset_name] , cv=5, scoring=classification_measures)
-        results = [result[measure].mean() for measure in result_names]
-        data.append([model, dataset_name] + results)
+    for model in crossValidation_models_nli:
+        result_nli = cross_validate(model, all_datasets[dataset_name], target_nli[dataset_name] , cv=5, scoring=classification_measures_nli)
+        results_nli = [result_nli[measure].mean() for measure in result_names_nli]
+        data_nli.append([model, dataset_name] + results_nli)
 
-
-table_results_crossValidation = pd.DataFrame(data, columns = ["Model name", "CV Set"] + result_names)
-print(table_results_crossValidation)
-
+table_results_crossValidation_nli = pd.DataFrame(data_nli, columns = ["Model name", "CV Set"] + result_names_nli)
+print ("Table of results NLI:")
+print(table_results_crossValidation_nli)
 
 # Step 6 -> Cross Validate models on STS
+classification_measures_sts = ['neg_mean_absolute_error', 'neg_mean_squared_error', 'neg_root_mean_squared_error', 'neg_mean_squared_log_error','neg_mean_absolute_percentage_error'] #the best value 0
+result_names_sts = ['test_' + name for name in classification_measures_sts]
 
-# todo
-# Bileran komentatzeko -> STS regresioa da eta ezin dira NLI (labelak) kasuko ebaluazio metrikak erabili
-# ez dakit scikit-learn en zer dagoen, baino pearson, spearman edo R karratu moduko zerbait behar dugu, regresioa ebaluatzeko metrikak
+data_sts = []
+for dataset_name in crossValidation_datasets:
+    for model in crossValidation_models_sts:
+        result_sts = cross_validate(model, all_datasets[dataset_name], target_sts[dataset_name] , cv=5, scoring=classification_measures_sts)
+        results_sts = [result_sts[measure].mean() for measure in result_names_sts]
+        data_sts.append([model, dataset_name] + results_sts)
 
-
+table_results_crossValidation_sts = pd.DataFrame(data_sts, columns = ["Model name", "CV Set"] + result_names_sts)
+print ("Table of results STS:")
+print(table_results_crossValidation_sts)
 
 # Step 7 -> Final training and evaluation on test set
 

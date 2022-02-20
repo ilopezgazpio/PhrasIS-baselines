@@ -51,7 +51,7 @@ paths = [
 ]
 
 # For development only
-nrows=10
+nrows=30
 datasets = dict( {name : Utils.readDataset(path, nrows=nrows) for (name,path) in zip(names,paths)})
 
 # Preprocess dataset
@@ -136,13 +136,14 @@ for name,dataset in datasets.items():
 
 
 # Save files
-saveFolder = "dirty"
+saveFolder ="dirty"
 if not os.path.exists(saveFolder):
-    os.makedirs(saveFolder)
+    os.makedirs(saveFolder+"/bin")
+    os.makedirs(saveFolder+ "/csv")
 
 for name, df in datasets.items():
-    Utils.saveDatasetCSV(df, os.path.join( saveFolder, name + ".csv"))
-    Utils.saveDatasetPickle(df, os.path.join( saveFolder, name + ".pickle"))
+    Utils.saveDatasetCSV(df, os.path.join("dirty/csv", name + ".csv"))
+    Utils.saveDatasetPickle(df, os.path.join("dirty/bin" , name + ".pickle"))
 
 
 

@@ -16,7 +16,7 @@ def addColumnsJaccardContentWords (df: pd.DataFrame):
 
 # JACCKARD OVERLAP OF STOPWORDS
 def addColumnsJaccardStopwords (df: pd.DataFrame):
-    df ['jacckard_strip_tokenized_noPunct_lemmat']=df.apply (lambda it : jaccard_similarity (it['left_strip_tokenized_noPunct_lemmat'],
+    df ['jaccard_strip_tokenized_noPunct_lemmat']=df.apply (lambda it : jaccard_similarity (it['left_strip_tokenized_noPunct_lemmat'],
                  it['right_strip_tokenized_noPunct_lemmat']), axis = 1)
 
 # LENGTH
