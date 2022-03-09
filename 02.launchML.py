@@ -14,11 +14,16 @@ from src.ML import MachineLearning
 from sklearn.model_selection import cross_validate, KFold
 
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import KNeighborsRegressor
 from sklearn import tree
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import AdaBoostClassifier
+from sklearn.ensemble import AdaBoostRegressor
+
 
 # Set seed for all libraries
 np.random.seed(123)
@@ -128,19 +133,22 @@ target_nli["PhrasIS_test_h_p+PhrasIS_test_i_p+PhrasIS_test_h_n+PhrasIS_test_i_n"
 
 models_nli = [
     tree.DecisionTreeClassifier(),
-    KNeighborsClassifier(n_neighbors=4),
+    KNeighborsClassifier(),
     LogisticRegression(solver='saga'),
     svm.SVC(kernel='linear'),
     GaussianNB(), #bad results
-    RandomForestClassifier()
+    RandomForestClassifier(),
+    AdaBoostClassifier(n_estimators=100, random_state=0)
 ]
 
 models_sts = [
-    tree.DecisionTreeClassifier(),
-    KNeighborsClassifier(n_neighbors=4),
+    tree.DecisionTreeRegressor(),
+    KNeighborsRegressor(),
     LogisticRegression(solver='saga'),
-    svm.SVC(kernel='linear'),
-    RandomForestClassifier()
+    svm.SVR(kernel='linear'),
+    RandomForestRegressor(),
+    AdaBoostRegressor(n_estimators=100, random_state=0)
+
 ]
 
 #kfold and grid search
@@ -169,11 +177,11 @@ print(table_results_crossValidation_nli)
 from scipy import stats
 
 # Step 6 -> Cross Validate models on STS
-classification_measures_sts = ['neg_mean_absolute_error', 'neg_mean_squared_error', 'neg_mean_squared_log_error','neg_mean_absolute_percentage_error'] #the best value 0
+classification_measures_sts = ['neg_mean_absolute_error', 'neg_mean_squared_error', 'neg_mean_absolute_percentage_error'] #the best value 0
 result_names_sts = ['test_' + name for name in classification_measures_sts]
 
 result_name_pearson=result_names_sts.copy()
-result_name_pearson.append('test_pearson')
+result_name_pearson.insert(0, 'test_pearson')
 
 data_sts = []
 for dataset_name in crossValidation_datasets:
@@ -187,7 +195,7 @@ for dataset_name in crossValidation_datasets:
         result_sts = cross_validate(model, all_datasets[dataset_name], target_sts[dataset_name], cv=5, scoring=classification_measures_sts)
         results_sts = [result_sts[measure].mean() for measure in result_names_sts]
 
-        results_sts.append(result_pearson)
+        results_sts.insert(0, result_pearson)
         data_sts.append([model, dataset_name] + results_sts)
 
 table_results_crossValidation_sts = pd.DataFrame(data_sts, columns = ["Model name", "CV Set"] + result_name_pearson) #result_name_pearson #result_names_sts
@@ -235,12 +243,7 @@ print(table_results_test_nli)
 
 from sklearn.metrics import mean_absolute_error
 from sklearn.metrics import mean_squared_error
-from sklearn.metrics import mean_squared_log_error
 from sklearn.metrics import mean_absolute_percentage_error
-
-figuresFolder_sts = "figures_conf_matrix_sts"
-if not os.path.exists(figuresFolder_sts):
-    os.makedirs(figuresFolder_sts)
 
 test_sts=[]
 for model in models_sts:
@@ -252,22 +255,27 @@ for model in models_sts:
 
         y_test_mean_abs_error=mean_absolute_error(target_sts[dataset_name_test], y_test)
         y_test_mean_sq_error= mean_squared_error (target_sts[dataset_name_test], y_test)
-        y_test_mean_sq_log_error= mean_squared_log_error (target_sts[dataset_name_test], y_test)
         y_test_mean_abs_perc_error= mean_absolute_percentage_error (target_sts[dataset_name_test], y_test)
 
-        result_test_sts=[y_test_mean_abs_error, y_test_mean_sq_error, y_test_mean_sq_log_error, y_test_mean_abs_perc_error]
+        result_test_sts=[y_test_mean_abs_error, y_test_mean_sq_error, y_test_mean_abs_perc_error]
 
         #correlation
         result_pearson = stats.pearsonr(target_sts[dataset_name_test], y_test)[0]
 
-        result_test_sts.append(result_pearson)
+        result_test_sts.insert(0, result_pearson)
         test_sts.append([model, dataset_name_test]+result_test_sts)
-
-        # confussion matrix
-        actual_classes, predicted_classes, _ = MachineLearning.cross_val_predict(model, kfold, all_datasets[dataset_name_test],target_sts[dataset_name_test])
-        MachineLearning.plot_confusion_matrix(actual_classes, predicted_classes,[0,1,2,3,4,5], dataset_name_test, model, savePath=os.path.join(figuresFolder_sts,figName + dataset_name_test + str(model) + ".png"))
 
 table_results_test_sts = pd.DataFrame(test_sts, columns = ["Model name", "CV Set"] + result_name_pearson)
 print ("Table of results test STS:")
 print(table_results_test_sts)
+
+# Save files
+saveFolder ="results"
+if not os.path.exists(saveFolder):
+    os.makedirs(saveFolder+ "/csv")
+
+Utils.saveDatasetCSV(table_results_crossValidation_nli, os.path.join("results/csv", "table_results_train_nli" + ".csv"))
+Utils.saveDatasetCSV(table_results_crossValidation_sts, os.path.join("results/csv", "table_results_train_sts" + ".csv"))
+Utils.saveDatasetCSV(table_results_test_nli, os.path.join("results/csv", "table_results_test_nli" + ".csv"))
+Utils.saveDatasetCSV(table_results_test_sts, os.path.join("results/csv", "table_results_test_sts" + ".csv"))
 
