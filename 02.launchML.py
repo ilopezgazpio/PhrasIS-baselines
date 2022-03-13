@@ -21,8 +21,15 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestRegressor
-from sklearn.ensemble import AdaBoostClassifier
 from sklearn.ensemble import AdaBoostRegressor
+from sklearn.ensemble import GradientBoostingRegressor
+from sklearn.ensemble import GradientBoostingClassifier
+from sklearn.ensemble import ExtraTreesRegressor
+from sklearn.ensemble import ExtraTreesClassifier
+from sklearn.ensemble import BaggingClassifier
+from sklearn.ensemble import BaggingRegressor
+from sklearn.kernel_ridge import KernelRidge
+
 
 
 # Set seed for all libraries
@@ -135,20 +142,29 @@ models_nli = [
     tree.DecisionTreeClassifier(),
     KNeighborsClassifier(),
     LogisticRegression(solver='saga'),
-    svm.SVC(kernel='linear'),
+    svm.SVC(C=50.0, kernel='poly', degree=2),
     GaussianNB(), #bad results
+
     RandomForestClassifier(),
-    AdaBoostClassifier(n_estimators=100, random_state=0)
+    #AdaBoost bad results
+    GradientBoostingClassifier(n_estimators=1000, learning_rate=0.01, max_depth=5, min_samples_split=0.01, subsample=0.7, max_features=None, min_impurity_decrease=0.0),
+    ExtraTreesClassifier(n_estimators=1000, max_depth=13),
+    BaggingClassifier(n_estimators=1000),
 ]
 
 models_sts = [
     tree.DecisionTreeRegressor(),
     KNeighborsRegressor(),
     LogisticRegression(solver='saga'),
-    svm.SVR(kernel='linear'),
-    RandomForestRegressor(),
-    AdaBoostRegressor(n_estimators=100, random_state=0)
+    svm.SVR(C=50.0, kernel='poly', degree=2),
 
+    RandomForestRegressor(),
+    AdaBoostRegressor(n_estimators=1000, base_estimator=svm.SVR(kernel='linear'),learning_rate=0.01),
+    GradientBoostingRegressor(n_estimators=1000, learning_rate=0.01, max_depth=5, loss='squared_error', min_samples_split=0.01, subsample=0.7, max_features=None, min_impurity_decrease=0.0),
+    ExtraTreesRegressor(n_estimators=1000, max_depth=13),
+    BaggingRegressor(n_estimators=1000),
+
+    KernelRidge(alpha=0.001, kernel='polynomial', degree=2)
 ]
 
 #kfold and grid search
@@ -235,7 +251,7 @@ for model in models_nli:
 
         #confussion matrix
         actual_classes, predicted_classes, _ = MachineLearning.cross_val_predict(model, kfold, all_datasets[dataset_name_test],target_nli[dataset_name_test])
-        MachineLearning.plot_confusion_matrix(actual_classes, predicted_classes,["UNR", "EQUI", "BACK", "FORW", "SIMI", "REL", "OPPO"], dataset_name_test, model, savePath=os.path.join(figuresFolder, figName + dataset_name_test + str(model) + ".png"))
+        MachineLearning.plot_confusion_matrix(actual_classes, predicted_classes,["UNR", "EQUI", "BACK", "FORW", "SIMI", "REL", "OPPO"], dataset_name_test, model, savePath=os.path.join(figuresFolder, figName + dataset_name_test + (str(model)[0:8]) + ".png"))
 
 table_results_test_nli = pd.DataFrame(test_nli, columns = ["Model name", "CV Set"] + result_names_nli)
 print ("Table of results test NLI:")
