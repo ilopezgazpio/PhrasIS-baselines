@@ -21,6 +21,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn import svm
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestRegressor
+from sklearn.ensemble import AdaBoostClassifier
 from sklearn.ensemble import AdaBoostRegressor
 from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.ensemble import GradientBoostingClassifier
@@ -146,10 +147,10 @@ models_nli = [
     GaussianNB(), #bad results
 
     RandomForestClassifier(),
-    #AdaBoost bad results
-    GradientBoostingClassifier(n_estimators=1000, learning_rate=0.01, max_depth=5, min_samples_split=0.01, subsample=0.7, max_features=None, min_impurity_decrease=0.0),
-    ExtraTreesClassifier(n_estimators=1000, max_depth=13),
-    BaggingClassifier(n_estimators=1000),
+    AdaBoostClassifier(n_estimators=100),
+    GradientBoostingClassifier(n_estimators=100, learning_rate=0.01, max_depth=5, min_samples_split=0.01, subsample=0.7, max_features=None, min_impurity_decrease=0.0),
+    ExtraTreesClassifier(n_estimators=100, max_depth=13),
+    BaggingClassifier(n_estimators=100),
 ]
 
 models_sts = [
@@ -159,10 +160,10 @@ models_sts = [
     svm.SVR(C=50.0, kernel='poly', degree=2),
 
     RandomForestRegressor(),
-    AdaBoostRegressor(n_estimators=1000, base_estimator=svm.SVR(kernel='linear'),learning_rate=0.01),
-    GradientBoostingRegressor(n_estimators=1000, learning_rate=0.01, max_depth=5, loss='squared_error', min_samples_split=0.01, subsample=0.7, max_features=None, min_impurity_decrease=0.0),
-    ExtraTreesRegressor(n_estimators=1000, max_depth=13),
-    BaggingRegressor(n_estimators=1000),
+    AdaBoostRegressor(n_estimators=100, base_estimator=svm.SVR(kernel='linear'),learning_rate=0.01),
+    GradientBoostingRegressor(n_estimators=100, learning_rate=0.01, max_depth=5, loss='squared_error', min_samples_split=0.01, subsample=0.7, max_features=None, min_impurity_decrease=0.0),
+    ExtraTreesRegressor(n_estimators=100, max_depth=13),
+    BaggingRegressor(n_estimators=100),
 
     KernelRidge(alpha=0.001, kernel='polynomial', degree=2)
 ]
