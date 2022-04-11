@@ -9,6 +9,8 @@ import pandas as pd
 import math
 # Evaluate non trainable baselines on a given test set
 # Download fasttext embeddings from https://fasttext.cc/docs/en/crawl-vectors.html
+# fasttext.vec: wiki-news-300d-1M.vec.zip
+# fasttext2.vec: rawl-300d-2M.vec.zip
 
 # Parse command line arguments
 parser = argparse.ArgumentParser(description='Evaluate simple STS baselines with word embeddings')
