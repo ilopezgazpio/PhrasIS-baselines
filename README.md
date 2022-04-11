@@ -1,7 +1,7 @@
 # PhrasIS-baselines
 Repository for "PhrasIS: phrase inference and similarity benchmark" paper
 
-TODO: Add description
+PhrasIS is a dataset of Phrase pairs with Inference and Similarity annotations for the evaluation of semantic representations. The dataset is analyzed, showing the relation between inference labels and similarity scores, and is evaluated with several well-known techniques obtaining satisfactory performance.
 
 Requirements
 ------------
@@ -53,8 +53,11 @@ We compute a bunch of lexical and onthology based features, including :
 
 Models
 ------
-TODO
+We compute several models, including: 
+-Machine Learning models: DecisionTree, LogisticRegression, SVM, ...
+-Ensemble methods: Random Forest, ExtraTree, Bagging, ...
+-Kernel Ridge
 
-References
+Word Embedding
 ----------
-TODO
+
